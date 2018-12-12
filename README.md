@@ -19,3 +19,6 @@ Including the following contents, some of which refers to the *[Document Cluster
 This Python project relies on the following packages: numpy, pandas, nltk, sklearn, mpld3, email, matplotlib 
 
 ![image](https://github.com/zslwyuan/KMeans-Emails-Clustering-Visualization-NLP/blob/master/visual_img_cluster/visualization.png)
+
+
+![image](https://github.com/zslwyuan/KMeans-Emails-Clustering-Visualization-NLP/blob/master/visual_img_cluster/visualization0.png)

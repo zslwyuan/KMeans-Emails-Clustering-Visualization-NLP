@@ -1,13 +1,14 @@
 # KMeans-Emails-Clustering-Visualization-NLP
 KMeans-Emails-Clustering-Visualization-NLP: KMeans is used to cluster the emails. The words in the contents of emails are tokenlized and stemmed. This project transforms the corpus into vector space using tf-idf.By multidimensional scaling, the clustering result is visualized.
 
-The inputs are a directory of .eml files.
+The inputs are a directory (./email) of .eml files.
 The outputs are the clusters, the mapping of email-cluster, the key words for each cluster and the 2-D visualized figure.
 
 Details can be found in the source code. 
 
-Including the following contents, which refers to the *[Document Clustering with Python](http://brandonrose.org/clustering)* 
+Including the following contents, some of which refers to the *[Document Clustering with Python](http://brandonrose.org/clustering)* 
 
+    extra contents from email
     tokenizing and stemming each synopsis
     transforming the corpus into vector space using tf-idf
     calculating cosine distance between each document as a measure of similarity

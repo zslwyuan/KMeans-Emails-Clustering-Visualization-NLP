@@ -15,6 +15,7 @@ Including the following contents, some of which refers to the *[Document Cluster
     clustering the documents using the k-means algorithm
     using multidimensional scaling to reduce dimensionality within the corpus
     plotting the clustering output using matplotlib and mpld3
-    
+
+This Python project relies on the following packages: numpy, pandas, nltk, sklearn, mpld3, email, matplotlib 
 
 ![image](https://github.com/zslwyuan/KMeans-Emails-Clustering-Visualization-NLP/blob/master/visual_img_cluster/visualization.png)

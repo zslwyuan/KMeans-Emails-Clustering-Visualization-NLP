@@ -4,7 +4,7 @@ KMeans-Emails-Clustering-Visualization-NLP: KMeans is used to cluster the emails
 The inputs are a directory (./email) of .eml files.
 The outputs are the clusters, the mapping of email-cluster, the key words for each cluster and the 2-D visualized figure.
 
-Details can be found in the source code. 
+Details can be found in the source code. This work can be further applied to email filtering and message detection.
 
 Including the following contents, some of which refers to the *[Document Clustering with Python](http://brandonrose.org/clustering)* 
 

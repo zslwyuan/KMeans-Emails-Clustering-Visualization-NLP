@@ -1,0 +1,504 @@
+Received: from PU1PR01MB2025.apcprd01.prod.exchangelabs.com
+ (2603:1096:201:20::27) by HK2PR01MB1012.apcprd01.prod.exchangelabs.com with
+ HTTPS via HK2PR02CA0215.APCPRD02.PROD.OUTLOOK.COM; Fri, 17 Aug 2018 07:55:40
+ +0000
+Received: from PU1PR01CA0013.apcprd01.prod.exchangelabs.com
+ (2603:1096:803:15::25) by PU1PR01MB2025.apcprd01.prod.exchangelabs.com
+ (2603:1096:803:21::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1059.21; Fri, 17 Aug
+ 2018 07:55:38 +0000
+Received: from HK2APC01FT054.eop-APC01.prod.protection.outlook.com
+ (2a01:111:f400:7ebc::207) by PU1PR01CA0013.outlook.office365.com
+ (2603:1096:803:15::25) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1059.19 via Frontend
+ Transport; Fri, 17 Aug 2018 07:55:38 +0000
+Authentication-Results: spf=none (sender IP is 143.89.14.70)
+ smtp.mailfrom=lists.ust.hk; connect.ust.hk; dkim=none (message not signed)
+ header.d=none;connect.ust.hk; dmarc=none action=none header.from=ust.hk;
+Received-SPF: None (protection.outlook.com: lists.ust.hk does not designate
+ permitted sender hosts)
+Received: from sympa.ust.hk (143.89.14.70) by
+ HK2APC01FT054.mail.protection.outlook.com (10.152.249.28) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.1059.14 via Frontend Transport; Fri, 17 Aug 2018 07:55:37 +0000
+Received: from sympa.ust.hk (localhost [127.0.0.1])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w7H7t5CX007521;
+	Fri, 17 Aug 2018 15:55:05 +0800
+Received: (from sympa@localhost)
+	by sympa.ust.hk (8.14.4/8.14.4/Submit) id w7H7t44I007518;
+	Fri, 17 Aug 2018 15:55:04 +0800
+X-Authentication-Warning: sympa.ust.hk: sympa set sender to ece-pg-list-owner@lists.ust.hk using -f
+Received: from mx1.ust.hk (mx1.ust.hk [143.89.12.151])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w7H7snin007480
+	for <ece-pg-list@lists.ust.hk>; Fri, 17 Aug 2018 15:54:49 +0800
+Received: from mx1.ece.ust.hk (mx1.ee.ust.hk [143.89.45.248])
+	by mx1.ust.hk (8.14.4/8.14.4) with ESMTP id w7H7smaO030272
+	for <ece-pg-list@ust.hk>; Fri, 17 Aug 2018 15:54:49 +0800
+Received: from ee.ece.ust.hk (ee.ece.ust.hk [143.89.44.247])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id 004B92B154E
+	for <ece-pg-list@ust.hk>; Fri, 17 Aug 2018 15:54:39 +0800 (HKT)
+Received: by ee.ece.ust.hk (Postfix)
+	id D0A672C67DF; Fri, 17 Aug 2018 15:54:38 +0800 (HKT)
+Delivered-To: pg@ece.ust.hk
+Received: from mx1.ece.ust.hk (mx1.ece.ust.hk [143.89.45.248])
+	by ee.ece.ust.hk (Postfix) with ESMTP id B19C62C67D6;
+	Fri, 17 Aug 2018 15:54:38 +0800 (HKT)
+Received: from mx3.ust.hk (mx3-2.ust.hk [143.89.14.143])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id 433502B154E;
+	Fri, 17 Aug 2018 15:54:19 +0800 (HKT)
+Received: from www.ece.ust.hk (www.ee.ust.hk [143.89.44.246])
+	by mx3.ust.hk (8.14.4/8.14.4) with ESMTP id w7H7sIXQ007186;
+	Fri, 17 Aug 2018 15:54:18 +0800
+User-Agent: CodeIgniter
+Date: Fri, 17 Aug 2018 15:53:55 +0800
+From: Foner Chan <eefoner@ust.hk>
+To: <alleee@ece.ust.hk>, <ra@ece.ust.hk>, <pg@ece.ust.hk>
+Subject: =?UTF-8?Q?Seminar_by_Dr._Junting_Chen_on_22_Aug_2018,_3:00pm?=
+Reply-To: "eefoner@ust.hk" <eefoner@ust.hk>
+X-Sender: eefoner@ust.hk
+X-Mailer: CodeIgniter
+Message-ID: <5b767f1396333@ust.hk>
+Content-Type: multipart/alternative; boundary="B_ALT_5b767f1396b18"
+X-ECE-MailScanner: Found to be clean BY HKUSTECE, Found to be clean BY HKUSTECE
+X-ECE-Spam-Status: No, No
+X-ECE-MailScanner-Information: Please contact the ISP for more information
+X-ECE-MailScanner-ID: 004B92B154E.AFCB1
+X-ECE-MailScanner-From: eefoner@ust.hk
+X-ECE-MailScanner-Watermark: 1535097279.91929@ROeUmAxK/N6EY6j7ZlUvAA
+X-Loop: ece-pg-list@lists.ust.hk
+X-Sequence: 1479
+Errors-to: ece-pg-list-owner@lists.ust.hk
+Precedence: bulk
+Sender: <ece-pg-list-request@lists.ust.hk>
+X-no-archive: yes
+List-Id: <ece-pg-list.lists.ust.hk>
+List-Help: <mailto:sympa@lists.ust.hk?subject=help>
+List-Owner: <mailto:ece-pg-list-request@lists.ust.hk>
+List-Post: <mailto:ece-pg-list@lists.ust.hk>
+List-Subscribe: <mailto:sympa@lists.ust.hk?subject=subscribe%20ece-pg-list>
+List-Unsubscribe: <mailto:sympa@lists.ust.hk?subject=unsubscribe%20ece-pg-list>
+Return-Path: ece-pg-list-owner@lists.ust.hk
+X-MS-Exchange-Organization-ExpirationStartTime: 17 Aug 2018 07:55:38.2218
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-MS-Exchange-Organization-Network-Message-Id: cbbb27f1-fe45-4037-941b-08d60416d238
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Matching-Connectors: 131789661382218779;(e96f7d06-d3c9-4f06-8531-08d4e618e065);()
+X-Forefront-Antispam-Report:
+ CIP:143.89.14.70;IPV:CAL;CTRY:HK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:PU1PR01MB2025;H:sympa.ust.hk;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;HK2APC01FT054;1:835HQL0MMGKAvSQKBcPmTTHiIE3NyCqdD84qGWmPJOMMEqbBRbEkXQegjfp52rvzXT4LOzM8MVKgNTMKDucErepvlZOaWxeTybo44Wy/kYVNTTwX6YicHgg7U/38k4uj
+X-MS-Exchange-Organization-AuthSource:
+ HK2APC01FT054.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: cbbb27f1-fe45-4037-941b-08d60416d238
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(7020095)(4652040)(5600074)(711020)(4605076)(1401180)(1404068)(71702078);SRVR:PU1PR01MB2025;
+X-Microsoft-Exchange-Diagnostics:
+ 1;PU1PR01MB2025;3:cfe4w1FuQA9mOX+Sym6bQLWmjAsnvLJ83mmmf3Wip2vN67csUyK9NBxAS7ob7TEKXE7ICrWlC/iZnPKlkcoviArBubTXAsMFyP7UTU2G41iosnV34Mabah336g0KF1hzgeNzDVunleDxW5svrwu++Sab/s2qPEA2Ul+mECIW7CX8CSSkWMBDMVG7SENQ9aHvcboMSYN7SWrr8RLoVI6Vjjr48aCxBUMYeqPCGJa1uFxaovJzXd7e/lae1gr5JiYKzRWjYxsLxSYvonlko1Z90Zl/+FxGcGQ4O9pJ+u/eYwnQ+LQdF/29vr8HUybCPu8hPg5hUgapDJEurpdWXy7g9wxRnZOWpISciLNaY+QEK9o=;25:8yZr9c5W8jvD46xvMIQZQ4hkghO/5hbjfIZ8haWLxwbe1xRZy2Za2VOZU0Ify/H625CsQiFybL4rDW+MMUdWdKbfUrebo4OxU4nbDNwN72vAUnbbUmgcGyLVSi876SBk7IsAS5sqHQ6CDoqm0nh6PY27b8OpVCvN5aLI1pa/UG4tHcTqPFWvWRJIfF1jGK3HDNKJvkI8MeVjJPz08+egPqMeCYaTuGKMveMsITDBbfymjgTMdup8SQe7mRZW+uuaf3KlJUh+Q14z9d2D7CKjOZlmzHsSJBXzOsp73vLfzFn2KyXP1anmDDIyejfWCLxEz68JR/Y85BG5KYt/xJTsqA==
+X-MS-TrafficTypeDiagnostic: PU1PR01MB2025:
+X-Microsoft-Exchange-Diagnostics:
+ 1;PU1PR01MB2025;31:+QyW1iuiziklqs4CiMvhXlURuImvcghxJWq+eT2+NUb3ke0W5lM+hQu3FFMd/dgwXdyx9FwElBtkItlLcYmQ4n9ZRjTHNnierN1EtqMBOQpc2FBlHksPhVXLjZun86fzLVsFevVtq183camuGTJZSeDOi61XhQsD87l1S2L7wP0UGb814AnsOyRTdLYXcUoyNSlslM7v8ME3vEfI/yxibCUJislo76AKE+9K8Z+KXBw=;20:pbbMjTj0gVCb2Gdq2FaY0UqYbEI0q5ELHDoUd+ZLMNEBuLe6MceAMnguPR+0N/VtLo2MxiKxifZMDQ9zhTkNGsbd6ZBN6xO8UbO46Zm/qlz/HHTRML4YjCIUQIcrpURqGdrXGw/SGMq8eFE+rzG2k7Gh9PoDu/1UBNhle3lPiJHVcpMkTfcdZFf18DQFmhmEXBXMP9EwnxJQpIMglfChH5ZHP7znexMzT3b218xTsN5BjpWRcKn1EU5ns5268IKJ7Va3jmyiuwQjiXWUs4lvkTwadoFnTuFfySspR4Tup7+l9RP9+h9H5YmmwdnBo+VSGXLm5BMJK58Iv56srYVLWKeUMdKGn5pOBH1/HDNJiAT/rOtwHM1OfHG/E8fKHxWSVgInzU3ocNYRGP6LKef/ZNFHEGsRKHB7nulZB6MchSKCtptCO6NA4VoVY4w26RibjS8EhgjwE4jgHBQ2WcGuJuhBo/TuEuNmrJexkL+ICKaYCb3oQDJvX/CW5sBZI4TNoE9ufAQ+ZN98Nw1XJjjhseEN71B4nBU6DThmpo9n6EWgpNem0Ur8wXRXj8RF/7zHhUb7ohIzJRZQk4Jvr/oSLTGore0kl5knphpvHNWdtnY=
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-BypassClutter: true
+X-Exchange-Antispam-Report-Test: UriScan:(278428928389397)(209352067349851);
+X-Exchange-Antispam-Report-CFA-Test:
+ BCL:0;PCL:0;RULEID:(2018062399030)(2018011200283)(2401047)(8121501046)(1430482)(1431068)(1432130)(1551054)(823300264)(823330083)(9101536074)(3231311)(901025)(902075)(913088)(7045084)(944501410)(9300000166)(9301000214)(52103095)(52104123)(52105095)(52106170)(52401285)(52601095)(52606095)(52505095)(52406095)(52305095)(52206095)(1102011)(93006095)(93001095)(10201501046)(3002001)(1610001)(8301001075)(8301003183)(201708071742011)(7699016);SRVR:PU1PR01MB2025;BCL:0;PCL:0;RULEID:;SRVR:PU1PR01MB2025;
+X-Microsoft-Exchange-Diagnostics:
+ 1;PU1PR01MB2025;4:A+0czdVPj/sDg2TyzOdAWFLY8p4VfNPbzmTwRN4zlPnJ5xVwfnB7eJCAll4xapUfGArjogz2mBX+aXL/eu/hTaLNIdNzGQ2hAygWAKd3OhylKLxvJk9DUAHt2Yv9mCXLlDpcDsAJ5WfKynQMzRk1N65qIetaIZ/iaApsOGzOqwLezoSH28RmKF1UFBd4dS7F+6iPWm9pNbsZzwCDczwYbT+jQqjtyiM5km+7euXaV/SwPWBA1x0ymYmVx5K6FxoVgzDlVC09N2eQGosKSpDP8cYM+oBPs+V/THCqpnwoVRqEARF49c8Jg3XJnd6vRByjchXuoN7wmtmxusJIJW6oEzHYdHcKjBanOf1tGTpeF5A=;23:iLxwgkjcm6qL0jUtLSdZcTY13CDhB0dHSSsLMsjLKRYaLkZYg7VJ0JSBAXBw02VSlzSIDZpHr60Z3wHtCSqfP2sjWtUbqI0Do/Nzd44P9OZl0Y919ei3k6IPobbnByR5+if/vlhgmfYhjNhCHVWgGqtdRmqtSUWeEviAPLU7DODkglWn2rqzdbcdOUhnJeC1
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?x6YZHDF8Hjd9sPr2rN6JngzuvWpYYu9Q+kPRC+XKHGkZtguHRjWzHpPOf13X?=
+ =?us-ascii?Q?ltIpMpH2eHKe4vpg/19YsNIUiFmu7oGaqGsJ5u5XxGhKjaIPRi1EbJ7nxsuN?=
+ =?us-ascii?Q?OUFJBc0r59rWjHoC55yaqGWwHOC4TboAoPlvH2fvWhT7NJZdaHZYwbOUbv4r?=
+ =?us-ascii?Q?JWg4VjdoA0IobwaWEogDHROKies6fg6owvztxJVXokFE9Ffn+/lXuk+Rn8x4?=
+ =?us-ascii?Q?SztAav+m6nQCn+kDQJTPqHODycBu/y79eKEKR0RMdsWw5ewRIFMK5xXzGaXL?=
+ =?us-ascii?Q?QIovSwNmIgzdZYxM6pCs8BwGIrQyMDddMblsdOCPUTb70TkCQUC67I7d+500?=
+ =?us-ascii?Q?YYTrACDHSWeOE2qCqXCgv9ROua7y6OpE9iFxlQg9TxkgLTTi9QLLpO+QuVPa?=
+ =?us-ascii?Q?pPPrvBmii+dEmy5dexcC6mCnIJt/E3UzlVI/M0ux1TSE5cZiqMpAeArLocqj?=
+ =?us-ascii?Q?05h1Yy3XNfbyrp/KOl2oKGiyzy9SEIoZuG2l4vW7lLSzji6MmIq508u+SHmV?=
+ =?us-ascii?Q?Uyuws9n0nEIkVmo3q1RIc7QKWGY8f2vF+Qeoy3Y9w7uKnGGW0ErjJQxrqw9x?=
+ =?us-ascii?Q?Vu2C/DQYeN5/3glAlA+ayHs3vZcHepusGr1ogMSCRz8MikJyPe3QoAz0eyIw?=
+ =?us-ascii?Q?9IPiFugK01OBi7V2nVqoellqi1Wh0KFoqiGCs4u1BMvHJbnUDVKjH0dqk0lU?=
+ =?us-ascii?Q?41U2e3kVXWrQBoH8fRplE146BLUc0BCh2iTkXCxx3Y0hrCrblirIEFxhFuID?=
+ =?us-ascii?Q?YZLQIcC2hFKSlfBe7CU2oPipVTmBrnZaE8PLJFoKxmWWxTRizbahwIHKenXl?=
+ =?us-ascii?Q?Ti1LqB8bDtaSWMKEZ2tbIKS3lCuP4MIUhT3m0zYW7tGocv+Y/iG+RkpMfjJA?=
+ =?us-ascii?Q?OL6rzGKKGvxY3wxcW3VpBEZV4xCCO/x5sc8j10lk1hwkFeDtE8vge15b0PYh?=
+ =?us-ascii?Q?BqxZzwBXOf7YGhrZz/3kQs01PufrEpx0drIX2nu2I3emzxQIRDKHe0yEFHLm?=
+ =?us-ascii?Q?XY5b?=
+X-Microsoft-Exchange-Diagnostics:
+ 1;PU1PR01MB2025;6:OhHIDlc4EHXfdI9YZYWMdHa8GAlYBlVY0dktYER9I7oNQav3mxNWdbSkqfjo7kfX4nUjMvcpjxZmx/eQUwF0MAqqS07oMQ+3/45mhu4gyMCbNeL7ZWWOyY00nWnM2Rav/sC/GYMPkrqhioluVBjPM5CCnntLjNL9TWAptpdcNN9aJfEHdslf9U5t20Ik8btTg49NtqlAWAA/T7rRCx5STnDN/Nc9ZgeWAU2Vou6kxkZNU1TUD+59hsB5adYl2A9wmXO6jENF++raiMKy307aywNngFhu6sBBDSTjPCQPMajFPp7NJTofKeru74YpqG4nuqxMAI3+37LEzpExED/ZQ/LstnaEHuKksaMfQBsm/s/t/cElJYYButLi+OenMYDMaUUrrHFmlrCCgCbMfbxr8laYWcACQQ6h2ARu2FVZnHCNRXpaaINq8UiNmOA7bIYam2yur6fF6CDw2ov3Nvm1Zh1CaAWDZyTz5qfxO5wdkJkAz+bsHnnoTg9ynHxOB322;5:e7bsjLZ6xnM5qgM9y5qKOepZvb3G208xRmZGlKOmwt1bXIOt2MhLYr7lJcTSU1gekFF8/gIZhrp/jrkgAsJud3YdmYHhc5P9uAUoF71xQpno0twfY4/BROMGI9KS+/mT8Dlt72yQORcCfRxkLlar5d/Ww9CIDsvcfSXugaPr86U=;7:1Xdh1HcmYRWwq2ZnCf3Kg1TAOszSQEzfgzdbE+9M/82wGy8y0GLJyJFEflL0XWaxCuvgERBTuXrcfV73yZqvjLtXZwLyNz6e3lg9vDf5BKoF3CiGeK4I6XLaNWcLMGTRP5a03c71H7FHq4Z+ppaKu05HM6hpoWU/zpQKl8cvwnFSvFGrzw70vSZAAHaP3pi4ExW0Gc6LTOb4IzLGHatiYAGP1ZWbsH+1k2o2cVw6TePGtRBq1uNSE4lDiu+TxupV
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: ca2853ad801f4d6bb04606bbac945a33
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 17 Aug 2018 07:55:37.8624
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: cbbb27f1-fe45-4037-941b-08d60416d238
+X-MS-Exchange-CrossTenant-Id: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PU1PR01MB2025
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.4834166
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.1059.000
+X-Microsoft-Exchange-Diagnostics:
+	1;HK2PR01MB1012;27:QoCvQeCZXK1k/BAae/4WE7tWBOOTk7XmEsmt1V1hvhYvbLp1YKCKG+9x8NIOWy2oDxEyM86FVKgpmGi/UxBLqUgNpiA7O4BC0YFUXa2HACko16rltWPjtS4+G5WhqOxrqppblR7FQ5Pnu8f5MZ8S7bCE95LqJWfTpGqI0KQTBqqWXjUaeLw26m/1j7vbzTmFqfp+4H/Up0Jlz+vzylL0hUD6rAo8242mieuKzDEPfyTnb/U7XQHWkHdzVG9kGc8q2gxcQ98mStgDo/mdODGA0PrOQeJ/MHvQuE3SqnxNee13HHhyVNaH4cvTFNOLN/lC8Bs+xRwJs+P5vQS/GckpARdokXWFT7X6kzycyfJY6io7cNMulf7J6NXCktjO7U7n
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750119)(520011016)(944506220)(944626516);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?bk9NTXdES3kxZWtYa0VwenpMNFA4d3AvOUxoNTdTNG5MOUtrdUVCTklEbU9K?=
+ =?utf-8?B?eFYvd1EzWXhsbVp2eVUySlFKVlVSb01oeGNIK0lIVHZSOU50dkJROU5IbkdV?=
+ =?utf-8?B?RzR3UnhNMWl2U0ZQVlpYY2xySk1jU0d0WEhuV1BKTVJrOEcyTGZ2bVhpRS9k?=
+ =?utf-8?B?eHRvMlcwczgyQjVSTFd4dU1NUm8wUUpJZWFuMXhWUkdHY3l2ODhveXBWdVhj?=
+ =?utf-8?B?WGlSVnpIK3VtTkhHMXZkUVdnempZSng4YWZlQVArSkt2ZnR3dnNKZytlU0Mz?=
+ =?utf-8?B?dUJ6b3pCeEtJVjZFYlBvejZXM3Jaa3Z0YUZnSzRldUFvOWdtRXlkMXl5K09D?=
+ =?utf-8?B?VUs5YXlaM1RjYVRvWHZnek9EQkZIdVZQRHdxMFoyR1VlTFJzRE51M01XWHhh?=
+ =?utf-8?B?dUx5ZkNwZHdIMkorYlJ6elBXTEx1S0JzcHJkeThIZi8vUHkrQTdUWFA1NlhD?=
+ =?utf-8?B?UjVBQ00ya0NHNFgzVGxZaSs2TzNwTEY4NE9hN0FiSnh4SmM0N0dlK1JrOFRu?=
+ =?utf-8?B?TUo2OXJPYWduM2ptQ2doUGJwVnJqRWxwd3dmR212U0tHWXNJak54Y2lTWVBy?=
+ =?utf-8?B?MlBYa3pIVFJrWGQrS0NXTlBlY0xmNnZIS3FUcmRFOEtoV1dLQUhLSzVPbzhC?=
+ =?utf-8?B?UWFIYmF4R2U3OHNWZUhwa3R5WEN1dHpkZnoybUlNcU9YVlZCRDdlMTRtYmU1?=
+ =?utf-8?B?STJFVFZFQTZSV2lFMEQycnl0bG1JdTJ0YlRLMDQ2SGJtN291UnBaVGZFbEVw?=
+ =?utf-8?B?bFVXWmUrd213UG9YK1IxbmZCaVYybGExdCttbDV1QjZIaG01dzlzVXhXQVZR?=
+ =?utf-8?B?ZzJaMWtLNGJnbzVWaGFnQUhZMlliNDIyUDlwSWZKdTZMNWlYVlNOUWpMa3I5?=
+ =?utf-8?B?VE9pcnUyWUduWTB4QkJjblZHSjUxYmVXU21hdjVvNGdkT2JJd3hNQ1o1Z1NO?=
+ =?utf-8?B?SWZOZThxeTErVDhmVERFZzdWK25HTUlYYmUwdlFyREFKQko3SDRCenY5Q2JW?=
+ =?utf-8?B?dmM4eUtFRjZidmVrTFE3R1czUjgvQmFZWWIzemt2cXdtQjdTQ0RXbkxybVJO?=
+ =?utf-8?B?bUVkdjB0WlBNWU56ZG4yRWRLU29pV2ZITnBVTVJoNXFtdHhER0VjcERxUXJJ?=
+ =?utf-8?B?am80alJ4cFZ4OGNLMllkZFNSSlJxRHlEak5ZUFhLVG02ZXg4Ly9pWU00bTVp?=
+ =?utf-8?B?QjcwYUpVbWdUa2JDd1lTVVY5NXB3MkZBWXVDTndiV0xRdzZWeVlvUjhLR3dz?=
+ =?utf-8?B?YWYvUTFMd05CakJHanNuMFp2QXJnWWh1ZzZ0SjlKSlRTUmJvc2hEbTV6Qjhw?=
+ =?utf-8?B?R3pFdThhNHdmejlNRzI4eElLQ2NNU3BEK2IxUjlWMFBQZTNlQTllb29yZ2l1?=
+ =?utf-8?B?RWRpRnNCVFV0Q1QyRnowL2xjMkRBSEpIaCtiSnNzZko3SVB0TGs3MlY3eFRh?=
+ =?utf-8?Q?qrJGtUI9?=
+MIME-Version: 1.0
+
+--B_ALT_5b767f1396b18
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+If you are having problems viewing this email, view
+ it online HERE.
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ &nbsp;
+ 
+ 
+ Seminar
+
+ 
+ 
+ Learning and optimization for dynamic 3D networks enabled by UAVs
+ 
+ by Dr. Junting Chen, Department of Electrical Engineering, University of
+Southern California (USC)
+ 
+ 
+ 
+ 
+ 
+ 
+ Date
+ &nbsp;:&nbsp;
+ 22 Aug 2018 (Wed)
+ 
+ 
+ Time
+ &nbsp;:&nbsp;
+ 3:00 - 4:00pm
+ 
+ 
+ Venue
+ &nbsp;:&nbsp;
+ Rm 4475, 4/F (Lift 25, 26), Academic Complex, HKUST
+ 
+ 
+ 
+ 
+ 
+ Abstract
+
+This talk focuses on the exploitation of unmanned aerial vehicles (UAVs) as
+flying radios to establish a relay network for the enhancement of cellular
+communications. While a UAV relay has the advantage of a better propagation
+opportunity from the air, seeking the best UAV relay position to avoid
+propagation blockage is very challenging. It requires not only a huge
+database to store the global propagation information over the entire
+environment, but also a complicated algorithm to determine the best UAV
+position, given that the terrain structure may have an arbitrary shape. In
+contrast to the prevailing work that seeks solutions from stochastic terrain
+models, our goal is to optimize the UAV system over the fine-grained
+deterministic terrain structure.
+&nbsp;
+In this talk, we will discuss learning models and optimization algorithms to
+find the best UAV position. In the first part, we will study supervised
+learning algorithms to reconstruct a high-dimensional air-to-ground radio
+map. We focus on semi-parametric techniques and build the connection between
+a data clustering problem and a unimodal-constrained matrix factorization
+problem. Such a transformation enables the learning under uncertain data
+measurement models and leads to fast and robust algorithms for radio map
+reconstruction. In the second part of the talk, we will exploit a nested
+segmented propagation structure to develop a simple search strategy for the
+optimal UAV placement. We will elaborate a surprising result that globally
+optimal UAV position in 3-D is attainable without the need of a global
+exploration, while the search trajectory is only linear to the dimension of
+the target area.
+&nbsp;
+Biography
+
+Junting Chen received the Ph.D. degree in Electronic and Computer
+Engineering from Hong Kong University of Science and Technology (HKUST) in
+2015, and the B.Sc. degree in Electronic Engineering from Nanjing
+University, Nanjing, China, in 2009. He is now a postdoc researcher with the
+Ming Hsieh Department of Electrical Engineering, University of Southern
+California (USC), USA. Prior to that, he was a postdoc researcher with
+Department of Communication Systems at EURECOM, France, in 2015&ndash;2016.
+From 2014&ndash;2015, he was a visiting student with the Wireless
+Information and Network Sciences Laboratory at Massachusetts Institute of
+Technology, Cambridge, MA, USA. His research interests include signal
+processing, optimizations, and statistical learning, with applications to
+wireless communications and localization. Dr. Chen received the HKTIIT
+Post-Graduate Excellence Scholarships in 2012 from HKUST. He served as a
+Technical Program Committee (TPC) member for the IEEE Vehicular Technology
+Conference (VTC) (Spring and Fall 2015), and session chairs in Information
+Theory and Applications Workshop, San Diego, in 2018.
+ 
+
+ &nbsp;
+
+ 
+
+ 
+ &nbsp;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Copyright 2018 Department of Electronic &amp; Computer Engineering
+
+
+--B_ALT_5b767f1396b18
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<title>HKUST - Department of Electronic &amp; Computer Engineering</title>
+<style type=3D"text/css">
+<!--
+a.link {
+	color: #FFFFFF;
+}
+.cntM {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #666666;
+}
+.cntMb {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntMSubtitle {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+}
+.cntL {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 16pt;
+	text-decoration: none;
+	color: #3399FF;
+}
+.cntL2 {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 12pt;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntS {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 7pt;
+	line-height: 125%;
+	text-decoration: none;
+	color: #999999;
+}
+.cdt {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 8pt;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.cntM a:hover, .cntM a:active {
+	color:#7D198D;
+	text-decoration:underline;
+}
+.cntM a:visited, .cntM a:link {
+	color:#8080FF;
+	text-decoration:none;
+}
+-->
+</style>
+</head>
+<body leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" marginheight=3D"0"=
+ bgcolor=3D"#847788">
+<table width=3D"700" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" bgcolor=3D"#FFFFFF">
+ <tr>
+ <td colspan=3D"5"><table width=3D"100%" border=3D"0" cellpadding=3D"10" ce=
+llspacing=3D"0" class=3D"cntM">
+ <tr>
+
+ <td bgcolor=3D"#847788"><div align=3D"center"><font color=3D"#FFFFFF">If y=
+ou are having problems viewing this email, view
+ it online <a href=3D"http://www.ece.ust.hk/ece/../ece.php/event/detail/183=
+5"><font color=3D"#FFFFFF">HERE</font></a>.</font></div></td>
+ </tr>
+ </table> </td>
+ </tr>
+ <tr color=3D"#FFFFFF">
+ <td colspan=3D"5" bgcolor=3D"#FFFFFF"><img src=3D"http://www.ece.ust.hk/ec=
+e/../public/img/e_news_hdr.jpg" width=3D"700" height=3D"150"></td>
+ </tr>
+
+ <tr bgcolor=3D"ffffff">
+ <td valign=3D"top" bgcolor=3D"#FFFFFF"><img src=3D"http://www.ece.ust.hk/e=
+ce/../public/img/spacer.gif" width=3D"25" height=3D"10"></td>
+ <td valign=3D"top" bgcolor=3D"#FFFFFF" style=3D"background:url(&quot;http:=
+//www.ece.ust.hk/ece/../public/img/e_news_gpx.jpg&quot;);
+ background-repeat:repeat-y; background-position:right"><br>
+ <table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"cntM">
+ <tr valign=3D"top">
+ <td class=3D"bg-c-empty">&nbsp;</td>
+ <td class=3D"content"><table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+ <tr>
+ <td class=3D"cntM"><font color=3D"#3399FF">Seminar</font></td>
+
+ </tr>
+ <tr>
+ <td class=3D"cntM"><span class=3D"cntL2">Learning and optimization for dyn=
+amic 3D networks enabled by UAVs</span>
+=20
+ <p class=3D"cntMSubtitle">by Dr. Junting Chen, Department of Electrical En=
+gineering, University of Southern California (USC)</p>=09
+=20
+ </tr>
+ </table>
+ <br>
+ <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"cntM">
+ <tr valign=3D"top">
+ <td class=3D"content">Date<br></td>
+ <td class=3D"content">&nbsp;:&nbsp;</td>
+ <td class=3D"content">22 Aug 2018 (Wed)</td>
+ </tr>
+ <tr valign=3D"top">
+ <td class=3D"content">Time<br></td>
+ <td class=3D"content">&nbsp;:&nbsp;</td>
+ <td class=3D"content">3:00 - 4:00pm</td>
+ </tr>
+ <tr valign=3D"top">
+ <td class=3D"content">Venue</td>
+ <td class=3D"content">&nbsp;:&nbsp;</td>
+ <td class=3D"content">Rm 4475, 4/F (Lift 25, 26), Academic Complex, HKUST<=
+/td>
+ </tr>
+					 </table>
+ <br>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+ <tr>
+ <td class=3D"cntM"><div><strong>Abstract</strong></div>
+<div style=3D"text-align: justify;"><br>
+This talk focuses on the exploitation of unmanned aerial vehicles (UAVs) as=
+ flying radios to establish a relay network for the enhancement of cellular=
+ communications. While a UAV relay has the advantage of a better propagatio=
+n opportunity from the air, seeking the best UAV relay position to avoid pr=
+opagation blockage is very challenging. It requires not only a huge databas=
+e to store the global propagation information over the entire environment, =
+but also a complicated algorithm to determine the best UAV position, given =
+that the terrain structure may have an arbitrary shape. In contrast to the =
+prevailing work that seeks solutions from stochastic terrain models, our go=
+al is to optimize the UAV system over the fine-grained deterministic terrai=
+n structure.</div>
+<div style=3D"text-align: justify;">&nbsp;</div>
+<div style=3D"text-align: justify;">In this talk, we will discuss learning =
+models and optimization algorithms to find the best UAV position. In the fi=
+rst part, we will study supervised learning algorithms to reconstruct a hig=
+h-dimensional air-to-ground radio map. We focus on semi-parametric techniqu=
+es and build the connection between a data clustering problem and a unimoda=
+l-constrained matrix factorization problem. Such a transformation enables t=
+he learning under uncertain data measurement models and leads to fast and r=
+obust algorithms for radio map reconstruction. In the second part of the ta=
+lk, we will exploit a nested segmented propagation structure to develop a s=
+imple search strategy for the optimal UAV placement. We will elaborate a su=
+rprising result that globally optimal UAV position in 3-D is attainable wit=
+hout the need of a global exploration, while the search trajectory is only =
+linear to the dimension of the target area.</div>
+<div style=3D"text-align: justify;">&nbsp;</div>
+<div style=3D"text-align: justify;"><strong>Biography</strong><br>
+<br>
+Junting Chen received the Ph.D. degree in Electronic and Computer Engineeri=
+ng from Hong Kong University of Science and Technology (HKUST) in 2015, and=
+ the B.Sc. degree in Electronic Engineering from Nanjing University, Nanjin=
+g, China, in 2009. He is now a postdoc researcher with the Ming Hsieh Depar=
+tment of Electrical Engineering, University of Southern California (USC), U=
+SA. Prior to that, he was a postdoc researcher with Department of Communica=
+tion Systems at EURECOM, France, in 2015=E2=80=932016. From 2014=E2=80=9320=
+15, he was a visiting student with the Wireless Information and Network Sci=
+ences Laboratory at Massachusetts Institute of Technology, Cambridge, MA, U=
+SA. His research interests include signal processing, optimizations, and st=
+atistical learning, with applications to wireless communications and locali=
+zation. Dr. Chen received the HKTIIT Post-Graduate Excellence Scholarships =
+in 2012 from HKUST. He served as a Technical Program Committee (TPC) member=
+ for the IEEE Vehicular Technology Conference (VTC) (Spring and Fall 2015),=
+ and session chairs in Information Theory and Applications Workshop, San Di=
+ego, in 2018.</div></td>
+ </tr>
+					<tr>
+					 <td>&nbsp;</td>
+					</tr>
+ </table>
+
+ </td>
+ 	<td class=3D"bg-c-empty" width=3D"25">&nbsp;</td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" align=3D"center" bgcolor=3D"#7C8CA9"><table width=3D"100=
+%" border=3D"0" cellpadding=3D"5" cellspacing=3D"0" class=3D"cdt">
+ <tr>
+ <td align=3D"center">Copyright 2018 Department of Electronic &amp; Compute=
+r Engineering</td>
+ </tr>
+
+ </table> </td>
+ </tr>
+</table>
+</body>
+</html>
+
+--B_ALT_5b767f1396b18--

@@ -1,0 +1,513 @@
+Received: from HK0PR01MB2017.apcprd01.prod.exchangelabs.com
+ (2603:1096:201:1f::16) by HK2PR01MB1012.apcprd01.prod.exchangelabs.com with
+ HTTPS via HK2PR02CA0156.APCPRD02.PROD.OUTLOOK.COM; Wed, 5 Sep 2018 02:06:10
+ +0000
+Received: from SG2PR01CA0132.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:40::36) by HK0PR01MB2017.apcprd01.prod.exchangelabs.com
+ (2603:1096:203:1d::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1080.13; Wed, 5 Sep
+ 2018 02:06:08 +0000
+Received: from HK2APC01FT111.eop-APC01.prod.protection.outlook.com
+ (2a01:111:f400:7ebc::203) by SG2PR01CA0132.outlook.office365.com
+ (2603:1096:4:40::36) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1101.13 via Frontend
+ Transport; Wed, 5 Sep 2018 02:06:08 +0000
+Authentication-Results: spf=none (sender IP is 143.89.14.70)
+ smtp.mailfrom=lists.ust.hk; connect.ust.hk; dkim=none (message not signed)
+ header.d=none;connect.ust.hk; dmarc=none action=none header.from=ust.hk;
+Received-SPF: None (protection.outlook.com: lists.ust.hk does not designate
+ permitted sender hosts)
+Received: from sympa.ust.hk (143.89.14.70) by
+ HK2APC01FT111.mail.protection.outlook.com (10.152.248.163) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.1122.11 via
+ Frontend Transport; Wed, 5 Sep 2018 02:06:07 +0000
+Received: from sympa.ust.hk (localhost [127.0.0.1])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w8525ckV004482;
+	Wed, 5 Sep 2018 10:05:38 +0800
+Received: (from sympa@localhost)
+	by sympa.ust.hk (8.14.4/8.14.4/Submit) id w8525btP004481;
+	Wed, 5 Sep 2018 10:05:37 +0800
+X-Authentication-Warning: sympa.ust.hk: sympa set sender to ece-pg-list-owner@lists.ust.hk using -f
+Received: from mx2.ust.hk (mx2.ust.hk [143.89.12.152])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w8525Rcj004472
+	for <ece-pg-list@lists.ust.hk>; Wed, 5 Sep 2018 10:05:27 +0800
+Received: from mx1.ece.ust.hk (mx1.ee.ust.hk [143.89.45.248])
+	by mx2.ust.hk (8.14.4/8.14.4) with ESMTP id w8525QoH021202
+	for <ece-pg-list@ust.hk>; Wed, 5 Sep 2018 10:05:26 +0800
+Received: from ee.ece.ust.hk (ee.ece.ust.hk [143.89.44.247])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id 9BED92B1593
+	for <ece-pg-list@ust.hk>; Wed,  5 Sep 2018 10:05:16 +0800 (HKT)
+Received: by ee.ece.ust.hk (Postfix)
+	id 8BA802C67EA; Wed,  5 Sep 2018 10:05:16 +0800 (HKT)
+Delivered-To: pg@ece.ust.hk
+Received: from mx1.ece.ust.hk (mx1.ece.ust.hk [143.89.45.248])
+	by ee.ece.ust.hk (Postfix) with ESMTP id 7514D2C67C2;
+	Wed,  5 Sep 2018 10:05:16 +0800 (HKT)
+Received: from mx3.ust.hk (mx3.ust.hk [143.89.12.153])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id 86E692B108E;
+	Wed,  5 Sep 2018 10:05:07 +0800 (HKT)
+Received: from [143.89.131.166] (eepc166.ee.ust.hk [143.89.131.166])
+	(authenticated bits=0)
+	by mx3.ust.hk (8.14.4/8.14.4) with ESMTP id w85256CY025134
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NOT);
+	Wed, 5 Sep 2018 10:05:06 +0800
+Subject: Reminder: Today Seminar presentation by Dr. Kin Cheong Sou in
+ classroom #3598 at 4:00pm
+From: Rita WONG <eerita@ust.hk>
+To: <alleee@ece.ust.hk>, <pg@ece.ust.hk>, <ra@ece.ust.hk>
+Reply-To: "eerita@ust.hk" <eerita@ust.hk>
+References: <5b874e2bd49eb@ust.hk>
+Message-ID: <5f32da6c-8046-b4c3-cd6a-bcc3b7b3a943@ust.hk>
+Date: Wed, 5 Sep 2018 10:05:06 +0800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.9.1
+In-Reply-To: <5b874e2bd49eb@ust.hk>
+Content-Type: multipart/alternative;
+	boundary="------------3F406E0DBF30F27F55ACC185"
+Content-Language: en-US
+X-ECE-MailScanner: Found to be clean BY HKUSTECE, Found to be clean BY HKUSTECE
+X-ECE-Spam-Status: No, No
+X-ECE-MailScanner-Information: Please contact the ISP for more information
+X-ECE-MailScanner-ID: 9BED92B1593.A20B3
+X-ECE-MailScanner-From: eerita@ust.hk
+X-ECE-MailScanner-Watermark: 1536717917.91452@k4cixcpA0JyMOYqpCUkjSw
+X-Loop: ece-pg-list@lists.ust.hk
+X-Sequence: 1508
+Errors-to: ece-pg-list-owner@lists.ust.hk
+Precedence: bulk
+Sender: <ece-pg-list-request@lists.ust.hk>
+X-no-archive: yes
+List-Id: <ece-pg-list.lists.ust.hk>
+List-Help: <mailto:sympa@lists.ust.hk?subject=help>
+List-Owner: <mailto:ece-pg-list-request@lists.ust.hk>
+List-Post: <mailto:ece-pg-list@lists.ust.hk>
+List-Subscribe: <mailto:sympa@lists.ust.hk?subject=subscribe%20ece-pg-list>
+List-Unsubscribe: <mailto:sympa@lists.ust.hk?subject=unsubscribe%20ece-pg-list>
+Return-Path: ece-pg-list-owner@lists.ust.hk
+X-MS-Exchange-Organization-ExpirationStartTime: 05 Sep 2018 02:06:08.1632
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-MS-Exchange-Organization-Network-Message-Id: 9bed7bd3-3586-43f3-d263-08d612d424f0
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Matching-Connectors: 131805867681632867;(e96f7d06-d3c9-4f06-8531-08d4e618e065);()
+X-Forefront-Antispam-Report:
+ CIP:143.89.14.70;IPV:CAL;CTRY:HK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:HK0PR01MB2017;H:sympa.ust.hk;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;HK2APC01FT111;1:TxTtYrM2IARIEtYE7oY4bqmqM59/PvYxIyo56p+/zGAoTibUr9bk9X2pH2NgD86ulqOtnnFUQK7IsfgMtcaueoFdz+6zni7/sEn+znvIvZOkcgTiJ0ZUxZatmLZPy1r1
+X-MS-Exchange-Organization-AuthSource:
+ HK2APC01FT111.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 9bed7bd3-3586-43f3-d263-08d612d424f0
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(7020095)(4652040)(5600074)(711020)(4605076)(1401180)(1404068)(71702078);SRVR:HK0PR01MB2017;
+X-Microsoft-Exchange-Diagnostics:
+ 1;HK0PR01MB2017;3:UNI18IHIlWI057EbLTYq3VPZL4l4cKfb8XzGwXoM7oeP83wpjGqt5hOM9dUguybA+JjheD0SBOZBt/MzwKUObicsPJK9O9IXx6tO/VMouu4PYeeHmyIyPgVLwpM9Lc2t5E63vip5B/xr+3r5PP+hY74r0bIbV137ZmDQk9TilW55WlJy87RheiiKI+iWMrVdAjY365JgKVKClwtWDzkRaJhh5uSJTIByY030Shz5wzCVfZ4fSGcsIZkIok2+ZZdY0Yb+A14MiVGBTpDzGnGG3anEV4WpFOOzxdELRUwPhLwJbKxRmckiuDa2TcB1l58Ry5o9tIHMdGUzDnoABj4fC8XWPmuFl0427+16M+/mp4g=;25:E4lt+wElcZziM/F251QhGnKuACC/4GoAKOs8tMqKCRBYxydpublHEc/kW9kxc+Vg4nnI4XEdxzvf8v0NSH3FwXjZWo2WeeN2RrNrOD0fBmy56qhxKwLrIuIam3NcLjTtUs/1jJGjfPIvjjhWksAlGaUsl1Pp9nZBEL8OaRLXWdJZwcGNEWdO2oKfLwRWwS8MYZZGeOkvdnYw5dbm8e9jvwIaABUNwjQiBj1TJXdMYA7REFSdPz1dnjVID+G08BUbO7LGoL8CwRqyiEBINe79gvsb/QYaCkos2EEC/eDysGczEh1d/cZhgdYkZrOwvUON0cxm3cMNAZlEAgJpaVUUkA==
+X-MS-TrafficTypeDiagnostic: HK0PR01MB2017:
+X-Microsoft-Exchange-Diagnostics:
+ 1;HK0PR01MB2017;31:UhNq8HyxOqhHbQPt3IKblxndaHBzESGfOSCapwTRtrnTV70Oeews4F/HQw+CT68WgFS5qMUQnbdY0zzVgasn1AsmW/T3mCT8zltLZzIlCU/IYQNXqGOI/2rN7v/i42U1DbiwTnyPrpVG+hGuAfJkIBaL5kXcfSMS+bJMoYuzUBPGyd+kOuKls3odD4G52rkXqm04cIXmb9RHAwO8IJb3NqN710znapdiKwxN1TNOZXY=;20:GMyovw6+5NUfkq+MySAyTic/hooO+wSVxMT3L1T1wntzzE9wVmKmSjEPwq0hbNw/tautd9+xC033/te5niRle02uYACzIGPvTlrOFduJuDMO8NgAoFPETwrm2mT/CgsToocON9a2xoVn6Tsc3V0/lvS+6um4jsI4zqN0s/AP58XVpPJuszMppwS8GoaAlzj65yICAZrhxky+rgPGVRj55eS+kWLNDAd1Lt1G1KYPOWpnZdoIMwurR16kVuKjx/GgpWybv1PYAj52LM7mySSyy1UV4fkt3NDHzbTVcylSDwS05zL1Wj+WlU7jfDNy8tNu1kPLf2hFeuyVSyAfYDfw95fO0ZLeZfv3nM0kVHg5Q572zfxlVSN+D1vsn9JGEWv00twGygMzsK1hU85rlCvdQAvVz/kNmtDjN0+5/eG7UUf2O8EqS5M7ugyNRKzAx8ogQf71xKdWTXwP3E8s/LP/jrOh0k1gZDxFo64Dh7KFlICsFmvOHcImZArMNuSnyN1q1F6Azr5WLHDaqM/zWt0O5sbB8oXZTktrjeTuVQFEgINqpk4bL3wI7yMwG4K1yblC/g1uM/k36+zPn3vFiWDJF1AiSvfJGb7cPtRFINyYVaw=
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-BypassClutter: true
+X-Exchange-Antispam-Report-Test: UriScan:(209352067349851)(163750095850);
+X-Exchange-Antispam-Report-CFA-Test:
+ BCL:0;PCL:0;RULEID:(2018062399030)(2018011200283)(2401047)(8121501046)(52410047)(2018011210174)(2018011211064)(2018011212028)(2018011213028)(2018011214028)(2018011215028)(2018011216028)(2018011217028)(2018011218028)(2018011219092)(2018011220252)(2018011221063)(2018011222027)(2018011223027)(2018011224027)(2018011225035)(2018011229035)(2018011232269)(2018011233052)(2018021202149)(98810176)(2018021203149)(98815176)(1430482)(1431068)(1432130)(1551054)(823300264)(823330083)(9101536074)(3231311)(901025)(902075)(913088)(7045084)(944501410)(9300000166)(9301000214)(52103095)(52105095)(52106170)(52408095)(98821027)(98822027)(52401380)(52601095)(52606095)(52505095)(52504095)(52406095)(52305095)(52206095)(88860193)(1102011)(93006095)(93001095)(10201501046)(3002001)(1610001)(8301001075)(8301003183)(201708071742011)(7699016);SRVR:HK0PR01MB2017;BCL:0;PCL:0;RULEID:;SRVR:HK0PR01MB2017;
+X-Microsoft-Exchange-Diagnostics:
+ 1;HK0PR01MB2017;4:xWuWnjpED8tsyOCjuYzPiodf1tsABzrAZFoo3nC/5bbEZVPg4SiD9sTHg71mZO7dWt/iHjI1srV2jQfh1LBie/SnASjQgELxR/m/RbmsjNCVePQnU/BOrCWs2Rye6fzwG8kLCA1JCw088OAUnjiTLCfAce/dlIkDDsB688JncOo3ZO27uvPEVHxcHcp5UtzpgU+lU92LosgxKqyM5v8j/gNsZ5ZU4PW9pZ0mHx6wAX5SA4+zxN9PHbL1w8khM5yA07VOZQxykX3AK0BM5pctIT0As1vHhr3KDz0Z9j0pf3VueerVHOQnrfuu8CspOQhRDkK853YGf5JvA5CmC9Uj8Pr2Cc6VXNiwufr/9y6jkJY=;23:u6Oau9t/1/XOaaM+U2SNfochA+aifPV0mCnC4nX9d09HFbn5uEe2UVq8DokbuFQ6LpPeVrmZKUydzB2ZY3GRIz2ax43/pRh8Y6ujVmgs0fk5656Fg9AbX6/0pyzj/LYjjsjMuzMP4UyBimWPklf/zOyTcsH06Mws+PiZ6Iac6bo+YjeauJrLrAiutRPIKVh3
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?q6+juzoSPXpaDl8O0mbulyGS4SmUnlwSlp9YzTK4oxMasp38h91KRkYCGI/W?=
+ =?us-ascii?Q?l6hTL66KkFuTO7l7J/I0xslte2L2baHK6k1GocuXFVoe/SLSyYdUrycRuZ+y?=
+ =?us-ascii?Q?BC8ZS7ruQIhoThlbeY8fde3hYuxHk7MrF/ej3ozEhvcTTEHxPF0MzK4KCT9f?=
+ =?us-ascii?Q?Jin+aL5ZUZkz0xJkkOdBoEFdd80LxZYBdEePYuYAaMZSat5ET8V1UTUgKGno?=
+ =?us-ascii?Q?CB3Xcl/2h01G771bnkKZxdi4wVZyAw4Ku6Dz39f1ZR78UwBqn4EZSz5SOIZk?=
+ =?us-ascii?Q?ypjK6oF/INbuBQrqXCEOdER8bYWtq1cqMYDE0bnBm2p8l659zeN2gIh/iIQ+?=
+ =?us-ascii?Q?1UdRZWHSfTn/Aisorq/9WBPyjxnVHnebAzde0eFKp++AA20obslTsZZyDkWr?=
+ =?us-ascii?Q?0bFq23NzoU3ffldcRAg0mNsoSv1sYnsUT2/0cvYcSu/hPFRVr+WDTiuNZoJ6?=
+ =?us-ascii?Q?mIcSBQGtxUhInWD6nAAMCqPaXXL113c7wNyMPN9SvI5N6FWNqz0/S+ZMr1ZS?=
+ =?us-ascii?Q?5CMNVFkW8qIV+mZmiHGlx047pajfB+Yu7hdkbmrjPDYUACNn194Ps0F9o9nM?=
+ =?us-ascii?Q?rJJcl6wsC4Rk5U+wLGMI4QBwyh8xWBWoKpAUfTfFYdsEl0+ivly/suz6+4Ux?=
+ =?us-ascii?Q?buPNim/R8v8EOMUawakcr4aHQM8jzuVQIsAfmwkQXR8gRDmPsP2NVotNVfTz?=
+ =?us-ascii?Q?s3NbzfkxdLZkEgRo7mE1mZ1IpmH5LStjbUAyoLCAdNfWb/WWvvn/NHNExorc?=
+ =?us-ascii?Q?oqvfX1pDkwGDuonFo1C6o/W8fvqUZdY/SEOXF5vH/dtUijRC+MBJ7n5GIZoa?=
+ =?us-ascii?Q?rogti11xp74aXpywsrSRel+dec7OrfP6B0j9mFnWuQTYvTszlEBJytN74wxi?=
+ =?us-ascii?Q?G/plgJas3y+0Yj8L1zG2SbzczqYnd+0aKFAplBYty4GYiU07bAuz1/jVEuoo?=
+ =?us-ascii?Q?IvWoGB+oJ8lwEoFsTTx3yAMi/D6kqjUaCniSkJky21GrYq8ooCvKN5Vt6Yum?=
+ =?us-ascii?Q?qaVqBWTC4QV+0pUOhzHk1BU6n8mTNrAVrVAk/HPYQalYbT+tPBVs2CyabCPw?=
+ =?us-ascii?Q?5iIakeKM2CP8u7s+bmk5PZ87jZcs/yLzsae6qRFZSgBbuBhuqr4=3D?=
+X-Microsoft-Exchange-Diagnostics:
+ 1;HK0PR01MB2017;6:9Rx92JZVL9JWrul337UFHhn5/BGXI8y4HNBSyZ3ObPSsSLCOoIlfJkfj1tM/sQNwHFEC63oHPnFPX9+fB6bNQrhv9ld8Ek9bTqHbCuFycHjvAQt8bjfDe3xRmwnMAXAY3h0A+sZitppkcjLeOnFEAWWP8Uv4jZOtUIhM4C7YafByAFrzu+e6Ctxrwrxz8U/Tc5ru2S9amkxDP5eyr+f1QKeeAtzT9e3Uvji0leDx95YXBURi2yr1ldgEhwDtLXI25JZbVyOJ1dObnPS/Ux4b/mRwkfMyYJR+DL5TesLDgej4GqfPohfZ8IIsOIxE/VwY6/jFtIy7msWTyp3eU9vvRVh+OWGE3+gYufXb5ie00AUtYtcSCu189yOYDI92PPBlvmxBse0TGsR1lFFtD+S1xp2uHC+nF/rpNRuFUtoMWlgwINUZi+GLzAfVVybMxqqZILV5PmGWhKHPpZXjx1T6sg==;5:A6qOg4CRj1XFhHOTmyLxfd+I5P1KVmTD25qFCMNvG8hpBAMNA8tS8FedNjp3hcjTDCxMkzZg+qoLf4h2h3MZVQtMASRl8VUuZwMJ7aCAHqhw7zNc6KY1dOXyEHeWcoq+98n2J+CLwakX9g+1LZCpKS7GDY4jOVJKqKAi1WgZQp4=;7:7z/VK4Q/DN2SYoWCWYfgJ1tYXfRDrecQ/kpqcajhc8p1W7AwfNrWqyKRRbGGBaNNtVrghODWuJwIgn/UdSTaHxOPK8FqVYscWzqJU7aFlyAj1bnfUMMUW546z5wueVfX95LxmKdV2MC9Bh/w4WYfnhmpJAGzjCnmzv1N8pyqmAeUcwSRXlm4srzPX57qhuqLSZnJ7ILsY6301UyG2vtsSdjQk2s+PvLkBx1MSrkRKzRRXyBYPvhkYZoijN7YA83J
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: ca2853ad801f4d6bb04606bbac945a33
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 05 Sep 2018 02:06:07.8039
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9bed7bd3-3586-43f3-d263-08d612d424f0
+X-MS-Exchange-CrossTenant-Id: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HK0PR01MB2017
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.6503960
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.1101.016
+X-Microsoft-Exchange-Diagnostics:
+	1;HK2PR01MB1012;27:e8P+yi/WSfNjFOvkCenS/bONDCtW/25nDPt8VsC5n6NikXE9JUgzAPIHE6UfHsN8EVnKm+1fruEIBPTmKOfOwtwc19Mde4oF4q7wcAInKzfPw4bQod+dgF9KgtbHfC0Kg6lWRSMlxXdp3ATOtEzUJNnFCpB7nojoI8fKiXw6xZr8St5gD+wUoAcGVLpS39FxDD+zf/GFTxDWRfUBPtjVZK1C0441pjFMCkJ0L5ebYep4gpPPVWvqJVbxVvxqwVbL0SfvJ0CZ0I9HGQ4wi7ARbpzbqU6tjYC1yXROSyeSm4HcaKHMARRoCOcx4aeFu4PnxdZw9fmgmyEvzWNZOHTfgwnHfsC8FYGp41b95JOB0lU2UbwAN/40XwkGEkiDsOnm
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750119)(520011016)(944506303)(944626516);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?QjQ0Uy96NkVxY0c4MzZnVXVtcTBuUXV0a1hvTzdObk1xUzNjTUJ4TVN2SXdt?=
+ =?utf-8?B?VVczM2Z3MTJyRVZFUzVPdEVqYzdYY0h6TjhwSlNMaG9zVE9ZL2NGS2I3N3Rh?=
+ =?utf-8?B?RFJOeTdxSTU0ZnRLZG54TEI4NXdRT0Vucldic3JYWHFTY2kwVzB3Ny9mUGtt?=
+ =?utf-8?B?dTFNTGh1RFFYem5qN0FMZXp2NTI2eWFXK2hWOUN6YnN4aWU2cFIxbG9kVXJ3?=
+ =?utf-8?B?YkltY2lQV2lyN3FxZ05mUWpnaWVPL09HbExPU3BVRC9ZUW5tdjdZaTFMYnFH?=
+ =?utf-8?B?UnQxTWhES2xCaHUzcHBrZGJKdENlb2hLVlN2ZUt3bk1DbjFVK2hyYXUzMWhZ?=
+ =?utf-8?B?S2h0MEJiY3RrYVBhdEU1YzlnYzhzbC9EemthVVptRUkzbVh3UmREK3JsZEVQ?=
+ =?utf-8?B?MzQwMWIxS2JQUUc0Qy8wUTY2RDBMaDF5QW5JYXVtV0N6bDhSZDhLem1LcGVh?=
+ =?utf-8?B?RkJoN3d3cWFDOTMrN1cwemYwdkxRR2wreVgzZXpkTWVlQlJyNmxOMW9Tc0JT?=
+ =?utf-8?B?UHJWUS9KM29YUHVlUmZiMTRwR3ZDZEFQVHpHNXlzRkR0ZHJlNFBBZ2JhTC92?=
+ =?utf-8?B?VDJXWTZ0UXJKb1N1KzRDYyt1TS9acmUyYldqNmJ3Z21EVVJCenYyYU1nMWd1?=
+ =?utf-8?B?VkNya0s5WFZTbVFIL2ZwVFA3MjNUUHRYcnpIV1BBVE9KTnBkYUloUkQybTlk?=
+ =?utf-8?B?SDFqZ21mbDhpM0IzbzR5Um1TWVhid0hseEMwdjJZdnBkK3gzQ2VDVGlyQ2pV?=
+ =?utf-8?B?OVFHQnp5djRnY2tpNXk0THpQbjRLUFptVHNQM3hrN001enV3TDYzN2VXUjJR?=
+ =?utf-8?B?bjFBbktETnhyUmI0QkpMZTdseXUwY0NSZHRhbUpSd0N2OUpwSDVxY0FCTXRV?=
+ =?utf-8?B?SkJ3U01DUm9GSmd5TGZwMTFab21SUjdjS1RHa1lZOUZiT0VoU1dEazN3QjZR?=
+ =?utf-8?B?M3JiUnByR0pFYjh3NFZsRVRJVUsxbXgxYkVrRldVV0RVM1BlUERiY3pueDBE?=
+ =?utf-8?B?ZWlIS0ZYdVRLMXUraTcyQlpmanZncFlERUdDNEFRWlJPVkdLRHFpS0g3aXZt?=
+ =?utf-8?B?ZnhEV2FyMy9GUzdGaVNPZHZBOXBYTllyZ0FrRzBvRlptMUNaVjhEL1NCa0dG?=
+ =?utf-8?B?WElpRlRtc0c4cE5DZkxSWTRkdExZcjVJclh1eldHVTR3Nkk2aGl4V3JVb3pw?=
+ =?utf-8?B?Lzl3WDArM05UTjZRM211b0FmWjFEa2t5NmhGcHI0SnJ0VTRjT2RaYXQ1L3BT?=
+ =?utf-8?B?MFNvRW5Sd3hTdTVrRHNlaHhtdnB2ZDVzK3p4MVpTU3lta0IxZGxxeHVGeFp5?=
+ =?utf-8?B?b2xmZlMyUDEzNGhRV29kR1JoQ1dGY3hsZVZ1anByZDE2UGZTQUJVVDZZNG1Q?=
+ =?utf-8?B?YS9xNFhoRjZKTC9qQm1CRnlEVzBCYThGSHdJOTBMRDNEUVExaXp5TWxVVGJw?=
+ =?utf-8?B?UG5ueHNaK3FNYy96SElURVBVUnBEbm1xcXd5ZEtIWjcwVkpSM0ZTYVVoVll0?=
+ =?utf-8?B?TmpnMi9DTjJFc2FxTVRXeWpHQUp0TlZ1SjQxUEdkNVV1OVJoQUczRlFoYUw5?=
+ =?utf-8?Q?QhwP3TRWWdO7VecuAOIkvD9kpcxJ1wFjM/2RRn+aXqCF1b?=
+MIME-Version: 1.0
+
+--------------3F406E0DBF30F27F55ACC185
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+On 30-08-18 9:53 AM, Rita Wong wrote:
+> HKUST - Department of Electronic & Computer Engineering
+> If you are having problems viewing this email, view it 
+> online HERE 
+> <http://www.ece.ust.hk/ece/../ece.php/event/detail/1839>.
+>
+> 	
+> 	
+> Seminar
+> Minimum Equivalent Precedence Relation Systems
+>
+> By Dr. Kin Cheong Sou, Assistant Professor, National Sun 
+> Yat-sen University, Taiwan
+>
+>
+> Date
+> 	 : 	05 Sep 2018 (Wed)
+> Time
+> 	 : 	4:00pm - 5:00pm
+> Venue 	 : 	Room 3598 (lift 27), Academic Complex, HKUST
+>
+>
+> *Abstract: *
+>
+> In this talk a simplification problem for systems of 
+> linear inequalities describing precedence relation systems 
+> is considered. Given a precedence relation system, the 
+> problem seeks a minimum equivalent subset of the 
+> precedence relations (i.e., inequalities) which has the 
+> same solution set as that of the original system. The 
+> problem is shown to be NP-hard. However, a sufficient 
+> condition is derived under which the problem is solvable 
+> in polynomial-time. In addition, a decomposition of the 
+> first problem into independent tractable and intractable 
+> subproblems is derived. A general (not necessarily 
+> polynomial-time) solution construction procedure based on 
+> the decomposition is presented. The optimality of the 
+> procedure is proved. The result generalizes the one in 
+> [Moyles and Thompson 1969] for the minimum equivalent 
+> graph problem for unweighted directed graphs.
+> *
+> Biography: *
+>
+> Kin Cheong Sou received a Ph.D. degree in Electrical 
+> Engineering and Computer Science at Massachusetts 
+> Institute of Technology in 2008. From 2008 to 2010 he was 
+> a postdoctoral researcher at Lund University, Lund, 
+> Sweden. From 2010 to 2012 he was a postdoctoral researcher 
+> at KTH Royal Institute of Technology, Stockholm, Sweden. 
+> Until December 2016 he was an associate professor (docent) 
+> with the department of Mathematical Sciences, Chalmers 
+> University of Technology and the University of Gothenburg, 
+> Sweden. Dr. Sou has been with National Sun Yat-sen 
+> University in Taiwan since February 2017.
+>
+> His research interests include cyber-physical systems 
+> analysis and design, smart grid and cities, discrete and 
+> graph optimization and theory, convex/non-convex 
+> optimization and dynamic systems theory.
+>
+> 	
+>
+> Copyright 2018 Department of Electronic & Computer 
+> Engineering
+>
+
+-- 
+Rita Wong
+Dept of Electronic & Computer Engineering
+HK University of Science & Technology
+Clear Water Bay, Kowloon, Hong Kong
+
+Tel: (852)2358 8511, Fax: (852)2358 1485
+
+
+--------------3F406E0DBF30F27F55ACC185
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p><br>
+    </p>
+    <br>
+    <div class="moz-cite-prefix">On 30-08-18 9:53 AM, Rita Wong wrote:<br>
+    </div>
+    <blockquote type="cite" cite="mid:5b874e2bd49eb@ust.hk">
+      
+      <title>HKUST - Department of Electronic &amp; Computer Engineering</title>
+      <style type="text/css">
+<!--
+a.link {
+	color: #FFFFFF;
+}
+.cntM {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #666666;
+}
+.cntMb {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntMSubtitle {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+}
+.cntL {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 16pt;
+	text-decoration: none;
+	color: #3399FF;
+}
+.cntL2 {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 12pt;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntS {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 7pt;
+	line-height: 125%;
+	text-decoration: none;
+	color: #999999;
+}
+.cdt {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 8pt;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.cntM a:hover, .cntM a:active {
+	color:#7D198D;
+	text-decoration:underline;
+}
+.cntM a:visited, .cntM a:link {
+	color:#8080FF;
+	text-decoration:none;
+}
+-->
+</style>
+      <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" width="700" border="0">
+        <tbody>
+          <tr>
+            <td colspan="5">
+              <table class="cntM" cellspacing="0" cellpadding="10" width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td bgcolor="#847788">
+                      <div align="center"><font color="#FFFFFF">If you
+                          are having problems viewing this email, view
+                          it online <a href="http://www.ece.ust.hk/ece/../ece.php/event/detail/1839" moz-do-not-send="true"><font color="#FFFFFF">HERE</font></a>.</font></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr color="#FFFFFF">
+            <td colspan="5" bgcolor="#FFFFFF"><img src="http://www.ece.ust.hk/ece/../public/img/e_news_hdr.jpg" moz-do-not-send="true" height="150" width="700"></td>
+          </tr>
+          <tr bgcolor="ffffff">
+            <td valign="top" bgcolor="#FFFFFF"><img src="http://www.ece.ust.hk/ece/../public/img/spacer.gif" moz-do-not-send="true" height="10" width="25"></td>
+            <td style="background:url(&quot;http://www.ece.ust.hk/ece/../public/img/e_news_gpx.jpg&quot;);
+              background-repeat:repeat-y; background-position:right" valign="top" bgcolor="#FFFFFF"><br>
+              <table class="cntM" cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tbody>
+                  <tr valign="top">
+                    <td class="bg-c-empty">&nbsp;</td>
+                    <td class="content">
+                      <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody>
+                          <tr>
+                            <td class="cntM"><font color="#3399FF">Seminar</font></td>
+                          </tr>
+                          <tr>
+                            <td class="cntM"><span class="cntL2">Minimum
+                                Equivalent Precedence Relation Systems</span>
+                              <p class="cntMSubtitle">By Dr. Kin Cheong
+                                Sou, Assistant Professor, National Sun
+                                Yat-sen University, Taiwan</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <table class="cntM" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                          <tr valign="top">
+                            <td class="content">Date<br>
+                            </td>
+                            <td class="content">&nbsp;:&nbsp;</td>
+                            <td class="content">05 Sep 2018 (Wed)</td>
+                          </tr>
+                          <tr valign="top">
+                            <td class="content">Time<br>
+                            </td>
+                            <td class="content">&nbsp;:&nbsp;</td>
+                            <td class="content">4:00pm - 5:00pm</td>
+                          </tr>
+                          <tr valign="top">
+                            <td class="content">Venue</td>
+                            <td class="content">&nbsp;:&nbsp;</td>
+                            <td class="content">Room 3598 (lift 27),
+                              Academic Complex, HKUST</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                          <tr>
+                            <td class="cntM">
+                              <div style="text-align: justify;"><strong>Abstract:
+                                </strong><br>
+                                <br>
+                                In this talk a simplification problem
+                                for systems of linear inequalities
+                                describing precedence relation systems
+                                is considered. Given a precedence
+                                relation system, the problem seeks a
+                                minimum equivalent subset of the
+                                precedence relations (i.e.,
+                                inequalities) which has the same
+                                solution set as that of the original
+                                system. The problem is shown to be
+                                NP-hard. However, a sufficient condition
+                                is derived under which the problem is
+                                solvable in polynomial-time. In
+                                addition, a decomposition of the first
+                                problem into independent tractable and
+                                intractable subproblems is derived. A
+                                general (not necessarily
+                                polynomial-time) solution construction
+                                procedure based on the decomposition is
+                                presented. The optimality of the
+                                procedure is proved. The result
+                                generalizes the one in [Moyles and
+                                Thompson 1969] for the minimum
+                                equivalent graph problem for unweighted
+                                directed graphs. <br>
+                                <strong><br>
+                                  Biography: </strong><br>
+                                <br>
+                                Kin Cheong Sou received a Ph.D. degree
+                                in Electrical Engineering and Computer
+                                Science at Massachusetts Institute of
+                                Technology in 2008. From 2008 to 2010 he
+                                was a postdoctoral researcher at Lund
+                                University, Lund, Sweden. From 2010 to
+                                2012 he was a postdoctoral researcher at
+                                KTH Royal Institute of Technology,
+                                Stockholm, Sweden. Until December 2016
+                                he was an associate professor (docent)
+                                with the department of Mathematical
+                                Sciences, Chalmers University of
+                                Technology and the University of
+                                Gothenburg, Sweden. Dr. Sou has been
+                                with National Sun Yat-sen University in
+                                Taiwan since February 2017. <br>
+                                <br>
+                                His research interests include
+                                cyber-physical systems analysis and
+                                design, smart grid and cities, discrete
+                                and graph optimization and theory,
+                                convex/non-convex optimization and
+                                dynamic systems theory.</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td class="bg-c-empty" width="25">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="5" bgcolor="#7C8CA9" align="center">
+              <table class="cdt" cellspacing="0" cellpadding="5" width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">Copyright 2018 Department of
+                      Electronic &amp; Computer Engineering</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </blockquote>
+    <br>
+    <pre class="moz-signature" cols="60">-- 
+Rita Wong
+Dept of Electronic &amp; Computer Engineering
+HK University of Science &amp; Technology
+Clear Water Bay, Kowloon, Hong Kong
+
+Tel: (852)2358 8511, Fax: (852)2358 1485
+</pre>
+  </body>
+</html>
+
+--------------3F406E0DBF30F27F55ACC185--

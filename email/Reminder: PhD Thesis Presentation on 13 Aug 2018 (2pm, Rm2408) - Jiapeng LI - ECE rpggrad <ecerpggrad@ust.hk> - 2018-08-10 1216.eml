@@ -1,0 +1,549 @@
+Received: from SG2PR01MB2250.apcprd01.prod.exchangelabs.com
+ (2603:1096:202:14::22) by HK2PR01MB1012.apcprd01.prod.exchangelabs.com with
+ HTTPS via HK2PR04CA0054.APCPRD04.PROD.OUTLOOK.COM; Fri, 10 Aug 2018 04:18:04
+ +0000
+Received: from SG2PR01CA0115.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:40::19) by SG2PR01MB2250.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:42::16) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1038.23; Fri, 10 Aug
+ 2018 04:18:00 +0000
+Received: from HK2APC01FT113.eop-APC01.prod.protection.outlook.com
+ (2a01:111:f400:7ebc::200) by SG2PR01CA0115.outlook.office365.com
+ (2603:1096:4:40::19) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1038.19 via Frontend
+ Transport; Fri, 10 Aug 2018 04:18:00 +0000
+Authentication-Results: spf=none (sender IP is 143.89.14.70)
+ smtp.mailfrom=lists.ust.hk; connect.ust.hk; dkim=none (message not signed)
+ header.d=none;connect.ust.hk; dmarc=none action=none header.from=ust.hk;
+Received-SPF: None (protection.outlook.com: lists.ust.hk does not designate
+ permitted sender hosts)
+Received: from sympa.ust.hk (143.89.14.70) by
+ HK2APC01FT113.mail.protection.outlook.com (10.152.248.178) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.1038.13 via
+ Frontend Transport; Fri, 10 Aug 2018 04:17:33 +0000
+Received: from sympa.ust.hk (localhost [127.0.0.1])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w7A4H8rU005545;
+	Fri, 10 Aug 2018 12:17:08 +0800
+Received: (from sympa@localhost)
+	by sympa.ust.hk (8.14.4/8.14.4/Submit) id w7A4H8bE005544;
+	Fri, 10 Aug 2018 12:17:08 +0800
+X-Authentication-Warning: sympa.ust.hk: sympa set sender to ece_mphil-owner@lists.ust.hk using -f
+Received: from mx2.ust.hk (mx2.ust.hk [143.89.12.152])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w7A4GU0I005503;
+	Fri, 10 Aug 2018 12:16:30 +0800
+Received: from mx1.ece.ust.hk (mx1.ee.ust.hk [143.89.45.248])
+	by mx2.ust.hk (8.14.4/8.14.4) with ESMTP id w7A4GUQ7023142;
+	Fri, 10 Aug 2018 12:16:30 +0800
+Received: from ee.ece.ust.hk (ee.ece.ust.hk [143.89.44.247])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id 61F122B1686;
+	Fri, 10 Aug 2018 12:16:21 +0800 (HKT)
+Received: by ee.ece.ust.hk (Postfix)
+	id 5900610CFB; Fri, 10 Aug 2018 12:16:21 +0800 (HKT)
+Delivered-To: rpg@ece.ust.hk
+Received: from mx1.ece.ust.hk (mx1.ece.ust.hk [143.89.45.248])
+	by ee.ece.ust.hk (Postfix) with ESMTP id 51BEA1C77;
+	Fri, 10 Aug 2018 12:16:21 +0800 (HKT)
+Received: from mx4.ust.hk (mx4.ust.hk [143.89.12.154])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id 2DAFA2B15FF;
+	Fri, 10 Aug 2018 12:16:11 +0800 (HKT)
+Received: from [143.89.131.137] (eepc137.ee.ust.hk [143.89.131.137])
+	(authenticated bits=0)
+	by mx4.ust.hk (8.14.4/8.14.4) with ESMTP id w7A4G7Ak023859
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NOT);
+	Fri, 10 Aug 2018 12:16:07 +0800
+CC: ECE rpggrad <ecerpggrad@ust.hk>, <jliaz@connect.ust.hk>, Man WONG
+	<eemwong@ust.hk>
+Subject: Reminder: PhD Thesis Presentation on 13 Aug 2018 (2pm, Rm2408) -
+ Jiapeng LI
+To: <alleee@ece.ust.hk>, <rpg@ece.ust.hk>, <ra@ece.ust.hk>
+References: <5b67c46cc52a4> <aeac01eb-aa93-e35f-a2b5-d4c42227f0ab@ust.hk>
+From: ECE rpggrad <ecerpggrad@ust.hk>
+Message-ID: <d2c364cf-97db-0b37-f3c8-13883a6f082b@ust.hk>
+Date: Fri, 10 Aug 2018 12:16:07 +0800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.8.0
+In-Reply-To: <aeac01eb-aa93-e35f-a2b5-d4c42227f0ab@ust.hk>
+Content-Type: multipart/alternative;
+	boundary="------------8463BDAF87F547127DACB414"
+Content-Language: en-US
+X-ECE-MailScanner: Found to be clean BY HKUSTECE, Found to be clean BY HKUSTECE
+X-ECE-Spam-Status: No, No
+X-ECE-MailScanner-Information: Please contact the ISP for more information
+X-ECE-MailScanner-ID: 61F122B1686.A7F7D
+X-ECE-MailScanner-From: ecerpggrad@ust.hk
+X-ECE-MailScanner-Watermark: 1534479381.47307@k58uRev+JmjsENr/I7/yLQ
+Reply-To: ECE rpggrad <ecerpggrad@ust.hk>
+X-Loop: ece_mphil@lists.ust.hk
+X-Sequence: 428
+Errors-to: ece_mphil-owner@lists.ust.hk
+Precedence: bulk
+Sender: <ece_mphil-request@lists.ust.hk>
+X-no-archive: yes
+List-Id: <ece_mphil.lists.ust.hk>
+List-Help: <mailto:sympa@lists.ust.hk?subject=help>
+List-Subscribe: <mailto:sympa@lists.ust.hk?subject=subscribe%20ece_mphil>
+List-Unsubscribe: <mailto:sympa@lists.ust.hk?subject=unsubscribe%20ece_mphil>
+List-Post: <mailto:ece_mphil@lists.ust.hk>
+List-Owner: <mailto:ece_mphil-request@lists.ust.hk>
+Return-Path: ece_mphil-owner@lists.ust.hk
+X-MS-Exchange-Organization-ExpirationStartTime: 10 Aug 2018 04:18:00.0595
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-MS-Exchange-Organization-Network-Message-Id: 3cad4360-e274-42d5-e23a-08d5fe78420e
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Matching-Connectors: 131783482800595514;(e96f7d06-d3c9-4f06-8531-08d4e618e065);()
+X-Forefront-Antispam-Report:
+ CIP:143.89.14.70;IPV:CAL;CTRY:HK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:SG2PR01MB2250;H:sympa.ust.hk;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;HK2APC01FT113;1:Mj99SAUMR9k4N+hgiOI7nnQpMAoXBkCddwOy704gguwZSfQctEWnZVySzq6i9cliblkl7tN0LABjnI8xBQ02aIAXjhdNUYj93mu9merV3XoLmV7wdhVU7HZlcjXXirqg
+X-MS-Exchange-Organization-AuthSource:
+ HK2APC01FT113.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 3cad4360-e274-42d5-e23a-08d5fe78420e
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(7020095)(4652040)(5600074)(711020)(4605076)(1401180)(1404068)(71702078);SRVR:SG2PR01MB2250;
+X-Microsoft-Exchange-Diagnostics:
+ 1;SG2PR01MB2250;3:EtG26sXtrz6a5NEpUWpUXVOv1GSHxiEOyyO41gZlewCarPLekfCJE6aN2rUz6nL/j3C+P06rF4a+JbGs8bXw9Posy0/arSlzPMtDdzrYvyg0P9omhOAujeCHnSxAqAyih7JX6mugWY+f74jfwIveNlTNZiyASM3VNBsuLtzV1lSTVE9cJUZ8CVZV0sGxAZLdX0k8kg/38pSUO00yidqeUUdZ0JG9UZ/QrfEqdkHw81IpB5FJDsMi8nk+NVLLNREMXoRufCYD5M1FVZzBvTG0sD2QodRXgipsZyiM24aDhy26eAbsMyIS2tTi6itiTbYxvl3XHmmPbWtlKZb/jTG7vW7kPNFNgl1tyevYdvEILec=;25:IjqAYh8EIw0n5OJTLYAOiCaYm8cTsleevdU9u/mTGKWqD3/VUJ2hTNKHBpPyAdHNEi8EXB6pbuaq8BjGzf9PWAT5mgLfkoN6iXggswSh1CfqVGzf0hF2+6h82nrub3QfiLkK3n0O68e4+8915JhPxKGRYiIVKQPydi8xuVsYx2iNvcJf+5/5aYMf7gtrizBYgGtpXKPENeYBaIUtehNjOU0IYHzvyWCUD5FYXJDfS6DuI9Er4SJqcBRdTJYW3qyKENL03YO78ckr0vy0sGzGeZveOnQBBBfauD+BxX4VOUkkUrSmPmRNN3c8tenhHSoFVyaNEV3C2XJEzqZZeaCSEw==
+X-MS-TrafficTypeDiagnostic: SG2PR01MB2250:
+X-Microsoft-Exchange-Diagnostics:
+ 1;SG2PR01MB2250;31:soUlrNBYBvJCjRNZi6/ne9nf5segaSNrq1bx4zBTsVAux7b8KBLW/H74RqnOkkC6XyM/SmqzO3613K9sv157ELjHlU60L3422/hrVE7rr4ZyNjzocKkslxEJOjVa97/Xqos/PCF+ZrY/nLPQwKtRZ52WRFLBz/Yl9bQlU38lAQQkiZ2uA03tEtSncqQBEz5BD+zAcczj3lgruvzlfXDTLNl2usqqV5/dHY1GT3HWHyo=;20:Tks3cfSGurRKFY/1JchwaGrXiDal/ZMrMSvGIgWmZ6txbtOkzU8Eg0nifZCvtEZuwkaGE53s1s1hmuJuw8i2xdFrfCLI8MMJgc9cW5lvKZ0iNipsD1zoZJ38Y0k3MAzO7dFCyCq50xefhC30djEFZjizNXbVPo2hWpmqYOsU3I4aaE7ZRHpO8iraALkqlH3OzB0UlhOSxE+M4eBoiu68rE6DBXqHjGyIAaz7ss5PqMkf0kaee63Xsyn1Cl47HsVV28asRFMk4u14D9ZFJAi90mjRU0DjL+mEb+K2IQoxJK5gWboAoBGQ9HV4/WVPjy1qGVE7EYJ0tH/g7sQ2UxyJrpRn6J0tokNJo+9sPpFIQHMMX/NYoIkqkwi6HqD9meQZci9FV77bJDmF6pUh106khGWfcpcc/NCA8mlF863mXKb0LAcpyHbTjYkwwHFCipkUMYn7tLgAw8Z+mvEwCKBI2rwf9xrfSVYSS4wPYRjcvzu/J8Vpyp9z6lT72t81xWSKEMzHIEuluROPlNL9dW1czblg0O0Sjs1eNUgugyE8K1QWz3HmNvpb7QT2zz/PJ9G18/FeeJ+K0Xt8Het2Suy/cUb/nsY4wyyTeCCiOiW0bY8=
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-BypassClutter: true
+X-Exchange-Antispam-Report-Test: UriScan:(209352067349851)(17755550239193);
+X-Exchange-Antispam-Report-CFA-Test:
+ BCL:0;PCL:0;RULEID:(2018062399030)(2018011200283)(2401047)(8121501046)(1430482)(1431068)(1432130)(1551054)(823300264)(823330083)(9101536074)(93006095)(93001095)(3231311)(901025)(902075)(913088)(7045084)(944501410)(9300000166)(9301000214)(52103095)(52105095)(52106170)(52401285)(52601095)(52606095)(52505095)(52406095)(52403095)(52305095)(52206095)(1102011)(10201501046)(3002001)(1610001)(8301001075)(8301003183)(201708071742011)(7699016);SRVR:SG2PR01MB2250;BCL:0;PCL:0;RULEID:;SRVR:SG2PR01MB2250;
+X-Microsoft-Exchange-Diagnostics:
+ 1;SG2PR01MB2250;4:EigFsGVP9YdLbMTNI8/PYXWnEuhQO2G794dweZT5L0LkKWxrV6G7BNZQtcegvdJjiS7Mjfs4QclkRhIWXegZ3YeGDIe0iGhfbhUpwyYRFoC3+JmTeJeF6ZpaeBABVWQgZv80nBgtouuLuMIbdNwdVh6xa+UwQA/Ylp7lZG/A0uMw/ScyTnL5yt14qPqB5SAS2HvTAHxwZYh28fKGt4Ig1/GA0M20V5kZu1EVzhvyaDcX1mMT3gcGVOc2+V3CTMaD8REsYHNEy8NPemGoiScDlt1yq1AT9+eoyzBS7Rd4EJZmbBFvxl309oTGP7sa3hSdYo0MZ01001y2LS856kxEkEkPBqQpgvpJfRy3dZbimEk=;23:XfDxkvjjHcSjjPQ5PbxYptnCNBtt1en8g2e2z63V4PheoL2T1SktMUP2lO/YLjsNWeul2TMskJxQbd436B3kIuxIa6eDWB6USu1fBY5BI8lKm0SnFWSl9y1b90YPFlxhLnkrgaGpxuDoyEW1A+JmAK+hqQLe00dg2ZK7m8HOk5FiAyeu4TsvcBkWpS3uz+Rj
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?IEBdLfFfhJniJy7MGAqljbw40gKv/uP17C/R1rSDqdoe5oFk7Ova8AST/3bA?=
+ =?us-ascii?Q?9B9s1NG140naB75eAKuZ5MO478uagMAcbzHmGNa6BJk9tgkNNf602CKNMB1E?=
+ =?us-ascii?Q?edvhlIFWupB5kFteXf0Z/Ek4nF3A+JF9EZFUS+HR2avV1FeTXvE21QIvS6Rp?=
+ =?us-ascii?Q?eYgF+tqBjIR+/+S1dUEBJG2WQbfJvahRZz8S9fB5fwBm+wlalfNYDRkSWCAL?=
+ =?us-ascii?Q?1ZxxzebrYlz4cFdGO4TwGTfQ2fP/tlDpAj8uiuwBzsYr2gMgPoAXAe8BxTyZ?=
+ =?us-ascii?Q?2QNQPU8svQW/lEqJ1zkcBDsZr6LwNtJOye2A7RL2uWGSVQDbcp+xZu8UpS2M?=
+ =?us-ascii?Q?0V5nDDPinhnEslT1Di45eAb3pdJfyUbN4q4DJmrYesRtcO/8ePH/flgvEd/S?=
+ =?us-ascii?Q?VO4tmBYIfTtW2+8s4rjvV5Ed5N9Yi7NXwwV1S8ZmB+f3nfwnrW2ME+HuGvWM?=
+ =?us-ascii?Q?2flIpBiZ8oOo5GoL8CnAxd66jP7ebqKIru0+c/J9utVckzOOMmvYc7knphcV?=
+ =?us-ascii?Q?WArdUOmabyS1UUTsdedZ7MVwYCENbtWI3+muOuxfc1DZ+fP7guUlkWl5Uq1q?=
+ =?us-ascii?Q?fy4NPCUqXRTG3Yik9fuXw7+niE6ExWaGoia7aDME8Z21ZVvvhjDqi89UeCF7?=
+ =?us-ascii?Q?MG6ay+4KWy96xMyh+JR4uc8zvmP33TR7LCkCsOBSk/y758sSRLfXBnDD2mHU?=
+ =?us-ascii?Q?fNvAo1Ac4PQ1AK6/RClOT0mOan5MOTCjuIWm8oilGvl6JVj19rb8ZJSdJW9k?=
+ =?us-ascii?Q?NlFwFLmm+R53qGt5sQCqETSi8/OBe+HrmZjQKtTxAvUq2ZjN3lJuhpstdxyx?=
+ =?us-ascii?Q?XeXqN5e/fjPyX/NCEycTBfVueCutAvxQJFgFqPd6yvLzLRzNv1qxbw0DLT0B?=
+ =?us-ascii?Q?fx1lqO+ntrtY20Xji6DblwWgIwx3yK4Y+cYtIsX54URmeMjpg25AZgYXL25L?=
+ =?us-ascii?Q?MI4MgKdFr2qe0jRHk06pgXFjCYFruE1U8DJ5HxAyV+Dg6fc4bUWnKLLaDVvU?=
+ =?us-ascii?Q?3GqEY6dAAe74PVVjtKd//GjxAeY4NbLH94QXZAN6TtM532t3vfhao2SViuv6?=
+ =?us-ascii?Q?Y1xwGuSp?=
+X-Microsoft-Exchange-Diagnostics:
+ 1;SG2PR01MB2250;6:jLyJBK+uHuJNaprwzKLb/i77xGXmHg9MCwXpK+GevIIpmz6D9mu4+mbJRV1AQYhLmSD3HrHyJezbdCIQnNPyZ6UqeHLHwr9eh623eXPt7UdJf0boqNkzfy0oPqnqLD1PYINVB3GBXCBNnEfF0xa/KFooy22wldc07OaRvEtP6hv90SDkn+WZpvIppXb1SkEEMHmE5hk0A2Stb48YWFeqt3mAio15o3yHvOD7iw6FM+yxO9DzhzCBPGvKIJfFJXQdNKrYQL1vcvcBuNNOUfOJODB9skVhxXkX7DC4mqXQ2bwdPWRYgETiKttJMQ1y1LYWCIDNCFRebKG2V9ZHRduSCXDdZWupdLwj03qrRvLzb63KOk3VPN5dQybA4wr0FLIa2+7geYCtVDeLkhskQRhAvLvp8D5Y/HUF6xJOp6NWgQC36EF9wYJCBBwNmG+v7AGKJLWfcqFOY+D/XcXv8N/cew==;5:yov1VHfgjBOEi0Gbteuqur3T8HmGEjeHvPeqtKsMpmPTh0IJuxoRehOnKmjrGG3LlG7H7WPcK299p26fY9THo+2/AG9obRgcVwS3s2CwxK+PaZV7+e9vKl43YCRcTzLd2MKA94h4OqwTZ6R4q7gSlRuLELcE8a81uFWkwlGNCOw=;7:KAj+M4LJPCOAA5VA5gABirO0IyOyVAoGh+1QEKnXv9P/TpcUJ7Tzq18/rqlWP1GzbRqu2uW9IdHktQJAFY+w7MQjn2UJQdkZ77/XXthhZJSjnYLg9P0sAFHDi7rHlWyEKSNIxvlktinl4fCUbIPblKywm7K9kzmC24uvUiZ/J6PSVt11kfydHrDEaiJ7Y/0X6BszsP075bgtYOvuWr+KbjHKRNgHZsE6qWyTIIpXnDAY6SyHv8+VUv9Z1C+5zrW5
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: ca2853ad801f4d6bb04606bbac945a33
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 10 Aug 2018 04:17:33.7930
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3cad4360-e274-42d5-e23a-08d5fe78420e
+X-MS-Exchange-CrossTenant-Id: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SG2PR01MB2250
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:30.2324404
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.1038.000
+X-Microsoft-Exchange-Diagnostics:
+	1;HK2PR01MB1012;27:vw0figncm9LGLyv6ioK+6hzUqf5ylX2AaqHF0aZy7cs7P4KaIxTamQI8VyBPwIJQxPTsf1jIwp7ytisxsT4Zfubd+ylQgRE+h6LRYRNxmFozmXCtb5P8YmoyY0GAmIbf5G00OI0GHqZ+YfEjJ2/3t6o3dEu5RYnhouOSCdrX68tGM3NiS6zjfIiDXFxpEdCmhNXJugZbetsQUOeDOaCxcmvIZK9ZmfD/FoOVmy6gZpZzx2TTDLbVBMUdt7+OvO5VJFlH5kYUemRMvWKXVcbhywpG0dzw6E7tbXE+RSfyWK0dibSgd15mO77bH0r5UxkGw9QI+P+l6zFWcdOWHQ1f/ThyXcwfTPMGbgDlDPs37My0TitlACdByJ39B6cNsmKW
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750119)(520011016)(944506220)(944626516);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?djNCNXQ4UEoyb2J1MzY1YjZJVU1RRUJqVW52QllGdXc4ZHdxZ0NXaW5WYmdw?=
+ =?utf-8?B?SDdMVXBMWmYySGljWXZ1OWtraitKMHd2K2ljbDF4QXFMR2tmTGtaRlFyUWFE?=
+ =?utf-8?B?dE1sK3Fkc282QTh1MDVENnZXUzlpY0dTVHd5WS9ObFR0Rnl5LzZsb0RFdith?=
+ =?utf-8?B?bmxkSVU3R2w5dWdXQUNSSEovMjhJTm5nR241Zmh5NVNuemRiYTlaU1QyeXo1?=
+ =?utf-8?B?NTBOSGZUUk94eFFuUEpVUUNHb3doU0l6WVdJSCtaRjFPT1V6RE9DcEwwZ0RQ?=
+ =?utf-8?B?MW5ncm9OaTFSbkx6QmNyMUdSWlFuYURycnE5QjJteUFGeDhFZTNIVU9USTBm?=
+ =?utf-8?B?a1EwbTNxN29LZnlONzVWQ0NESDVsaW9xR3g5Z0l1Vks1Z2x4ZWYwTXI3YzE5?=
+ =?utf-8?B?bjZrVy80N3RmL1FrL2NoYzBGM0R6LzRkTXdlRnBjSE0yZU9HRmdWNU9uRllq?=
+ =?utf-8?B?SHNkdnFpc1BYd3JWS3pKTzJYelRVcG5IMnJjSkVXeGtyNjhmVmdoU1NiWDBC?=
+ =?utf-8?B?RXlVbWVyYng2ekV0aFg5dEh3Mi9MTnJkQmNNanZwWW0weGtQNlphdEFGdU5n?=
+ =?utf-8?B?ckQvSzZVVHVhRjRYRk1pVDlHWnZsNWEyTnp6b01RMmN6Tnp1MkVvMUZMMytF?=
+ =?utf-8?B?S2FLeEhtR3g5Ly9nc3JKRTVQTm01OUV0TWVOaW0waWhyUldCak9IUXdPemto?=
+ =?utf-8?B?ZTZNK2xZVHZxd2tvc3doenNvb2tBcGFCblZOQ1hhR0hiRW1qdXRkYWVwNFBx?=
+ =?utf-8?B?VzFMQjc2WGFBL1BKTU43MGlMb2xaN3cvQzRWNy80SkVtYndvOWYvRUVaM2hJ?=
+ =?utf-8?B?ZjdYUlBCajBaZlUxZnE0UHNQNUcyK1pnRUNiek1ZT2FteHI0ZFljanYrMkQ0?=
+ =?utf-8?B?dXl5Y2VlSUc0VDM5bis4Y3ZQa0JvVk5qdWRleWJERGRBelQwUmE2VjFiWE9G?=
+ =?utf-8?B?dmR3dkZwejRpalF2YjBEaTJVZFErb01kaTZLTVZ2NGw2SS8wcmF5dVRPalBK?=
+ =?utf-8?B?RFVFdE1KU0x3K1YxY1o3SWRwOFlkSDd6cHF3YkRQZWRmcUpHVFl6bS92aWx3?=
+ =?utf-8?B?MlNoMGdqaWxuSXUram9PT29PYm94YTBsR09EZXVjSkFDbzIwSFZRL3d6c3V5?=
+ =?utf-8?B?T2hRV3F1NWhRS2xlQ1A4UUk4aTFnNVMvOWdZTkt3Z0VjalIvZk0zVGh6L29N?=
+ =?utf-8?B?aHhUazFGbW45ZjQ0ellOMXpXMUNvdExKL0RlbmhjYUhSQ0VnM3VkQ2pTbXZI?=
+ =?utf-8?B?dEV5MTNWUVk1Q1FJRzlsV1c1aWl5RW84ZlphK2lQZUV2NGZBYUg0R2MvVFJ6?=
+ =?utf-8?B?R1d2N09lSWV1eDNZTmpIWGltQmNXQ2ZTQ25jaHl3RHlFb1VOaDdyc29NUENv?=
+ =?utf-8?B?UlRSUmJQc2FXOTdoMWlRMlBTMTJuYzdYa3hlTkpraEVkVTFZYnZERU15QzN0?=
+ =?utf-8?B?NWRJM2RTWjhtdEloWUtTUytwUVEvV2ZZUDlCbWJ6TmtTUHI3M3lDWEtaMENx?=
+ =?utf-8?Q?TUKCrXHUxl2d9g3cEFPsMOzJRXN?=
+MIME-Version: 1.0
+
+--------------8463BDAF87F547127DACB414
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+On 6/8/2018 11:51 AM, ECE rpggrad wrote:
+>
+>
+>
+> HKUST - Department of Electronic & Computer Engineering
+> If you are having problems viewing this email, view it online HERE 
+> <http://www.ece.ust.hk/ece/../ece.php/event/detail/1824>.
+>
+> 	
+> 	
+> PhD Thesis Presentation
+> On Process-Simplification and Reliability of Elevated-Metal 
+> Metal-Oxide Thin-Film Transistor
+>
+> by Jiapeng LI
+>
+>
+> Date
+> 	 : 	13 Aug 2018 (Mon)
+> Time
+> 	 : 	2pm
+> Venue 	 : 	Room 2408 (Lifts 17-18), 2/F Academic Building, HKUST
+>
+>
+> /*Thesis Examination Committee*/
+> Prof Ke YI, CSE/HKUST (Chairperson) /(newly appointed)/
+> Prof Man WONG, ECE/HKUST (Thesis Supervisor)
+> Prof Shengdong ZHANG, School of Electronics Engineering and Computer 
+> Science, Peking University (External Examiner)
+> Prof Hoi Sing KWOK, ECE/HKUST
+> Prof Patrick YUE, ECE/HKUST
+> Prof Jiannong WANG, PHYS/HKUST
+> /*Abstract*/
+> With their relatively lower process temperature, higher field-effect 
+> mobility, lower leakage current and higher transparency, metal-oxide 
+> semiconductors (MOs) such as zinc oxide and its variants are being 
+> pursued as promising alternatives to silicon-based materials for the 
+> construction of thin-film transistors (TFTs) in next-generation 
+> flat-panel displays. However, architectural limitations and 
+> reliability issues of MO TFTs currently hinder wider application of 
+> the technology to the construction of displays.
+> A three-mask architecture has been proposed for the realization of an 
+> elevated-metal metal-oxide (EMMO) TFT with a (mask-less) self-aligned 
+> definition of the active island. The process-simplified device, dubbed 
+> 3-EMMO TFT, merges all benefits of the two conventional bottom-gate 
+> transistor architectures: a lower manufacture cost, a smaller device 
+> footprint, reduced overlap capacitances and better device characteristics.
+> Superior to the conventional stretched-exponential equation for 
+> interpreting the time-dependence of the shift in the turn-on voltage 
+> of a MO TFT under stress, a more physically based model incorporating 
+> the photo-generation, transport and trapping of holes is presently 
+> formulated. It is theoretically deduced and experimentally verified 
+> that the degradation kinetics is either generation- or 
+> transport-limited, depending on the magnitude and direction of the 
+> local electric field inside the channel but normal to the 
+> channel/interface during the stress. The correlation of the origin of 
+> TFT degradation and oxygen-vacancy (Vo) related defects is clarified 
+> in the model and studied by conducting a comparison of the effects of 
+> post-metallization oxidizing and non-oxidizing annealing. Accordingly, 
+> an oxidizing-last annealing is suggested to reduce the population of 
+> Vo in MOs to improve TFT reliability.
+> Finally, a 1.22-inch, in-plane switching liquid-crystal watch panel 
+> based on EMMO TFT technology is designed, fabricated and tested. The 
+> successful demonstration of the watch panel verifies the feasibility 
+> of applying EMMO TFT technology to construct flat-panel displays.
+> *** ALL ARE WELCOME !! ***
+>
+> 	
+>
+> Copyright 2018 Department of Electronic & Computer Engineering
+>
+
+
+--------------8463BDAF87F547127DACB414
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <div class="moz-cite-prefix">On 6/8/2018 11:51 AM, ECE rpggrad
+      wrote:<br>
+    </div>
+    <blockquote type="cite" cite="mid:aeac01eb-aa93-e35f-a2b5-d4c42227f0ab@ust.hk">
+      
+      <p><br>
+      </p>
+      <div class="moz-forward-container"><br>
+        <title>HKUST - Department of Electronic &amp; Computer
+          Engineering</title>
+        <style type="text/css">
+<!--
+a.link {
+	color: #FFFFFF;
+}
+.cntM {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #666666;
+}
+.cntMb {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntMSubtitle {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+}
+.cntL {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 16pt;
+	text-decoration: none;
+	color: #3399FF;
+}
+.cntL2 {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 12pt;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntS {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 7pt;
+	line-height: 125%;
+	text-decoration: none;
+	color: #999999;
+}
+.cdt {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 8pt;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.cntM a:hover, .cntM a:active {
+	color:#7D198D;
+	text-decoration:underline;
+}
+.cntM a:visited, .cntM a:link {
+	color:#8080FF;
+	text-decoration:none;
+}
+-->
+</style>
+        <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" width="700" border="0">
+          <tbody>
+            <tr>
+              <td colspan="5">
+                <table class="cntM" cellspacing="0" cellpadding="10" width="100%" border="0">
+                  <tbody>
+                    <tr>
+                      <td bgcolor="#847788">
+                        <div align="center"><font color="#FFFFFF">If you
+                            are having problems viewing this email, view
+                            it online <a href="http://www.ece.ust.hk/ece/../ece.php/event/detail/1824" moz-do-not-send="true"><font color="#FFFFFF">HERE</font></a>.</font></div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr color="#FFFFFF">
+              <td colspan="5" bgcolor="#FFFFFF"><img src="http://www.ece.ust.hk/ece/../public/img/e_news_hdr.jpg" moz-do-not-send="true" height="150" width="700"></td>
+            </tr>
+            <tr bgcolor="ffffff">
+              <td valign="top" bgcolor="#FFFFFF"><img src="http://www.ece.ust.hk/ece/../public/img/spacer.gif" moz-do-not-send="true" height="10" width="25"></td>
+              <td style="background:url(&quot;http://www.ece.ust.hk/ece/../public/img/e_news_gpx.jpg&quot;);
+                background-repeat:repeat-y; background-position:right" valign="top" bgcolor="#FFFFFF"><br>
+                <table class="cntM" cellspacing="0" cellpadding="0" width="100%" border="0">
+                  <tbody>
+                    <tr valign="top">
+                      <td class="bg-c-empty">&nbsp;</td>
+                      <td class="content">
+                        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                          <tbody>
+                            <tr>
+                              <td class="cntM"><font color="#3399FF">PhD
+                                  Thesis Presentation</font></td>
+                            </tr>
+                            <tr>
+                              <td class="cntM"><span class="cntL2">On
+                                  Process-Simplification and Reliability
+                                  of Elevated-Metal Metal-Oxide
+                                  Thin-Film Transistor</span>
+                                <p class="cntMSubtitle">by Jiapeng LI</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <table class="cntM" cellspacing="0" cellpadding="0" border="0">
+                          <tbody>
+                            <tr valign="top">
+                              <td class="content">Date<br>
+                              </td>
+                              <td class="content">&nbsp;:&nbsp;</td>
+                              <td class="content">13 Aug 2018 (Mon)</td>
+                            </tr>
+                            <tr valign="top">
+                              <td class="content">Time<br>
+                              </td>
+                              <td class="content">&nbsp;:&nbsp;</td>
+                              <td class="content">2pm</td>
+                            </tr>
+                            <tr valign="top">
+                              <td class="content">Venue</td>
+                              <td class="content">&nbsp;:&nbsp;</td>
+                              <td class="content">Room 2408 (Lifts
+                                17-18), 2/F Academic Building, HKUST</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <br>
+                        <table cellspacing="0" cellpadding="0" border="0">
+                          <tbody>
+                            <tr>
+                              <td class="cntM">
+                                <div style="text-align: justify;"><em><strong>Thesis
+                                      Examination Committee</strong></em></div>
+                                <div>Prof Ke YI, CSE/HKUST
+                                  (Chairperson)&nbsp; <i><font color="#ff0000">(newly appointed)</font></i><br>
+                                </div>
+                                <div style="text-align: justify;">Prof
+                                  Man WONG, ECE/HKUST (Thesis
+                                  Supervisor)</div>
+                                <div style="text-align: justify;">Prof
+                                  Shengdong ZHANG, School of Electronics
+                                  Engineering and&nbsp;Computer Science,
+                                  Peking University (External Examiner)</div>
+                                <div style="text-align: justify;">Prof
+                                  Hoi Sing KWOK, ECE/HKUST</div>
+                                <div style="text-align: justify;">Prof
+                                  Patrick YUE, ECE/HKUST</div>
+                                <div style="text-align: justify;">Prof
+                                  Jiannong WANG, PHYS/HKUST</div>
+                                <div style="text-align: justify;">&nbsp;</div>
+                                <div style="text-align: justify;"><em><strong>Abstract</strong></em></div>
+                                <div style="text-align: justify;">With
+                                  their relatively lower process
+                                  temperature, higher field-effect
+                                  mobility, lower leakage current and
+                                  higher transparency, metal-oxide
+                                  semiconductors (MOs) such as zinc
+                                  oxide and its variants are being
+                                  pursued as promising alternatives to
+                                  silicon-based materials for the
+                                  construction of thin-film transistors
+                                  (TFTs) in next-generation flat-panel
+                                  displays. However, architectural
+                                  limitations and reliability issues of
+                                  MO TFTs currently hinder wider
+                                  application of the technology to the
+                                  construction of displays.</div>
+                                <div style="text-align: justify;">&nbsp;</div>
+                                <div style="text-align: justify;">A
+                                  three-mask architecture has been
+                                  proposed for the realization of an
+                                  elevated-metal metal-oxide (EMMO) TFT
+                                  with a (mask-less) self-aligned
+                                  definition of the active island. The
+                                  process-simplified device, dubbed
+                                  3-EMMO TFT, merges all benefits of the
+                                  two conventional bottom-gate
+                                  transistor architectures: a lower
+                                  manufacture cost, a smaller device
+                                  footprint, reduced overlap
+                                  capacitances and better device
+                                  characteristics.</div>
+                                <div style="text-align: justify;">&nbsp;</div>
+                                <div style="text-align: justify;">Superior
+                                  to the conventional
+                                  stretched-exponential equation for
+                                  interpreting the time-dependence of
+                                  the shift in the turn-on voltage of a
+                                  MO TFT under stress, a more physically
+                                  based model incorporating the
+                                  photo-generation, transport and
+                                  trapping of holes is presently
+                                  formulated. It is theoretically
+                                  deduced and experimentally verified
+                                  that the degradation kinetics is
+                                  either generation- or
+                                  transport-limited, depending on the
+                                  magnitude and direction of the local
+                                  electric field inside the channel but
+                                  normal to the channel/interface during
+                                  the stress. The correlation of the
+                                  origin of TFT degradation and
+                                  oxygen-vacancy (Vo) related defects is
+                                  clarified in the model and studied by
+                                  conducting a comparison of the effects
+                                  of post-metallization oxidizing and
+                                  non-oxidizing annealing. Accordingly,
+                                  an oxidizing-last annealing is
+                                  suggested to reduce the population of
+                                  Vo in MOs to improve TFT
+                                  reliability.&nbsp;&nbsp;</div>
+                                <div style="text-align: justify;">&nbsp;</div>
+                                <div style="text-align: justify;">Finally,
+                                  a 1.22-inch, in-plane switching
+                                  liquid-crystal watch panel based on
+                                  EMMO TFT technology is designed,
+                                  fabricated and tested. The successful
+                                  demonstration of the watch panel
+                                  verifies the feasibility of applying
+                                  EMMO TFT technology to construct
+                                  flat-panel displays.</div>
+                                <div style="text-align: justify;">&nbsp;</div>
+                                <div style="text-align: justify;">&nbsp;</div>
+                                <div style="text-align: justify;">&nbsp;</div>
+                                <div style="text-align: justify;"><span style="font-size: small;">*** ALL
+                                    ARE WELCOME !! ***</span></div>
+                                <div style="text-align: justify;">&nbsp;</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                      <td class="bg-c-empty" width="25">&nbsp;</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="5" bgcolor="#7C8CA9" align="center">
+                <table class="cdt" cellspacing="0" cellpadding="5" width="100%" border="0">
+                  <tbody>
+                    <tr>
+                      <td align="center">Copyright 2018 Department of
+                        Electronic &amp; Computer Engineering</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </blockquote>
+    <p><br>
+    </p>
+  </body>
+</html>
+
+--------------8463BDAF87F547127DACB414--

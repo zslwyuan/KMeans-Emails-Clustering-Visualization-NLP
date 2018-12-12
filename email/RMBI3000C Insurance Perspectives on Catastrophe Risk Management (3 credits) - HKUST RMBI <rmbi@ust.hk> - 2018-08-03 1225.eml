@@ -1,0 +1,562 @@
+Received: from HKXPR01MB0533.apcprd01.prod.exchangelabs.com
+ (2603:1096:202:1::17) by HK2PR01MB1012.apcprd01.prod.exchangelabs.com with
+ HTTPS via HK2P15301CA0007.APCP153.PROD.OUTLOOK.COM; Fri, 3 Aug 2018 04:38:13
+ +0000
+Received: from SIXPR01CA0017.apcprd01.prod.exchangelabs.com
+ (2a01:111:e400:b429::17) by HKXPR01MB0533.apcprd01.prod.exchangelabs.com
+ (2a01:111:e400:a410::28) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1017.15; Fri, 3 Aug
+ 2018 04:38:09 +0000
+Received: from PU1APC01FT028.eop-APC01.prod.protection.outlook.com
+ (2a01:111:f400:7ebd::208) by SIXPR01CA0017.outlook.office365.com
+ (2a01:111:e400:b429::17) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1017.14 via Frontend
+ Transport; Fri, 3 Aug 2018 04:38:09 +0000
+Authentication-Results: spf=none (sender IP is 143.89.14.70)
+ smtp.mailfrom=lists.ust.hk; connect.ust.hk; dkim=none (message not signed)
+ header.d=none;connect.ust.hk; dmarc=none action=none header.from=ust.hk;
+Received-SPF: None (protection.outlook.com: lists.ust.hk does not designate
+ permitted sender hosts)
+Received: from sympa.ust.hk (143.89.14.70) by
+ PU1APC01FT028.mail.protection.outlook.com (10.152.252.229) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.1038.3 via
+ Frontend Transport; Fri, 3 Aug 2018 04:37:32 +0000
+Received: from sympa.ust.hk (localhost [127.0.0.1])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w734WJUl013525;
+	Fri, 3 Aug 2018 12:32:49 +0800
+Received: (from sympa@localhost)
+	by sympa.ust.hk (8.14.4/8.14.4/Submit) id w734QjtG013245;
+	Fri, 3 Aug 2018 12:26:45 +0800
+X-Authentication-Warning: sympa.ust.hk: sympa set sender to allpg-list-owner@lists.ust.hk using -f
+Received: from mx4.ust.hk (mx4.ust.hk [143.89.12.154])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w734PqGJ013073
+	for <allpg-list@lists.ust.hk>; Fri, 3 Aug 2018 12:25:52 +0800
+Received: from MBX6.exchange.ust.hk (svrironadx4-ve1.ust.hk [143.89.12.193])
+	by mx4.ust.hk (8.14.4/8.14.4) with ESMTP id w734Pph5017541
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256 verify=NOT);
+	Fri, 3 Aug 2018 12:25:52 +0800
+X-CrossPremisesHeadersFilteredBySendConnector: MBX6.exchange.ust.hk
+Received: from MBX6.exchange.ust.hk (143.89.13.192) by MBX6.exchange.ust.hk
+ (143.89.13.192) with Microsoft SMTP Server (TLS) id 15.0.1076.9; Fri, 3 Aug
+ 2018 12:25:51 +0800
+Received: from MBX6.exchange.ust.hk ([192.168.168.8]) by MBX6.exchange.ust.hk
+ ([192.168.168.8]) with mapi id 15.00.1076.010; Fri, 3 Aug 2018 12:25:51 +0800
+From: HKUST RMBI <rmbi@ust.hk>
+To: "allug-list@ust.hk" <allug-list@ust.hk>, "allpg-list@ust.hk"
+	<allpg-list@ust.hk>
+Subject: RMBI3000C Insurance Perspectives on Catastrophe Risk Management (3
+ credits)
+Thread-Topic: RMBI3000C Insurance Perspectives on Catastrophe Risk Management
+ (3 credits)
+Thread-Index: AdQpceYyMfFEEJDbQqCvXi4A58WjEAABWqmAACeCQYAAMym/0A==
+Date: Fri, 3 Aug 2018 04:25:51 +0000
+Message-ID: <3fd677a82ff44992828c14272ca4fb92@MBX6.exchange.ust.hk>
+References: <53acff39b3674941bc3172581331871a@MBX6.exchange.ust.hk>  
+Accept-Language: zh-HK, en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [143.89.199.57]
+Content-Type: multipart/signed; protocol="application/x-pkcs7-signature";
+	micalg=SHA1; boundary="----=_NextPart_000_0000_01D42B25.17E51360"
+X-OrganizationHeadersPreserved: MBX6.exchange.ust.hk
+Reply-To: HKUST RMBI <rmbi@ust.hk>
+X-Loop: allpg-list@lists.ust.hk
+X-Sequence: 1425
+Errors-to: allpg-list-owner@lists.ust.hk
+Precedence: bulk
+Sender: <allpg-list-request@lists.ust.hk>
+X-no-archive: yes
+List-Id: <allpg-list.lists.ust.hk>
+List-Archive: <http://lists.ust.hk/sympa/arc/allpg-list>
+List-Help: <mailto:sympa@lists.ust.hk?subject=help>
+List-Owner: <mailto:allpg-list-request@lists.ust.hk>
+List-Post: <mailto:allpg-list@lists.ust.hk>
+List-Subscribe: <mailto:sympa@lists.ust.hk?subject=subscribe%20allpg-list>
+List-Unsubscribe: <mailto:sympa@lists.ust.hk?subject=unsubscribe%20allpg-list>
+Return-Path: allpg-list-owner@lists.ust.hk
+X-MS-Exchange-Organization-ExpirationStartTime: 03 Aug 2018 04:38:08.3799
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-MS-Exchange-Organization-Network-Message-Id: f16646b8-06e6-461a-b238-08d5f8fae961
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Matching-Connectors: 131777446883799608;(e96f7d06-d3c9-4f06-8531-08d4e618e065);()
+X-Forefront-Antispam-Report:
+ CIP:143.89.14.70;IPV:CAL;CTRY:HK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:HKXPR01MB0533;H:sympa.ust.hk;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;PU1APC01FT028;1:LokbBP91f3VKsV5fHqcq6Y4H50BMEb6Rv7U8kmeuGf3o/oeJNBdzQStYVuDTCBed4dEezxIM2s22gMAgzqgTzQoi4EQG2oSzoKpQGvVeC9fj/9Q9JdyspOTbV6CdKgL/
+X-MS-Exchange-Organization-AuthSource:
+ PU1APC01FT028.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: f16646b8-06e6-461a-b238-08d5f8fae961
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(7020095)(4652040)(5600074)(711020)(4605076)(1401180)(1404068)(71702078)(7193020);SRVR:HKXPR01MB0533;
+X-Microsoft-Exchange-Diagnostics:
+ 1;HKXPR01MB0533;3:oL0/4BgC66iByz2dWhsIzYHac5fJ3MpxSfrtN4DCXdlNoSVOtZYcyHkIfaXVF3/jaSP3j+BDPXGhNEIORf1RJwRllA4ol4bz9l5M3szFrkZ5Ks/8vcLvIgld09HNqiFybJtrNLRSRNpMd93JIexm4gY6zy0R2KbKLb/G4lZWUVGX4uDyk4GpjoUeWxIJvv1uu3MwIL4BXnLsUtMzH1YS3SMH+wQ/1BfNqLRQFExAQmGJJaWa1gmy9RBESkLzn64GZiRNQ28RIJQqUes7kR6tBjUzX60objgaTzdLEy1ahVqxpStjXR/wM9PqySnEmVPD9VfGnYdDT5GiDBswS2RcPrmVfKWVkT1aDx7hSKHTDjQ=;25:07b5304pBG5LrTHBlIVTb+BzefMJnlRY8NInxl2wNgSBy6HM+h+W9q3NjylWU5huyJx9HzEJcBpYnZxHWSioF2xIKrZ9w4yuZqpqaZ15EsPoXJ7UsdH0WH9WrsRxh/WJZfjhKnorkvkS6yey+UFkkXbwWbrI0yCqC0IZfZUseIu6T8n2JMEO6EkD883EBiWxNEljxo+hXWn5fRAITsDEFTru1W2/8YeXI9AxtaEp9+vBB6nWdrgEAX13Sd+NeWpOf/cnBOYJ7/dnCXQmR1LyAMuiL2p1zsVWk+Aog26hYVptrxyF+sGaXir2yQhmNFCrTfUh1bcgi8I8NkIu5Jhztw==
+X-MS-TrafficTypeDiagnostic: HKXPR01MB0533:
+X-Microsoft-Exchange-Diagnostics:
+ 1;HKXPR01MB0533;31:iEywdiXSYt4R68sw7FLZFRKaniQPAOXR8ynsq/EyRaEQE0coaEUdiC9HtpM9esDNkoTuewLpOqT9tK4q7U6QG68FDelRkY1T5HUm0SrL/ZF4YOTGki7cdc5/CzdhaJig2tlWE+RMeCSNQWCWXObTEFpF0vMAERa6N6nFCzfSuGtvIFd+wljCrvpgfBO9jamwjsiesT1oFeq4nU307tJnHd+xJAx319P/grqMAqnfseM=;20:FlgwWh93tdmrqotsfwDkdFueKBTmvxoGGYp3GNhTiV87j8VdbK5L1uH7KWWuGfHXVmZltdLQi66d/9A6W/D6d6UomNaQFpmJ3JHyhecTERRunM+rY5Fp1/aOiS0avWu+BQZuYU8K+ZRrO9La91CVtsQIafSl26gro5ozlDcI/rtcklYlN7Vp2XqgpsFScvFdsRM/QEjBfFfqx8TNtQoeG+bMpvT6hjA42tMTmWalfhnM39yxpBW5FYcKx7U2ej1dGhUP3S0UhVgdl7681he6pnMM0cTZlIL0htMB139dTcGpkAsoSGq3j4EPF7DCEQ3XmutiDsIZFyzbeYr8X3lIM3VVhuhppXnq8WXsE5/ro9PGtutFF1s4w3HJKE953mWCK3bFPEQNpxxPWCzvb2f10gnjvzMX1rOZ9tPa9V8wyfrvtvh/PA6GtjOHu7BdjN4Y7/lVaGqNyJCINLKLG0Q+qCoMG5EYASiS7mJZQeGlpamOIk0rU2UqsKRkDWAAeRE7Rlck83g7C0XHd17twsTALflCZZGtSf5P7t2Nvfn3vnX/JXg6/VWGsW+uSCaDXZxiXOq34y/spOQ8w3DoYl7lKxFiIo2ngsf4QoR9XD5gYdQ=
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-BypassClutter: true
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test:
+ BCL:0;PCL:0;RULEID:(2018062399030)(2018011200283)(2401047)(8121501046)(1430482)(1431068)(1432130)(1551054)(823300264)(823330083)(9101536074)(3002001)(93006095)(93001095)(10201501046)(3231311)(901025)(902075)(913088)(7045084)(944501410)(9300000166)(9301000187)(52103095)(52105095)(52106170)(52401285)(52601095)(52505095)(52406095)(52305095)(52206095)(1102011)(1610001)(8301001075)(8301003183)(201708071742011)(7699016);SRVR:HKXPR01MB0533;BCL:0;PCL:0;RULEID:;SRVR:HKXPR01MB0533;
+X-Microsoft-Exchange-Diagnostics:
+ 1;HKXPR01MB0533;4:8klMUCyoWkghOIIHrDuj9P/nHyWB8p948yuPWdjTqHW2bWOItSIwr2TtbuddWcBBJ70LM8ROnV3uS978FvlIUlWqfAOv8302S4fz6/W8LE67QWAl1rw/CqaVtn+Dsbq6KcPx/dTVVOkeffPU7SGgn3qE6j9A8CeegUB4O6aBU+eYljhGEyuYTQ363F1Acv8N/jMiwdr/bFGJPIrUvVpOfvAcz1MgLajmuXxug0oOb1OrD2OJpxRJPxmEOvRuxeF6aKVarWJ75drCy8xvXBeOwkssjDkccfEZDGgmgWSxEEQYwv7G6mld8L50Cr0x2tOPYgN++3cZWcqutk9mnMCnwU3gRk5+6QevGuf4VtkQ0Bw=;23:SKtOsDmmL1l9AsBy5VqGU6wbndGGFZkpGVdG8U6Ey00u394LmG+soPaUAZglDYeLpR7qUdd7fy/M7pGZ9qPcI+xH+nVHnz96S3qGrhBgZplZMCTonjUNHJt/uThAGBwMr34e1s+H5eRId2svpvIx0hX5xAnSG7DKzhznxzull/9DY/UerHclv/OnXuS7wC80
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?V23bahJIdXYsa5Z+fyjUhJDxEBhnliMEbPJZzA7JbGbFQq/OqcxfKys95UZ+?=
+ =?us-ascii?Q?NVKorM+hvZEEaNHLgcq8Cawk+Ekvbk9Qkyg4fiSmGaoaTqIShlcYa7kfzEOw?=
+ =?us-ascii?Q?hCVvbxoCHreYC77OGDLZqTcXok4+BWy4P8bBgZREzP6JkXODJEfIEKrlM8dj?=
+ =?us-ascii?Q?XyIj7Z2yUIPzvdUQQMtQc5ZBg/fVdLY6gTbyYD9COcwSjlD1JGR8wJBE9cwx?=
+ =?us-ascii?Q?brCY+MCeLY6wBHHj74JGadzH08OGltVlPFnqUbpc+lPzv2algUGRQxVZiMWU?=
+ =?us-ascii?Q?Weh2txZSx7WZ0gm5MBAhMMOD+2oD1Wj8KreGL1+RlBwo661CpoavI8pOeNx1?=
+ =?us-ascii?Q?UY4EoOQABqz4ejr2v7O3NGUOnT/vU8BJyaKs2qi+bm0FfOceDnsFqoD9otiP?=
+ =?us-ascii?Q?Cavh53QS3oAMd0Z2jCqFPvUC28ylC1y9S+dBIZ19WjeDSx/nJ9Zq6S31f0xE?=
+ =?us-ascii?Q?VyKT27sg2vCeEu+Y8mtRmlEtmxUdhjHSkNfPdOUhCgjO0uiLNacSv1HAvDjM?=
+ =?us-ascii?Q?7+DLntDPuy0QzUqZ3UuVBL9euM5Q/T0ZIJ/RZHYxjBu9+bXnjkvOXcEGhnu0?=
+ =?us-ascii?Q?MPz83a3E2hfRxgYgMrGcCY8GxaSGHg0Mja0G5rwz70ZeE7FbiRcHJIHZ1U5u?=
+ =?us-ascii?Q?jJQyq6jyWS++AEgeTJ08BX/2ZQ9BAs8caCO4wN1wZK4FjP72Zfi9GA0nJAq5?=
+ =?us-ascii?Q?dUXGpiONYLsOIvCX/FVF+up4bgLHWap+tcpTXZ2wHxAU7P1iJakYhs5l4qSZ?=
+ =?us-ascii?Q?taZ5bYnOgBKyiFpZBZBJUqBjeHNZ8SPBGJK+5ZniDlEBNXEc6gKn+JL3wkyu?=
+ =?us-ascii?Q?9uWTbEyBhf5NSljkZLW+5JJMXkN3XKAfTgB8B7hjQPUhH/gu8qib3SpMLyXg?=
+ =?us-ascii?Q?p3kSJn3J90gqK8+1qSQg6XtQi9X2gb0dCYE91Bxa8Yqyak0DndDt4/D/bqpo?=
+ =?us-ascii?Q?Q68eS4Pi+WO70i1zIOpEDA=3D=3D?=
+X-Microsoft-Exchange-Diagnostics:
+ 1;HKXPR01MB0533;6:vahLJQW7GmiPYDW0fzU/lrSpb+uMe3hVUXSCAEEmSPwyJNUorXPhyxeC9YWXIWms8NbKVJ6MtuaHbVwiWouSIPeebEHzZ8IIX+JAGIsoBhFmcAKgKmmDIJ0dhTgUeKofJ2gVo2rVAY4oqFB6PDLOM/kLSiej25JEJapMReOSnjb8wp1lGchSh6nUvlh3FodnZmuHpB0+bY8dM0h2AEFs9oQmFXRl3jGSN0XlGzrajBFibfqCi4lphi1KMUjZsT4xwrX4oZm/OVWUHxULxpUbRFgIk7XN/zGdqE5kTt7MJPmLT6Qy2BFFJBBrzh9yCXwDFZIEii3j2IAibnAPPP4XpI1PYEWaABlEd80CvRIpv21ImZZuualay+nkwjVwCDoI6OWuuHoLg81BlnK8hH7yflzgEUjxDJWAE0DUS+xzIGHkm/2RIzpEF+5zmPSQuMRXwbnOjXW/1/m6JwYKkDa0ag==;5:6D3guWgn/AHPYHKQO6S/o7hednU3JsG62yBQFjGrdOo19tWOujgwvRNrUnXnVgN/E8xLPStIGc503poCFMvggWqXgEal6J1ojjN/fveoubSse4SVg4L42T0PTUpdw4oQpKVk5EcAjGsGGSNwj/Tuwl4z1P4CdAN8NFcoPm1E408=;7:EBRB8GPSJjI69QtLKgZ6+U7hlCf9pN2MyZV/GPfzWLyF86YFM7SC5U9iJe/h8lnqjOqKhgoFuEuS8ZB2vLl3Effhj2VKlOJbEcHUycKz5tYn+b76j/DegNhhJj0k8r6E/UA/RBGH+or2UrcaO5FGRb6f3ktAd07tfVf39gKStbEkgyuyUtZzHFlurDiaDq8pS5IRN5+z+r3hRHolo5TfwIB/sA0Z9NTxfHvR4XGF/lLerHbYtK9WrUle5QBJTReY
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: ca2853ad801f4d6bb04606bbac945a33
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Aug 2018 04:37:32.2649
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: f16646b8-06e6-461a-b238-08d5f8fae961
+X-MS-Exchange-CrossTenant-Id: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HKXPR01MB0533
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:40.8851953
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.1017.000
+X-Microsoft-Exchange-Diagnostics:
+	1;HK2PR01MB1012;27:wyk5G/XGDt3ORLDRX8SeznJqIXqDAw8y8jEr8RgZa69xI4ol1YG1SrANWyedBfYF24Xovy6mEI1ok56F3JBGWPkQXFzHlOuAZJ8YDfGAfJnNg4K0YQlZww+LHmeRTbYi9f1cmZr8Fq59hIeNUUb1d1IAUn6NJhavogsRkIfrkcLZ7B2xO9V5BJ0/XQ9XIMwPMruM8HOxU9yCdDveGX0khpeMs/yvyOXJRHqnSqle6Vvb2h7Un1ZQu11nnlsbwrxZiiEpqMCb447zTsjt0OE8bO4Y4yLMj/7EzOFK0hz0p8/jENy8ZRIqIxR8au9Xx2pFAXOO4aATYiNAJpTgb0PiTeqbAo6Z3C7EWXH1e9ghT39PEW/2oDIqpro0oaoQaJiiQ2v4tUbc0A+tVaIb5ekSltI/eZp3ddW7M4OQWSrxXmjzkZPmhVitdlwjnqINMs1Y2/mojrgBv59qTDruvzFfJg==
+X-Microsoft-Antispam-Mailbox-Delivery:
+	wl:1;pcwl:1;ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750119)(520011016)(520004050)(702028)(944506220)(944626516);
+X-Microsoft-Antispam-Message-Info:
+	=?Windows-1252?Q?TeHL8f6++kNcRzC9QKxtbLLT2oHvMY/jGUR01uANUMk8EtfNSBJlTZnz?=
+ =?Windows-1252?Q?7HEGnhn8YRmFFIbz3XiFwWF6Q8vec33u61DiTk3Bi/zM4f00a7S4JMm/?=
+ =?Windows-1252?Q?JP9qIykaXbEB2CZex1x6A3yHq9TpHAXC7K4mLGK9IUOn/cvccv2GtJe2?=
+ =?Windows-1252?Q?3l/7IenZr/g4CfaREzjuLcUCQv++GI8owxrVJ84M7WhLzpRFjtM3l0Im?=
+ =?Windows-1252?Q?08pyvCmzQGPgkB4OtPXBkzZYnJXSBLAHw92R+6kQ3VxRl4zkyoKo6Qgl?=
+ =?Windows-1252?Q?l7zd8g6qW0HeRX9vNTftX/qOySqKfHuCNXy56XmTPLAmJKXpPhPCy5S8?=
+ =?Windows-1252?Q?fGyqAEfj37VgoeGSqwdRexVQGh/pIkJa2q+RMxKK8ky7HN8PHOdxmAoB?=
+ =?Windows-1252?Q?3p9DBWlyw+ZwZClBDk6/C+CO2F0TiwLLmPUlS3IySAoOxzeF+SAq+FKG?=
+ =?Windows-1252?Q?5nyn+6TPoo9ZVPGpbxPcCBs8sGkjfezbJPnSj2LLuneU0/occu6D0sHY?=
+ =?Windows-1252?Q?f7x54HlPkfgwUjyaObABmjegTOVw52/o/kv4jHcbbmVZ6ps6C1pZTsaT?=
+ =?Windows-1252?Q?lpW+ShLpJ+YM+80ams9lEo4GY4vXzXzIDUEFobiytOMW6NawtXWjpT7l?=
+ =?Windows-1252?Q?ckZJB5PkpduUhN2drChD5wyApq1HAH4/JvnBR2olSvoJWTXGe+WqOulK?=
+ =?Windows-1252?Q?6GiyZHYEP6iB1aGF2z8TZOKqNfBo1mzO+kD8SVTdF4bjUO0b1eGqW2tL?=
+ =?Windows-1252?Q?WbYztI7NHHLow/opt7glIoo9VNPfIuPY64VBdTfzURIUFVx1qLY+RVrN?=
+ =?Windows-1252?Q?XQZHgN66LdG+XjL/y7PYcNn2/FTeuWXJO+Y9DR0XcBFDdwSmloAAz/4K?=
+ =?Windows-1252?Q?BWaFKue12v44S9RsCHWIjpuPyXL4FyLyFmyK0qoRbpGCAlq/8k/bZVof?=
+ =?Windows-1252?Q?ryTqZMquWst6xwUC/1h3QIzYcKRGXYxg1xyYFAa0STqBRasO87f0swys?=
+ =?Windows-1252?Q?ihTI/gCzifg+p096IIqdau2Vx9kjTsMfDdAPl/UCLLzqwMiOONEqMExN?=
+ =?Windows-1252?Q?tR/0q1RYBF2bkAZrg12kQ0ww90J2Yl6D6Tcqgg=3D=3D?=
+MIME-Version: 1.0
+
+------=_NextPart_000_0000_01D42B25.17E51360
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_0001_01D42B25.17E51360"
+
+
+------=_NextPart_001_0001_01D42B25.17E51360
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear students, 
+
+ 
+
+We are pleased to inform you that RMBI will offer a 3-credit special topic
+course in the coming Fall 2018/19 - "RMBI3000C  Insurance Perspectives on
+Catastrophe Risk Management". ALL UG and PG students are welcome to take
+this course!
+
+ 
+
+Course title: 
+RMBI3000C Insurance Perspectives on Catastrophe Risk Management (3 credits)
+
+Course description
+
+Catastrophe risk management (CRM) is studied from non-life insurance and
+reinsurance perspective. Various forms of reinsurance contracts, portfolio
+management and solvency regulation will be discussed. The application of
+catastrophe models and pricing in assessing risk will be examined in
+details. Weather risk analysis and weather derivative markets will also be
+covered. Students shall learn how to embed crisis management into business
+emergency planning. 
+
+ 
+
+It examines the management of catastrophe risk (typhoon and earthquake) in
+the fields of nonlife insurance and reinsurance. The theory and practical
+aspects of risk management will be covered. Dr.Cheung will also share with
+you some real cases using his experience and teach you some technical skills
+in risk analysis. No pre-requisite is needed but some experience using EXCEL
+would be beneficial.
+
+ 
+
+About the Course Instructor
+
+Norman Cheung is a climatologist by training. He was Senior Lecturer in
+Environmental Hazards and Disaster Management at Kingston University London
+between 2004 and 2015. Then he came back to Hong Kong and worked as a Senior
+Catastrophe Analyst in SCOR reinsurance company (Asia) Ltd for China market
+until 2017. His expertise are catastrophe (tropical storms and earthquake)
+modeling, typhoon hazard, and environmental risk and disaster management.
+
+ 
+
+No. of Credits: 3
+
+Class schedule: Week 1 to Week 13 
+
+Time: Monday 4:30pm - 5:50pm
+         Friday 12:00nn - 1:20pm 
+
+(Please note that class may be canceled for low enrollment. Students will be
+notified by email if the class has been canceled.)
+
+ 
+
+If you are interested to learn more about CRM topics, please don't miss this
+great opportunity and register for the course (Class enrollment exercise
+will start on 23 - 24 August 2018.)
+
+
+Should you need any information about the course, please feel free to
+contact Ms. Cathy Ng (RMBI office) at cathyng@ust.hk <mailto:cathyng@ust.hk>
+or 2358 8229.
+
+ 
+
+Thank you for your attention. 
+
+
+Best regards,
+Mayumi
+
+
+------=_NextPart_001_0001_01D42B25.17E51360
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:PMingLiU;
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@PMingLiU";
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-priority:99;
+	mso-style-link:"Plain Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Plain Text";
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle20
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle21
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle22
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle23
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle24
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.EmailStyle25
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoPlainText><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>Dear students, =
+<o:p></o:p></span></p><p class=3DMsoPlainText><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><o:p>&nbsp;</o:=
+p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>We are pleased =
+to inform you that RMBI will offer a 3-credit special topic course in =
+the coming Fall 2018/19 &#8211; <b>&#8220;RMBI3000C&nbsp; Insurance =
+Perspectives on Catastrophe Risk Management</b>&#8221;.&nbsp;ALL UG and =
+PG students are welcome to take this course!</span><span =
+style=3D'color:#1F497D'><o:p></o:p></span></p><p =
+class=3DMsoNormal><b><u><span style=3D'color:#1F497D'><o:p><span =
+style=3D'text-decoration:none'>&nbsp;</span></o:p></span></u></b></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt;mso-line-height-alt:0pt'><b><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>Course title: =
+<br></span></b><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>RMBI3000C =
+Insurance Perspectives on Catastrophe Risk Management (3 =
+credits)<b><o:p></o:p></b></span></p><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:0pt'><b><u><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>Course =
+description<br></span></u></b><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><br>Catastrophe=
+ risk management (CRM) is studied from non-life insurance and =
+reinsurance perspective. Various forms of reinsurance contracts, =
+portfolio management and solvency regulation will be discussed. The =
+application of catastrophe models and pricing in assessing risk will be =
+examined in details. Weather risk analysis and weather derivative =
+markets will also be covered. Students shall learn how to embed crisis =
+management into business emergency planning.</span><i><span =
+style=3D'font-family:"Times New Roman",serif;color:#262626'> =
+<o:p></o:p></span></i></p><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:0pt'><i><o:p>&nbsp;</o:p></i></p><p =
+class=3DMsoNormal style=3D'mso-line-height-alt:0pt'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#262626'>I=
+t examines the management of catastrophe risk (typhoon and earthquake) =
+in the fields of nonlife insurance and reinsurance. The theory and =
+practical aspects of risk management will be covered. Dr.Cheung will =
+also share with you some real cases using his experience and teach you =
+some technical skills in risk analysis. No pre-requisite is needed but =
+some experience using EXCEL would be beneficial.</span><span =
+style=3D'font-size:9.0pt;font-family:"Arial",sans-serif'><o:p></o:p></spa=
+n></p><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:0pt'><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:12.0pt;mso-line-height-alt:0pt'><b><u><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>About the =
+Course Instructor<o:p></o:p></span></u></b></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt;text-align:justify;background:w=
+hite'><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:black'>Nor=
+man Cheung is a climatologist by training. He was Senior Lecturer in =
+Environmental Hazards and Disaster Management at Kingston University =
+London between 2004 and 2015. Then he came back to Hong Kong and worked =
+as a Senior Catastrophe Analyst in SCOR reinsurance company (Asia) Ltd =
+for China market until 2017. His expertise are catastrophe (tropical =
+storms and earthquake) modeling, typhoon hazard, and environmental risk =
+and disaster management.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'mso-line-height-alt:0pt'><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal style=3D'line-height:150%'><b><u>No. of =
+Credits:</u></b> 3<o:p></o:p></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>Class =
+schedule: Week 1 to Week 13 <br><br>T</span><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;mso-fareast-lang=
+uage:ZH-HK'>ime</span><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>: Monday =
+4:30pm &#8211; =
+5:50pm<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Friday =
+12:00nn &#8211; 1:20pm <o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:150%'><i><span =
+style=3D'font-size:10.0pt;line-height:150%;font-family:"Arial",sans-serif=
+'>(</span></i><i><span lang=3DEN =
+style=3D'font-size:10.0pt;line-height:150%;font-family:"Arial",sans-serif=
+'>Please note that class may be canceled</span></i><i><span lang=3DEN> =
+for low enrollment. Students will be notified by email if the class has =
+been canceled.)<o:p></o:p></span></i></p><p class=3DMsoNormal =
+style=3D'line-height:150%'><i><span =
+lang=3DEN><o:p>&nbsp;</o:p></span></i></p><p class=3DMsoNormal =
+style=3D'line-height:150%'><span =
+style=3D'font-size:10.0pt;line-height:150%;font-family:"Arial",sans-serif=
+'>If you are interested to learn more about CRM topics, please don't =
+miss</span><span =
+style=3D'font-size:10.0pt;line-height:150%;font-family:"Arial",sans-serif=
+;mso-fareast-language:ZH-HK'> this great </span><span =
+style=3D'font-size:10.0pt;line-height:150%;font-family:"Arial",sans-serif=
+'>opportunity and register for the course (Class enrollment exercise =
+will start on <u>23 &#8211; 24 August 2018</u>.)<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><br>Should you =
+need any information about the course, please feel free to contact Ms. =
+Cathy Ng (RMBI office) at <u><span style=3D'color:blue'><a =
+href=3D"mailto:cathyng@ust.hk">cathyng@ust.hk</a></span></u> or 2358 =
+8229.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif;color:#1F497D'><=
+o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'>Thank you for =
+your attention. <o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:10.0pt;font-family:"Arial",sans-serif'><br>Best =
+regards,<br></span>Mayumi<o:p></o:p></p></div></body></html>
+------=_NextPart_001_0001_01D42B25.17E51360--
+
+------=_NextPart_000_0000_01D42B25.17E51360
+Content-Type: application/pkcs7-signature; name="smime.p7s"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="smime.p7s"
+
+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
+bGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMT0wOwYDVQQDEzRDT01PRE8gUlNBIENs
+aWVudCBBdXRoZW50aWNhdGlvbiBhbmQgU2VjdXJlIEVtYWlsIENBMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAvrOeV6wodnVAFsc4A5jTxhh2IVDzJXkLTLWg0X06WD6cpzEup/Y0dtmE
+atrQPTRI5Or1u6zf+bGBSyD9aH95dDSmeny1nxdlYCeXIoymMv6pQHJGNcIDpFDIMypVpVSRsivl
+JTRENf+RKwrB6vcfWlP8dSsE3Rfywq09N0ZfxcBa39V0wsGtkGWC+eQKiz4pBZYKjrc5NOpG9qrx
+pZxyb4o4yNNwTqzaaPpGRqXB7IMjtf7tTmU2jqPMLxFNe1VXj9XB1rHvbRikw8lBoNoSWY66nJN/
+VCJv5ym6Q0mdCbDKCMPybTjoNCQuelc0IAaO4nLUXk0BOSxSxt8kCvsUtQIDAQABo4IBPDCCATgw
+HwYDVR0jBBgwFoAUu69+Aj36pvE8hI6t7jiY7NkyMtQwHQYDVR0OBBYEFIKvbIz4xf6WYXzoHz0r
+cUhexIvAMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEAMBEGA1UdIAQKMAgwBgYE
+VR0gADBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9SU0FD
+ZXJ0aWZpY2F0aW9uQXV0aG9yaXR5LmNybDBxBggrBgEFBQcBAQRlMGMwOwYIKwYBBQUHMAKGL2h0
+dHA6Ly9jcnQuY29tb2RvY2EuY29tL0NPTU9ET1JTQUFkZFRydXN0Q0EuY3J0MCQGCCsGAQUFBzAB
+hhhodHRwOi8vb2NzcC5jb21vZG9jYS5jb20wDQYJKoZIhvcNAQEMBQADggIBAHhcsoEoNE887l9W
+zp+XVuyPomsX9vP2SQgG1NgvNc3fQP7TcePo7EIMERoh42awGGsma65u/ITse2hKZHzT0CBxhuhb
+6txM1n/y78e/4ZOs0j8CGpfb+SJA3GaBQ+394k+z3ZByWPQedXLL1OdK8aRINTsjk/H5Ns77zwbj
+OKkDamxlpZ4TKSDMKVmU/PUWNMKSTvtlenlxBhh7ETrN543j/Q6qqgCWgWuMAXijnRglp9fyadqG
+OncjZjaaSOGTTFB+E2pvOUtY+hPebuPtTbq7vODqzCM6ryEhNhzf+enm0zlpXK7q332nXttNtjv7
+VFNYG+I31gnMrwfHM5tdhYF/8v5UY5g2xANPECTQdu9vWPoqNSGDt87b3gXb1AiGGaI06vzgkejL
+580ul+9hz9D0S0U4jkhJiA7EuTecP/CFtR72uYRBcunwwH3fciPjviDDAI9SnC/2aPY8ydehzuZu
+tLbZdRJ5PDEJM/1tyZR2niOYihZ+FCbtf3D9mB12D4ln9icgc7CwaxpNSCPt8i/GqK2HsOgkL3VY
+nwtx7cJUmpvVdZ4ognzgXtgtdk3ShrtOS1iAN2ZBXFiRmjVzmehoMof06r1xub+85hFQzVxZx5/b
+RaTKTlL8YXLI8nAbR9HWdFqzcOoB/hxfEyIQpx9/s81rgzdEZOofSlZHynoSMIIGKDCCBRCgAwIB
+AgIQGPSvX6onXenfnpmFzGiwrzANBgkqhkiG9w0BAQsFADCBlzELMAkGA1UEBhMCR0IxGzAZBgNV
+BAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMRQ09NT0RP
+IENBIExpbWl0ZWQxPTA7BgNVBAMTNENPTU9ETyBSU0EgQ2xpZW50IEF1dGhlbnRpY2F0aW9uIGFu
+ZCBTZWN1cmUgRW1haWwgQ0EwHhcNMTgwODAyMDAwMDAwWhcNMjAwODAxMjM1OTU5WjCCATcxCzAJ
+BgNVBAYTAkhLMQswCQYDVQQREwJISzEYMBYGA1UECBMPTmV3IFRlcnJpdG9yaWVzMREwDwYDVQQH
+EwhTYWkgS3VuZzEYMBYGA1UECRMPQ2xlYXIgV2F0ZXIgQmF5MTcwNQYDVQQKEy5Ib25nIEtvbmcg
+VW5pdmVyc2l0eSBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5MUkwRwYDVQQLE0BJc3N1ZWQgdGhy
+b3VnaCBIb25nIEtvbmcgVW5pdmVyc2l0eSBvZiBTY2llbmNlIGFuZCBUZWNobm9sb2d5IEUtMR8w
+HQYDVQQLExZDb3Jwb3JhdGUgU2VjdXJlIEVtYWlsMRMwEQYDVQQDEwpIS1VTVCBSTUJJMRowGAYJ
+KoZIhvcNAQkBFgtybWJpQHVzdC5oazCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALjF
+Oj5PWIe+AR5oZtWRiPSGTR/Tmc1kzjGETY0qO8ikSwo5XRac569uSusE4VebStd6sPavUM5oXE2z
+LgB7nRuLn9esMtjktXLLk1R3eeQpq70IqKkxygUDQ+40BZ+uzSawTkF1waLEvxzb9q46WrwfdBmz
+3bGTA5W/dIX4b+PVM/7coeXioTi/sNtw1ndB0FP4xTn/C41ncOBYXjjRWkiA/4STbzQzU7+ShVDm
+gE1cY1+83ILY6GN6wRXTAiop/V3qDtB2e7BZIRCF/Hrn6D4v8iR6QZ5+euAGeEJAziFJORakglyR
+LdWnlI8965wZEKSwHr+mZQ/fuaxSDX2gT6sCAwEAAaOCAcswggHHMB8GA1UdIwQYMBaAFIKvbIz4
+xf6WYXzoHz0rcUhexIvAMB0GA1UdDgQWBBR38t2y0H0wrCqcJrmi/igBUoXU9DAOBgNVHQ8BAf8E
+BAMCBaAwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDBAYIKwYBBQUHAwIwRgYDVR0g
+BD8wPTA7BgwrBgEEAbIxAQIBAwUwKzApBggrBgEFBQcCARYdaHR0cHM6Ly9zZWN1cmUuY29tb2Rv
+Lm5ldC9DUFMwWgYDVR0fBFMwUTBPoE2gS4ZJaHR0cDovL2NybC5jb21vZG9jYS5jb20vQ09NT0RP
+UlNBQ2xpZW50QXV0aGVudGljYXRpb25hbmRTZWN1cmVFbWFpbENBLmNybDCBiwYIKwYBBQUHAQEE
+fzB9MFUGCCsGAQUFBzAChklodHRwOi8vY3J0LmNvbW9kb2NhLmNvbS9DT01PRE9SU0FDbGllbnRB
+dXRoZW50aWNhdGlvbmFuZFNlY3VyZUVtYWlsQ0EuY3J0MCQGCCsGAQUFBzABhhhodHRwOi8vb2Nz
+cC5jb21vZG9jYS5jb20wFgYDVR0RBA8wDYELcm1iaUB1c3QuaGswDQYJKoZIhvcNAQELBQADggEB
+AIhlNgI6xQAkuUYzX6q8oCc/RGUuT0Q+ZAzWPgWPL8Q6Oeoru60e5H3fW0oaMf+z7JtYsRYXGTTn
+LCMoYEBqzeBlPNr9IqZRP3Lrd+8tfgIPtz0Ppq7RHxmo3Fr41nvaBv+tYeXlEpVzfIdVkXLspjed
+j6b40LxEvXujlypFZWF0MW10yhZAEQIliJrwGGELY+kfd7KMxoG8dzUqySZVaIkZbewC7FNJPPOs
+igtSkyhY5V+x3tl7ACXvwwwNu5Yku5zR5VaU9LtFiYMsrLEEeNdK30uwqeNqmZ6fmQa/HgzUbPY7
+N9cOnFyV523+EZX/Ndpgm8NxS5mDAA0DfS6gNZExggRNMIIESQIBATCBrDCBlzELMAkGA1UEBhMC
+R0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UE
+ChMRQ09NT0RPIENBIExpbWl0ZWQxPTA7BgNVBAMTNENPTU9ETyBSU0EgQ2xpZW50IEF1dGhlbnRp
+Y2F0aW9uIGFuZCBTZWN1cmUgRW1haWwgQ0ECEBj0r1+qJ13p356ZhcxosK8wCQYFKw4DAhoFAKCC
+AnUwGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTgwODAzMDQyNTQx
+WjAjBgkqhkiG9w0BCQQxFgQUtnUdIt1dgf7Bf4PzLkv58fEKSpAwgZMGCSqGSIb3DQEJDzGBhTCB
+gjALBglghkgBZQMEASowCwYJYIZIAWUDBAEWMAoGCCqGSIb3DQMHMAsGCWCGSAFlAwQBAjAOBggq
+hkiG9w0DAgICAIAwDQYIKoZIhvcNAwICAUAwBwYFKw4DAhowCwYJYIZIAWUDBAIDMAsGCWCGSAFl
+AwQCAjALBglghkgBZQMEAgEwgb0GCSsGAQQBgjcQBDGBrzCBrDCBlzELMAkGA1UEBhMCR0IxGzAZ
+BgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMRQ09N
+T0RPIENBIExpbWl0ZWQxPTA7BgNVBAMTNENPTU9ETyBSU0EgQ2xpZW50IEF1dGhlbnRpY2F0aW9u
+IGFuZCBTZWN1cmUgRW1haWwgQ0ECEBj0r1+qJ13p356ZhcxosK8wgb8GCyqGSIb3DQEJEAILMYGv
+oIGsMIGXMQswCQYDVQQGEwJHQjEbMBkGA1UECBMSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQH
+EwdTYWxmb3JkMRowGAYDVQQKExFDT01PRE8gQ0EgTGltaXRlZDE9MDsGA1UEAxM0Q09NT0RPIFJT
+QSBDbGllbnQgQXV0aGVudGljYXRpb24gYW5kIFNlY3VyZSBFbWFpbCBDQQIQGPSvX6onXenfnpmF
+zGiwrzANBgkqhkiG9w0BAQEFAASCAQCQ5VYj6yfZzukAc9vrWZ1hfsB4SJD2rKsAsROK5XkFLGIF
+Ixzx+TFCRbRB2S7SEqlwMyA24bZsfl2fjLsHFN/M8ii9fJ90c3hZV82kMrtci07vDwR4FwXMzm8h
+wWYAcmlp6Lyvm1EyXrzvoQ9n+RSdaXvm9o42OTFqHJiOoLa28qKwvZ+xaG+u1XnR23xufeQFYx9Z
+WhofDVc30yRVzIurrcIjHW88hoaEhSTWXuvJ39KQeftlbn/ypYMp/nwXPwmuNzpzWr46J1bZlNq2
+IXV9bi6/y5oigxry/6FSvo1Zs4/9wvmeg/DcTDdt2CFiHzXzOZlVUUwUBRBcgJUbgu4LAAAAAAAA
+
+------=_NextPart_000_0000_01D42B25.17E51360--

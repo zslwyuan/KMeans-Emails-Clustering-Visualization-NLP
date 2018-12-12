@@ -1,0 +1,627 @@
+Received: from KL1PR01MB1237.apcprd01.prod.exchangelabs.com
+ (2603:1096:202:16::28) by HK2PR01MB1012.apcprd01.prod.exchangelabs.com with
+ HTTPS via HK2PR02CA0144.APCPRD02.PROD.OUTLOOK.COM; Tue, 7 Aug 2018 01:11:55
+ +0000
+Received: from SG2PR01CA0107.apcprd01.prod.exchangelabs.com
+ (2603:1096:3:15::33) by KL1PR01MB1237.apcprd01.prod.exchangelabs.com
+ (2603:1096:800:5::19) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1017.15; Tue, 7 Aug
+ 2018 01:11:52 +0000
+Received: from HK2APC01FT063.eop-APC01.prod.protection.outlook.com
+ (2a01:111:f400:7ebc::205) by SG2PR01CA0107.outlook.office365.com
+ (2603:1096:3:15::33) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1038.19 via Frontend
+ Transport; Tue, 7 Aug 2018 01:11:52 +0000
+Authentication-Results: spf=none (sender IP is 143.89.14.70)
+ smtp.mailfrom=lists.ust.hk; connect.ust.hk; dkim=none (message not signed)
+ header.d=none;connect.ust.hk; dmarc=none action=none header.from=ust.hk;
+Received-SPF: None (protection.outlook.com: lists.ust.hk does not designate
+ permitted sender hosts)
+Received: from sympa.ust.hk (143.89.14.70) by
+ HK2APC01FT063.mail.protection.outlook.com (10.152.249.144) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.1038.3 via
+ Frontend Transport; Tue, 7 Aug 2018 01:11:51 +0000
+Received: from sympa.ust.hk (localhost [127.0.0.1])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w771BBgb013045;
+	Tue, 7 Aug 2018 09:11:11 +0800
+Received: (from sympa@localhost)
+	by sympa.ust.hk (8.14.4/8.14.4/Submit) id w771BAEQ013041;
+	Tue, 7 Aug 2018 09:11:10 +0800
+X-Authentication-Warning: sympa.ust.hk: sympa set sender to ece-pg-list-owner@lists.ust.hk using -f
+Received: from mx1.ust.hk (mx1.ust.hk [143.89.12.151])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w771AosH013023
+	for <ece-pg-list@lists.ust.hk>; Tue, 7 Aug 2018 09:10:50 +0800
+Received: from mx1.ece.ust.hk (mx1.ee.ust.hk [143.89.45.248])
+	by mx1.ust.hk (8.14.4/8.14.4) with ESMTP id w771AoSV030797
+	for <ece-pg-list@ust.hk>; Tue, 7 Aug 2018 09:10:50 +0800
+Received: from ee.ece.ust.hk (ee.ece.ust.hk [143.89.44.247])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id A822A2B1630
+	for <ece-pg-list@ust.hk>; Tue,  7 Aug 2018 09:10:40 +0800 (HKT)
+Received: by ee.ece.ust.hk (Postfix)
+	id 9679C10CFC; Tue,  7 Aug 2018 09:10:40 +0800 (HKT)
+Delivered-To: pg@ece.ust.hk
+Received: from mx1.ece.ust.hk (mx1.ece.ust.hk [143.89.45.248])
+	by ee.ece.ust.hk (Postfix) with ESMTP id 80DC82C6A0C;
+	Tue,  7 Aug 2018 09:10:40 +0800 (HKT)
+Received: from mx4.ust.hk (mx4.ust.hk [143.89.12.154])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id 9A2022B15A8;
+	Tue,  7 Aug 2018 09:10:30 +0800 (HKT)
+Received: from [143.89.131.165] (eepc165.ee.ust.hk [143.89.131.165])
+	(authenticated bits=0)
+	by mx4.ust.hk (8.14.4/8.14.4) with ESMTP id w771APoO019096;
+	Tue, 7 Aug 2018 09:10:30 +0800
+Subject: Re: Reminder : Today (7 Aug) Seminar presentation by Prof. Yingying
+ Lu at 11:00am, classroom #2503
+From: Iris Ting <eeiris@ust.hk>
+To: <alleee@ece.ust.hk>, <pg@ece.ust.hk>, <ra@ece.ust.hk>
+References: <b1596f44d5be4ad6bb06cdb8eb50c646@mbx03.exchange.ust.hk>
+ <fab8775a-5de9-9c81-e520-bb1c83254806@ust.hk>
+Message-ID: <bbfd46ec-9124-0621-3936-43430ecf6a41@ust.hk>
+Date: Tue, 7 Aug 2018 09:10:25 +0800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.9.1
+In-Reply-To: <fab8775a-5de9-9c81-e520-bb1c83254806@ust.hk>
+Content-Type: multipart/alternative;
+	boundary="------------B97B347A1552A12E12085906"
+Content-Language: en-US
+X-ECE-MailScanner: Found to be clean BY HKUSTECE, Found to be clean BY HKUSTECE
+X-ECE-Spam-Status: No, No
+X-ECE-MailScanner-Information: Please contact the ISP for more information
+X-ECE-MailScanner-ID: A822A2B1630.A2E7D
+X-ECE-MailScanner-From: eeiris@ust.hk
+X-ECE-MailScanner-Watermark: 1534209041.52628@gFiFzbjYA7oyHWtxaquLfg
+Reply-To: Iris Ting <eeiris@ust.hk>
+X-Loop: ece-pg-list@lists.ust.hk
+X-Sequence: 1464
+Errors-to: ece-pg-list-owner@lists.ust.hk
+Precedence: bulk
+Sender: <ece-pg-list-request@lists.ust.hk>
+X-no-archive: yes
+List-Id: <ece-pg-list.lists.ust.hk>
+List-Help: <mailto:sympa@lists.ust.hk?subject=help>
+List-Owner: <mailto:ece-pg-list-request@lists.ust.hk>
+List-Post: <mailto:ece-pg-list@lists.ust.hk>
+List-Subscribe: <mailto:sympa@lists.ust.hk?subject=subscribe%20ece-pg-list>
+List-Unsubscribe: <mailto:sympa@lists.ust.hk?subject=unsubscribe%20ece-pg-list>
+Return-Path: ece-pg-list-owner@lists.ust.hk
+X-MS-Exchange-Organization-ExpirationStartTime: 07 Aug 2018 01:11:52.0455
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-MS-Exchange-Organization-Network-Message-Id: 9d34fda6-70b9-4c37-ef6d-08d5fc02c229
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Matching-Connectors: 131780779120455533;(e96f7d06-d3c9-4f06-8531-08d4e618e065);()
+X-Forefront-Antispam-Report:
+ CIP:143.89.14.70;IPV:CAL;CTRY:HK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:KL1PR01MB1237;H:sympa.ust.hk;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;HK2APC01FT063;1:tXE9CYjUHXoN2HRdbNPeOBgtX5ztw25ekX5UZnIFy3G4VZrOr3/00ZHrBEWxTewvyyeUPtEzOtIl0cym5FF2gcFqNE36PRgP8VmSC5ATsY/yNqQr212YsTj4LtX8H22o
+X-MS-Exchange-Organization-AuthSource:
+ HK2APC01FT063.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 9d34fda6-70b9-4c37-ef6d-08d5fc02c229
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(7020095)(4652040)(5600074)(711020)(4605076)(1401180)(1404068)(71702078);SRVR:KL1PR01MB1237;
+X-Microsoft-Exchange-Diagnostics:
+ 1;KL1PR01MB1237;3:tBRaBcLdJzV0jymZp24OfXC1yQvzD9nICMAg1kxDQSxo0d6TEusQKOTqur4YXJUFtqewPMJr9VQz7gwloo6Nq88Gt56TTdVK9p4S6MImhmDIbtn9NL9chOPjcV97qHIdHov+l7/13qAdPjiUM7MgmVzgw31BFqL4PsM+lNqqQDwmhtE5vmgL44ccp2vgFYOeXfP1MGRx8jatIke+QvXMurJDRzbOaPmIzv+e0GjTLsL2aVEAaMHNhAKO/LCKySXS0CpLNOXNf4LC6FkBV36j+0CtiC17Wabs3zT3UUAj+lbyDFIWre/RrijgZSRP7jz5rHrq2S4LXEgd0wrvMuqB++YRPfm+oLE7La1envaBMvU=;25:A6TTfaUAgD4rpZlzg8uKtZ26u9rXKxTYfswKV4mwTUW9MJonoudjpyMdYSh4eyqjdKmKGO6UmYXgcbLXRwHKLoNaB/8bhy670J4ZXzTDQlEPLcqoeO7Y5cUoNBywABj2pqa7ivOFeuA+at2Mx5Wq76gujUbpAJhMahhgit6/NCFVXar2evE5BgFO4Jwn/Ghylz40I3sxvvYwpEeMz3/wacUgXMtSjxrNOOHHRW5GTs8UHtRCKjqJFErP1S956WPxDxsf2OWiOcM3ELwJk+O4Yx9dOhp29ozHzDC/VX99QqT5YUi8sMdy5UOVFVMpDYkR1Kqclqq+8azIwCz6ts88oA==
+X-MS-TrafficTypeDiagnostic: KL1PR01MB1237:
+X-Microsoft-Exchange-Diagnostics:
+ 1;KL1PR01MB1237;31:S6qo5gSEV/a6bsKi5VgvR8qA536Yi2sFsb8b9/gHL1kYeT+/qfQNK08ogDW1SYA+SBEf+cNIQ/qgYja0GAwPAG05BNB18PEMkypr8JOLZTdL+n81NNFIdUKeW4UZ3obpFetbF45twoyKmNX69blRjvIESRGgODWJd7WlczWszWX6Vtg1ldJ3u6i9p2JiL5ztr5grt46qZIqT30m7kqo1Bh2nPgtA31+gCIbBdIDrL50=;20:AAMzxqOdLU6ynb8hclOQWHYUwiPcOY+1s/H9uKl7A9tjaly1XGdLoz3qvpu3wf2RUJsBuDY9chM6t51dTvnUBtmBT91NGRCLAIZHt8JrXJC8aei3uLIp4vvxO8SahaKewzWahR6kKRMtY1QN4223Su6F51u9IoO1UbRPCAa4IfcncfbdkszNl8eyx6ovHSGB6+FN1FXpTGS/o3PVHGe2/Z5APKLi2LZO9h34i2D8Tu8gqppPhhkk7/KEuIc1uDcaRYwfA+ZAgM4apqsoJBsQ41On82LI5/YmR8YI0+fLMlIXLpeN3J3gq0Dsc6Wssph/Epuvyza4PnIhakV1vYuafezQw/+gIgNuSSgk7n4PTDET+xh+1pnKev/t5K3T0E7z2pzWg7aiNhTY2QEDNNkEfZh5/cCORY5JjbtrnDuqxp/9wOuH0mGM/lWSIU1YjScI8r6OS1LplZZ2dQaxH0zQjXYlPg6pqy3tvFuh+ElzmHdlsrBcgPGj62xcur4TEolmr6006iEvhxIVrUio9GFXoHkRZwMHF/7XAulNlUxUIHJD+IZ3f7++16IpPwF2bVNEGmZA3YlJJ6hU7AA/gJ5lvGcWoq/dIutmDWFaXu5gljE=
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-BypassClutter: true
+X-Exchange-Antispam-Report-Test: UriScan:(209352067349851);
+X-Exchange-Antispam-Report-CFA-Test:
+ BCL:0;PCL:0;RULEID:(2018062399030)(2018011200283)(2401047)(8121501046)(1430482)(1431068)(1432130)(1551054)(823300264)(823330083)(9101536074)(10201501046)(93006095)(93001095)(3002001)(3231311)(901025)(902075)(913088)(7045084)(944501410)(9300000166)(9301000187)(52103095)(52105095)(52106170)(52401285)(52601095)(52606095)(52505095)(52406095)(52305095)(52206095)(1102011)(1610001)(8301001075)(8301003183)(201708071742011)(7699016);SRVR:KL1PR01MB1237;BCL:0;PCL:0;RULEID:;SRVR:KL1PR01MB1237;
+X-Microsoft-Exchange-Diagnostics:
+ 1;KL1PR01MB1237;4:EZfzmURoiRyOSeRr5ef+b7ylDMUO9e+zy9gio9issWJL59QL80e9LnDdMg76J30MzX9JgEbop0wC8x1DmKvpBexY+Et+z2w91MbVPGFe29vwobQPkmxdh8+4lF6d2/KN8jNdqdo+O4/6zbS1L6CbcC/V5f1ZsKUq+PZA3CLLzBvigiW8zMd9O3dEqt+anyL4UFZwV1OVWvleKY5ca+JZW2IhBR0IbimnJoslcrZAxDBO3ISCgV6NTPcl9EIsMoLtNQon/p9rQRGEK+a5ROov0iBSuxAZoMJmb9riWeQmTmgoggOyN1MrV92smbY4CgAU;23:BZjKKN6fWVNrlgBUY8m6muDy/E8Ndt7of5J3roO+rdr2bHlAULIMSNfgN/o/7S0IKN3AM9OzxQomNiPlIjWbQqMBvigzFUqlu8QdM+DpkZgq98z+IFBFy4x9Q6IL8iMNgbgtEcwjcKxXhyZ97wHcXlhNsfes/qY3MCIty5nENpU0KYJDgnDpORRAi+PcDwub
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?k6DRw6eHTzaMVhqLHIjJVa8KNY/5BvzrTPCvaEIEUTvhEhHB7XKl29YMjSw/?=
+ =?us-ascii?Q?JFIWCQVfUDx6P/DIDNgcwFiYAvMbhELO1jZU9T66yisK5TPcoqHgSPdRsoSu?=
+ =?us-ascii?Q?pQ97TCpIKTMLJWFSgMfWMBJK/zg8k2Ib/RfQzMaFOhuNfF6Z28EGkPkvlaXd?=
+ =?us-ascii?Q?EOmklKH6jllGvJlLkOt204EDks1lxkZ5W/O67aQG5vFX64legkvukZp6pnqb?=
+ =?us-ascii?Q?q6Ctpe8sX6c4qQxiBFYW9fNiixcmC5f6T6fLQ2Kjy9e348Fo7YSI5y64hfGh?=
+ =?us-ascii?Q?mf8bq8JrJsVCcuNZ+X25arxUIfJYRUGW3ZDhjiVIz0o8eylJug2CRxK291eg?=
+ =?us-ascii?Q?XzwWdrQvjawplfFluXFZqPILQ2Qbu4u8uIrapzicVbCajayFE3mldubVmtgQ?=
+ =?us-ascii?Q?Iz2VwKkOr2Ilq+j1srC0U4hcwnFZ2VlCVkIagPDzk+wefEwVwxyMNPIJfl6f?=
+ =?us-ascii?Q?CCfZzbvp5FKGDawe/iKJg3SCmtKHgcQGT44xsVTEyQ1NW7ACHZBj42kZO3eT?=
+ =?us-ascii?Q?jyjJAGOrLjwDW42eJqQVi8ZwupHLBUUG64O+8Sw3XyuY76mn4k8NT6W8NYsx?=
+ =?us-ascii?Q?mvN8Tb9dZ0zV0+s5EgzKcM+H/yRTcf7t1vaCDLlOf6V+DwtBpUbam8gwB2bC?=
+ =?us-ascii?Q?p3QTgSl2zj7R9jD4Fg7DYLbdB+yMQ4d8tlKS2VnmXm4SMAxAJGn4IZAvDDSu?=
+ =?us-ascii?Q?UuxH/jlktCs36BFOBBv71ldkqOr4XsLoMFXOSjVwcXxEmsatLf3fAvgQoPAX?=
+ =?us-ascii?Q?uXzms1tCpL9WRuforoqtCYZ9q76A8T+a7es5ljw4LqT91ngc/nLAyBssZbWb?=
+ =?us-ascii?Q?7y/z130TGoaWxpImJnO/cyucQwZ+0rxsA3bs0p8fUv/FFcf6+MQmEIYGWrXR?=
+ =?us-ascii?Q?djFYQ2+GGUX2IVD+3eyEMcmkVTUK7V/DuRfzMkywOlTft6YpWw/kPDZ9zwCz?=
+ =?us-ascii?Q?S6KTf58ciG8yFIjgvb8m0lWUrzkxgW2qPbO+yxBeH8sYQH9Alr6RDjBnmoq3?=
+ =?us-ascii?Q?Jx0o?=
+X-Microsoft-Exchange-Diagnostics:
+ 1;KL1PR01MB1237;6:cHQcjaABHf+F0YuIl1M1J+6mWIHusFOBMHUkrRCf/pTv6BL/JwrkepjF4xEi7nAP1/znyGkXXMmiIlYQpEn/lmQ8/Om+nW4zOxBXuTSlZUR5NmPSG3vE13J7LgzKh6dzbsEUjS168pl0FQyByTIdjgs8/KeWv8Nhm9GWO3R/8lQ44HKL/ncsHcF2xmXq5Zfg77VLqdBI7aT//S32Nw+sUBhTba0kExyd6vYkZ1ewzwtcVwfeY/vaQt6oKj17IITnHTiKVOSE3h3ukwdiV2Ikd5WHBotPGpKlwoDP9gdI7ayteiRKrRXV6+70GJuD9Asp9ABSK+R5ymsJ7X3O2h2U+D9ADZKejsPEx4Z4BByBXTy0t3HiuZzKdwfEQysovrm8cTfiyGnvIuitthamq8BS89NOg5vo/azW/QZTonSUrIisp2PPB2x2VxUYFG+O0Xw37DXfOKhBqqayJXy52XqL6Q==;5:llHHIkWtt7vRpSaCZdUTGsx1/Jq125XFSggdZo2f4CY5o38VGZkQYhtMqhzzlR4MpNgBs2IxgH9/mUiquQAsK37/+Ux9kXi8ZHI39b+HIksXO1DbUP1a/E5t3Rb5IYvjMeUDAnZfet+8rgwlFwBsgE32LcspfG6if5wfWYqrNWM=;7:GAP52HRvLI+Ar3zD7LtUfVfzj/p+MvqjK4UGRolyh57Md38WneqpmhVxGqkqNrcZ6uOhFxF7alTULqV18g987TUUuziAHhuyMrBPAe6D6sfoczYUXi/KGx0rcH0T6oPMHu42mV2UayjKVqxP2F8H52RniVdM7o4WVwi64Idrf6yLXcEzX2/pmn+p0z8b6KoE36WHFFnfclzOy83j9ePJZh1Mngld0OjxBwv8CIEO5QHKEtoyAmPXsiJAOKQyEuTT
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: ca2853ad801f4d6bb04606bbac945a33
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 07 Aug 2018 01:11:51.5924
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9d34fda6-70b9-4c37-ef6d-08d5fc02c229
+X-MS-Exchange-CrossTenant-Id: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR01MB1237
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.4895524
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.1017.000
+X-Microsoft-Exchange-Diagnostics:
+	1;HK2PR01MB1012;27:Rx0rwstt++iHAhGNcmgNNPukAHE5BwjWU7KFlQ9AMbVuBu488JeVFFpKfQ6LVOLx8BSQH29TVDhUZejFeEfY/WpQnqQHVsePr0rU9zJQtKiB3/h7WeQec2DKYlGkWQnykO4wsMqJJ+PLn+aJdsKDjPMUQSEV4oPGgl3XTB3lOGoAhIEB9h0sQQq8v1jk/CSwXgrmzqjPxppbamq+9kk/eosbBo01oYhrjxge+alb9ve1+aWSI55quuY8kZ/xNPMyv9NlsYNKDTiYmPi6u8tClB5b8qkpssONo1dghUkjh+Xwq6pjNJc9PFYcsOENne5M2Bh1cOh6buZHQnrAO49VHo2acqhjaTTFBXEfKnBmikk5xY9Tn2QZC550bQC4p0vs
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750119)(520011016)(944506220)(944626516);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?NVoreEZRWFg4NE1ES2UrRnBiOGorWE95SXg0eU0vSE11YVJpb0k2ajhBcGsr?=
+ =?utf-8?B?UWxvNjBGcStsaXVuZG9jSzdhRXdCVXFNVEdhYkdNMFFRYjlSalNVNG1zK1lC?=
+ =?utf-8?B?ZXg1K1FqWXZFMkhHQlZIMWNjZndkNGpCSmdsdlRqZFVlRzVvRGNMSW16V09z?=
+ =?utf-8?B?cENtcmZRV0Z0b2M5aTYxUHVCM1luMmw4aTV6eSt5U0MzNkxQd2FjNkpnQ2JL?=
+ =?utf-8?B?QTFTcnV4VjFhU1oxUFdsVmpWU3JCR0NsUmRqSVg0TUV3ZzNab210ZlprajU5?=
+ =?utf-8?B?Q0hnRkFEQVFKWE0rakg4OWJGUTdyOWMwRFFHUjQvM1kyNk5aeVJOcnk5cWdh?=
+ =?utf-8?B?eVNqNURsSWhnZm9TZ09VeWgyLzhiRkJYYTFadWNsVXVzODdiY0Nzb3Z2Y3o4?=
+ =?utf-8?B?VUJIV0RSTzcySHJOdWFYcWsvanZtV2krNFFYQnFldnpnZVFjc3JvVzhRNkdj?=
+ =?utf-8?B?WDNCYjA1TUZHdlYxaDFSK0VGQWd4R2FlREJXMmRHbEQ0UC9yMGtCYnhhTkV2?=
+ =?utf-8?B?c2NVTzEyTmpIMjJJQS91cGRYd0NyN0lPUmI2Nlk4U09TYmhjL3AxNklTbWo3?=
+ =?utf-8?B?Q3c5dGlLOXpSa0NJTGxnc3lhL3pDQ2tQT1pkcTROOW1HTkx4TkpWNWdlT1Nr?=
+ =?utf-8?B?U09lRjNLaXJPK1RZSzBpOWlpYThvTzBsRUx2TXdNUFlPMDdoWkVuVEJCckM1?=
+ =?utf-8?B?MXVQQjJVaFZZZHBmR3FEQmQ2UGNnR2lWSnJGS1ZkeWRmMXk5NlBFdlkxdjlq?=
+ =?utf-8?B?aCtjb3N1dFFwNCtJdVVpM2hKUmFzZ2RQM2NpWFZubnl5djl5WGpUdXFSOWdC?=
+ =?utf-8?B?enlHWGJXaEJpdUo3TWJDTlhOUE9TT2xkSDg3Um5Yc0lYQ3pVWTdDUnBoai9X?=
+ =?utf-8?B?MEFLVytlMjloRkJScjdoM3F4by9FOWo3UmJFMDFqQWVXSUoyTFgySlJLY3V5?=
+ =?utf-8?B?SVFCY0ZCVmMrTDc5RWNWcGRFUENTR0hPclRITjlEaG1IaTFUN3FOZmNGSkM4?=
+ =?utf-8?B?RDh6aExFRHJrY1VaK3AwMTdCUS9wSTlHSk4wUDlFSVo2NExUYUgwQW8vVlVZ?=
+ =?utf-8?B?aC9GRHkzZENCZHNEK3ZLRjRIcmZXbm9FM1lqc2JiYlBXS05LVTRDUjdoMVZn?=
+ =?utf-8?B?ZHgzL1ltdkYzdmpWcDRlMkIzWkJTSnQyTStrZlRWMmE3Zkx3MlhETkEwcUlS?=
+ =?utf-8?B?ZURmRWFISGFKSDBqU2grNUJkVGo0bGo0RlpQRk53Nkg5dm1Iemg5MWZxR2Yz?=
+ =?utf-8?B?UFdjV0FlclZzQmN2eXFqRVZMTGFZaDQyNWE5YnF0anlQWFR6NUpiQUgyUnp0?=
+ =?utf-8?B?eHJYblJSUTQ3SDhnSDlTQTF3N2pSNDFub1d4d2xQTFliU09QczIzT2tIT3Fm?=
+ =?utf-8?B?R0YrMjFkVktWdFB1ZzVqSFN4c1ZZTC90Ky9QclhsYzdqTW1aSE5jaVJGSmV2?=
+ =?utf-8?Q?elUjKReJ?=
+MIME-Version: 1.0
+
+--------------B97B347A1552A12E12085906
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+On 06/08/2018 14:21, Iris Ting wrote:
+>
+> *From:*Rita Wong <eerita@ust.hk>
+> *Sent:* Thursday, July 26, 2018 11:17 AM
+> *To:* alleee@ece.ust.hk; pg@ece.ust.hk; ra@ece.ust.hk
+> *Subject:* Seminar presentation by Prof. Yingying Lu on 7 Aug at 
+> 11:00am, classroom #2503
+>
+> If you are having problems viewing this email, view it online HERE 
+> <http://www.ece.ust.hk/ece.php/event/detail/1822>.
+>
+> 	
+>
+> 	
+>
+> Seminar
+>
+> Stabilization of lithium electrodeposition via enhanced lithium ion 
+> transport properties at the electrode/electrolyte interface
+>
+> by Prof. Yingying Lu, College of Chemical and Biological Engineering, 
+> Zhejiang University
+>
+> Date
+>
+> 	
+>
+>  :
+>
+> 	
+>
+> 07 Aug 2018 (Tue)
+>
+> Time
+>
+> 	
+>
+>  :
+>
+> 	
+>
+> 11:00am - 12:00pm
+>
+> Venue
+>
+> 	
+>
+>  :
+>
+> 	
+>
+> Room 2503 (lift 25/26), Academic Complex, HKUST
+>
+> *Abstact:*
+>
+> High energy and safe electrochemical storage are critical components 
+> in multiple emerging fields of technology where portability is a 
+> requirement for performance and large-scale deployment. From advanced 
+> robotics, autonomous aircraft, to hybrid electric vehicles, the number 
+> of technologies demanding advanced electrochemical storage solutions 
+> is rising. The rechargeable lithium ion battery (LIB) has received 
+> considerable attention because of its high operating voltages, low 
+> internal resistance and minimal memory effects. Unfortunately LIBs are 
+> currently operating close to their theoretical performance limits due 
+> to the relatively low capacity of the anode LiC6 and the lithiated 
+> cathode materials (LiCoO2 and LiFePO4) in widespread commercial use. 
+> It has long been understood that a rechargeable lithium metal battery 
+> (LMB), which eschewed the use of a carbon host at the anode can lead 
+> to as much as a ten-fold improvement in anode storage capacity (from 
+> 360 mAh g-1 to 3860 mAh g-1) and would open up opportunities for high 
+> energy un-lithiated cathode materials such as sulfur and oxygen, among 
+> others. Together, these advances would lead to rechargeable batteries 
+> with step-change improvements in storage capacity relative to today’s 
+> state of the art LIBs.
+> A grand challenge in the field concerns the development of 
+> electrolytes, electrode, and battery system configurations that 
+> prevent uneven electrodeposition of lithium and other metal anodes, 
+> and thereby eliminate dendrites at the nucleation step. Lithium-ion 
+> batteries (LiB) are designed to remove these risks by hosting the 
+> lithium in a conductive carbon host at the anode. However, the small 
+> potential difference that separates lithium insertion into versus 
+> plating onto carbon can potentially lead to similar failure modes in 
+> an overcharged or too quickly charged LiB. Thus, the need for 
+> materials that prevent non-uniform electrodeposition of metals such as 
+> Li is also implicit in new fast charging LIB technology targeted for 
+> electric-drive vehicles.
+>
+> *Biography:*
+>
+> Yingying Lu received her Ph.D. degree in Chemical and Biomolecular 
+> Engineering at Cornell University (2014). From Oct 2014 to Oct 2015, 
+> she worked as a postdoctoral scholar in the department of Materials 
+> Science and Engineering at Stanford University. In Oct 2015, she 
+> joined Zhejiang University as a tenure-track professor via Thousand 
+> Youth Talents Program in China. She was nominated to the Forbes 30 
+> Under 30 Asia list in 2016, Forbes 30 Under 30 China list in 2017 and 
+> received the Qiu Shi Outstanding Young Scholar Award at the Qiu Shi 
+> Foundation, Hong Kong in 2018. Her research interests include 
+> electrolyte design in secondary batteries and materials design for 
+> solving safety problems in lithium-based batteries.
+>
+> 	
+>
+> 	
+>
+> 	
+>
+> 	
+> 	
+> 	
+>
+> Copyright 2018 Department of Electronic & Computer Engineering
+>
+
+
+--------------B97B347A1552A12E12085906
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <div class="moz-cite-prefix">On 06/08/2018 14:21, Iris Ting wrote:<br>
+    </div>
+    <blockquote type="cite" cite="mid:fab8775a-5de9-9c81-e520-bb1c83254806@ust.hk">
+      
+      <div class="moz-forward-container"><span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:#1F497D;mso-fareast-language:ZH-TW"><o:p>&nbsp;</o:p></span>
+        <div class="WordSection1">
+          <div>
+            <div style="border:none;border-top:solid #E1E1E1
+              1.0pt;padding:3.0pt 0in 0in 0in">
+              <p class="MsoNormal"><b><span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">From:</span></b><span style="font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif">
+                  Rita Wong <a class="moz-txt-link-rfc2396E" href="mailto:eerita@ust.hk" moz-do-not-send="true">&lt;eerita@ust.hk&gt;</a>
+                  <br>
+                  <b>Sent:</b> Thursday, July 26, 2018 11:17 AM<br>
+                  <b>To:</b> <a class="moz-txt-link-abbreviated" href="mailto:alleee@ece.ust.hk" moz-do-not-send="true">alleee@ece.ust.hk</a>; <a class="moz-txt-link-abbreviated" href="mailto:pg@ece.ust.hk" moz-do-not-send="true">pg@ece.ust.hk</a>;
+                  <a class="moz-txt-link-abbreviated" href="mailto:ra@ece.ust.hk" moz-do-not-send="true">ra@ece.ust.hk</a><br>
+                  <b>Subject:</b> Seminar presentation by Prof. Yingying
+                  Lu on 7 Aug at 11:00am, classroom #2503<o:p></o:p></span></p>
+            </div>
+          </div>
+          <p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+          <div align="center">
+            <table class="MsoNormalTable" style="width:525.0pt;background:white" cellspacing="0" cellpadding="0" width="0" border="0">
+              <tbody>
+                <tr>
+                  <td colspan="5" style="padding:0in 0in 0in 0in">
+                    <table class="MsoNormalTable" style="width:100.0%" cellspacing="0" cellpadding="0" width="100%" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="background:#847788;padding:6.0pt
+                            6.0pt 6.0pt 6.0pt">
+                            <p class="MsoNormal" style="text-align:center;line-height:150%" align="center"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:white">If
+                                you are having problems viewing this
+                                email, view it online <a href="http://www.ece.ust.hk/ece.php/event/detail/1822" moz-do-not-send="true"><span style="color:white;text-decoration:none">HERE</span></a>.</span><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666"><o:p></o:p></span></p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="5" style="padding:0in 0in 0in 0in">
+                    <p class="MsoNormal"><img style="width:7.2916in;height:1.5666in" id="_x0000_i1025" src="http://www.ece.ust.hk/public/img/e_news_hdr.jpg" moz-do-not-send="true" height="150" width="700" border="0"><o:p></o:p></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:0in 0in 0in 0in" valign="top">
+                    <p class="MsoNormal"><img style="width:.2583in;height:.1083in" id="_x0000_i1026" src="http://www.ece.ust.hk/public/img/spacer.gif" moz-do-not-send="true" height="10" width="25" border="0"><o:p></o:p></p>
+                  </td>
+                  <td style="padding:0in 0in 0in
+                    0in;background-position-x:100%;background-position-y:50%" valign="top">
+                    <p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+                    <table class="MsoNormalTable" style="width:100.0%" cellspacing="0" cellpadding="0" width="100%" border="0">
+                      <tbody>
+                        <tr>
+                          <td style="padding:0in 0in 0in 0in" valign="top">
+                            <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">&nbsp;<o:p></o:p></span></p>
+                          </td>
+                          <td style="padding:0in 0in 0in 0in" valign="top">
+                            <table class="MsoNormalTable" style="width:100.0%" cellspacing="0" cellpadding="0" width="100%" border="0">
+                              <tbody>
+                                <tr>
+                                  <td style="padding:0in 0in 0in 0in">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#3399FF">Seminar</span><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666"><o:p></o:p></span></p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0in 0in 0in 0in">
+                                    <p class="MsoNormal" style="line-height:150%"><span class="cntl21">Stabilization of
+                                        lithium electrodeposition via
+                                        enhanced lithium ion transport
+                                        properties at the
+                                        electrode/electrolyte interface</span><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">
+                                        <o:p></o:p></span></p>
+                                    <p class="cntmsubtitle">by Prof.
+                                      Yingying Lu, College of Chemical
+                                      and Biological Engineering,
+                                      Zhejiang University<o:p></o:p></p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666"><o:p>&nbsp;</o:p></span></p>
+                            <table class="MsoNormalTable" cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td style="padding:0in 0in 0in 0in" valign="top">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">Date<o:p></o:p></span></p>
+                                  </td>
+                                  <td style="padding:0in 0in 0in 0in" valign="top">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">&nbsp;:&nbsp;<o:p></o:p></span></p>
+                                  </td>
+                                  <td style="padding:0in 0in 0in 0in" valign="top">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">07
+                                        Aug 2018 (Tue)<o:p></o:p></span></p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0in 0in 0in 0in" valign="top">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">Time<o:p></o:p></span></p>
+                                  </td>
+                                  <td style="padding:0in 0in 0in 0in" valign="top">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">&nbsp;:&nbsp;<o:p></o:p></span></p>
+                                  </td>
+                                  <td style="padding:0in 0in 0in 0in" valign="top">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">11:00am
+                                        - 12:00pm<o:p></o:p></span></p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0in 0in 0in 0in" valign="top">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">Venue<o:p></o:p></span></p>
+                                  </td>
+                                  <td style="padding:0in 0in 0in 0in" valign="top">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">&nbsp;:&nbsp;<o:p></o:p></span></p>
+                                  </td>
+                                  <td style="padding:0in 0in 0in 0in" valign="top">
+                                    <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">Room
+                                        2503 (lift 25/26), Academic
+                                        Complex, HKUST<o:p></o:p></span></p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666"><o:p>&nbsp;</o:p></span></p>
+                            <table class="MsoNormalTable" cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td style="padding:0in 0in 0in 0in">
+                                    <p class="MsoNormal" style="text-align:justify;line-height:150%"><strong><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">Abstact:</span></strong><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666"><o:p></o:p></span></p>
+                                    <p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">&nbsp;<o:p></o:p></span></p>
+                                    <p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">High
+                                        energy and safe electrochemical
+                                        storage are critical components
+                                        in multiple emerging fields of
+                                        technology where portability is
+                                        a requirement for performance
+                                        and large-scale deployment. From
+                                        advanced robotics, autonomous
+                                        aircraft, to hybrid electric
+                                        vehicles, the number of
+                                        technologies demanding advanced
+                                        electrochemical storage
+                                        solutions is rising. The
+                                        rechargeable lithium ion battery
+                                        (LIB) has received considerable
+                                        attention because of its high
+                                        operating voltages, low internal
+                                        resistance and minimal memory
+                                        effects. Unfortunately LIBs are
+                                        currently operating close to
+                                        their theoretical performance
+                                        limits due to the relatively low
+                                        capacity of the anode LiC6 and
+                                        the lithiated cathode materials
+                                        (LiCoO2 and LiFePO4) in
+                                        widespread commercial use. It
+                                        has long been understood that a
+                                        rechargeable lithium metal
+                                        battery (LMB), which eschewed
+                                        the use of a carbon host at the
+                                        anode can lead to as much as a
+                                        ten-fold improvement in anode
+                                        storage capacity (from 360 mAh
+                                        g-1 to 3860 mAh g-1) and would
+                                        open up opportunities for high
+                                        energy un-lithiated cathode
+                                        materials such as sulfur and
+                                        oxygen, among others. Together,
+                                        these advances would lead to
+                                        rechargeable batteries with
+                                        step-change improvements in
+                                        storage capacity relative to
+                                        today’s state of the art LIBs. <br>
+                                        A grand challenge in the field
+                                        concerns the development of
+                                        electrolytes, electrode, and
+                                        battery system configurations
+                                        that prevent uneven
+                                        electrodeposition of lithium and
+                                        other metal anodes, and thereby
+                                        eliminate dendrites at the
+                                        nucleation step. Lithium-ion
+                                        batteries (LiB) are designed to
+                                        remove these risks by hosting
+                                        the lithium in a conductive
+                                        carbon host at the anode.
+                                        However, the small potential
+                                        difference that separates
+                                        lithium insertion into versus
+                                        plating onto carbon can
+                                        potentially lead to similar
+                                        failure modes in an overcharged
+                                        or too quickly charged LiB.
+                                        Thus, the need for materials
+                                        that prevent non-uniform
+                                        electrodeposition of metals such
+                                        as Li is also implicit in new
+                                        fast charging LIB technology
+                                        targeted for electric-drive
+                                        vehicles.<o:p></o:p></span></p>
+                                    <p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">&nbsp;<o:p></o:p></span></p>
+                                    <p class="MsoNormal" style="text-align:justify;line-height:150%"><strong><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">Biography:</span></strong><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666"><o:p></o:p></span></p>
+                                    <p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">&nbsp;<o:p></o:p></span></p>
+                                    <p class="MsoNormal" style="text-align:justify;line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666">Yingying
+                                        Lu received her Ph.D. degree in
+                                        Chemical and Biomolecular
+                                        Engineering at Cornell
+                                        University (2014). From Oct 2014
+                                        to Oct 2015, she worked as a
+                                        postdoctoral scholar in the
+                                        department of Materials Science
+                                        and Engineering at Stanford
+                                        University. In Oct 2015, she
+                                        joined Zhejiang University as a
+                                        tenure-track professor via
+                                        Thousand Youth Talents Program
+                                        in China. She was nominated to
+                                        the Forbes 30 Under 30 Asia list
+                                        in 2016, Forbes 30 Under 30
+                                        China list in 2017 and received
+                                        the Qiu Shi Outstanding Young
+                                        Scholar Award at the Qiu Shi
+                                        Foundation, Hong Kong in 2018.
+                                        Her research interests include
+                                        electrolyte design in secondary
+                                        batteries and materials design
+                                        for solving safety problems in
+                                        lithium-based batteries. <br>
+                                        &nbsp;<o:p></o:p></span></p>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding:0in 0in 0in 0in">
+                                    <p class="MsoNormal">&nbsp;<o:p></o:p></p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td style="background:white;padding:0in 0in
+                            0in 0in" valign="top">
+                            <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666"><img style="width:.2583in;height:.1083in" id="_x0000_i1027" src="http://www.ece.ust.hk/public/img/spacer.gif" moz-do-not-send="true" height="10" width="25" border="0"><o:p></o:p></span></p>
+                          </td>
+                          <td style="width:18.75pt;background:white;padding:0in
+                            0in 0in 0in" valign="top" width="25">
+                            <p class="MsoNormal" style="line-height:150%"><span style="font-size:9.0pt;line-height:150%;font-family:&quot;Tahoma&quot;,sans-serif;color:#666666"><img style="width:.2583in;height:3.125in" id="_x0000_i1028" src="http://www.ece.ust.hk/public/img/e_news_div.jpg" moz-do-not-send="true" vspace="20" height="300" width="25" border="0"><o:p></o:p></span></p>
+                          </td>
+                          <td style="width:150.0pt;padding:0in 0in 0in
+                            0in" valign="top" width="200">
+                            <div align="right">
+                              <table class="MsoNormalTable" style="width:150.0pt" cellspacing="0" cellpadding="0" width="0" border="0">
+                                <tbody>
+                                  <tr>
+                                    <td style="padding:0in 0in 0in 0in">
+                                      <p class="MsoNormal"><img style="width:2.0833in" id="_x0000_i1029" src="http://www.ece.ust.hk/ece.php/event/getImage/upload_21822.png" moz-do-not-send="true" width="200" border="0"><o:p></o:p></p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="padding:0in 0in 0in 0in">
+                                      <p class="MsoNormal">&nbsp;<o:p></o:p></p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="padding:0in 0in 0in 0in">
+                                      <p class="MsoNormal"><img style="width:2.0833in" id="_x0000_i1030" src="http://www.ece.ust.hk/ece.php/event/getImage/upload_31822.png" moz-do-not-send="true" width="200" border="0"><o:p></o:p></p>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style="padding:0in 0in 0in 0in">
+                                      <p class="MsoNormal">&nbsp;<o:p></o:p></p>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td style="padding:0in 0in 0in 0in"><br>
+                  </td>
+                  <td style="padding:0in 0in 0in 0in"><br>
+                  </td>
+                  <td style="padding:0in 0in 0in 0in"><br>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="5" style="background:#7C8CA9;padding:0in
+                    0in 0in 0in">
+                    <div align="center">
+                      <table class="MsoNormalTable" style="width:100.0%" cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody>
+                          <tr>
+                            <td style="padding:3.0pt 3.0pt 3.0pt 3.0pt">
+                              <p class="MsoNormal" style="text-align:center" align="center"><span style="font-size:8.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:white">Copyright
+                                  2018 Department of Electronic &amp;
+                                  Computer Engineering<o:p></o:p></span></p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+        </div>
+      </div>
+    </blockquote>
+    <p><br>
+    </p>
+  </body>
+</html>
+
+--------------B97B347A1552A12E12085906--

@@ -1,0 +1,536 @@
+Received: from SG2PR01MB0973.apcprd01.prod.exchangelabs.com
+ (2603:1096:202:15::28) by HK2PR01MB1012.apcprd01.prod.exchangelabs.com with
+ HTTPS via HK2PR04CA0084.APCPRD04.PROD.OUTLOOK.COM; Tue, 24 Jul 2018 07:49:47
+ +0000
+Received: from SG2PR01CA0087.apcprd01.prod.exchangelabs.com
+ (2603:1096:3:15::13) by SG2PR01MB0973.apcprd01.prod.exchangelabs.com
+ (2a01:111:e400:79b3::15) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.973.16; Tue, 24 Jul
+ 2018 07:49:45 +0000
+Received: from PU1APC01FT111.eop-APC01.prod.protection.outlook.com
+ (2a01:111:f400:7ebd::206) by SG2PR01CA0087.outlook.office365.com
+ (2603:1096:3:15::13) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.973.16 via Frontend
+ Transport; Tue, 24 Jul 2018 07:49:45 +0000
+Authentication-Results: spf=none (sender IP is 143.89.14.70)
+ smtp.mailfrom=lists.ust.hk; connect.ust.hk; dkim=none (message not signed)
+ header.d=none;connect.ust.hk; dmarc=none action=none header.from=ust.hk;
+Received-SPF: None (protection.outlook.com: lists.ust.hk does not designate
+ permitted sender hosts)
+Received: from sympa.ust.hk (143.89.14.70) by
+ PU1APC01FT111.mail.protection.outlook.com (10.152.252.236) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.995.12 via
+ Frontend Transport; Tue, 24 Jul 2018 07:49:36 +0000
+Received: from sympa.ust.hk (localhost [127.0.0.1])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w6O7ma2r007020;
+	Tue, 24 Jul 2018 15:48:36 +0800
+Received: (from sympa@localhost)
+	by sympa.ust.hk (8.14.4/8.14.4/Submit) id w6O7mZOO007017;
+	Tue, 24 Jul 2018 15:48:35 +0800
+X-Authentication-Warning: sympa.ust.hk: sympa set sender to ece-pg-list-owner@lists.ust.hk using -f
+Received: from mx1.ust.hk (mx1.ust.hk [143.89.12.151])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w6O7mAd1007008
+	for <ece-pg-list@lists.ust.hk>; Tue, 24 Jul 2018 15:48:10 +0800
+Received: from mx1.ece.ust.hk (mx1.ee.ust.hk [143.89.45.248])
+	by mx1.ust.hk (8.14.4/8.14.4) with ESMTP id w6O7m9sn011841
+	for <ece-pg-list@ust.hk>; Tue, 24 Jul 2018 15:48:09 +0800
+Received: from ee.ece.ust.hk (ee.ece.ust.hk [143.89.44.247])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id DAFA72B169A
+	for <ece-pg-list@ust.hk>; Tue, 24 Jul 2018 15:48:00 +0800 (HKT)
+Received: by ee.ece.ust.hk (Postfix)
+	id D39E01C2430; Tue, 24 Jul 2018 15:48:00 +0800 (HKT)
+Delivered-To: pg@ece.ust.hk
+Received: from mx1.ece.ust.hk (mx1.ece.ust.hk [143.89.45.248])
+	by ee.ece.ust.hk (Postfix) with ESMTP id CB76F1C242A;
+	Tue, 24 Jul 2018 15:48:00 +0800 (HKT)
+Received: from mx4.ust.hk (mx4-2.ust.hk [143.89.14.145])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id B48D42B15B0;
+	Tue, 24 Jul 2018 15:47:50 +0800 (HKT)
+Received: from [143.89.131.166] (eepc166.ee.ust.hk [143.89.131.166])
+	(authenticated bits=0)
+	by mx4.ust.hk (8.14.4/8.14.4) with ESMTP id w6O7lnEV017732
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NOT);
+	Tue, 24 Jul 2018 15:47:50 +0800
+Subject: Reminder : Seminar presentation by Prof. Yang Shi on 25 July at
+ 10:00am, classroom #5508
+To: <alleee@ece.ust.hk>, <pg@ece.ust.hk>, <ra@ece.ust.hk>
+References: <5b150111b9ce9@ust.hk>
+From: Rita WONG <eerita@ust.hk>
+Message-ID: <f34748df-1670-ec79-e09a-0f6a198b3a95@ust.hk>
+Date: Tue, 24 Jul 2018 15:47:49 +0800
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101
+ Thunderbird/52.9.1
+In-Reply-To: <5b150111b9ce9@ust.hk>
+Content-Type: multipart/alternative;
+	boundary="------------99C831CF898526897B120D80"
+Content-Language: en-US
+X-ECE-MailScanner: Found to be clean BY HKUSTECE, Found to be clean BY HKUSTECE
+X-ECE-Spam-Status: No, No
+X-ECE-MailScanner-Information: Please contact the ISP for more information
+X-ECE-MailScanner-ID: DAFA72B169A.A463B
+X-ECE-MailScanner-From: eerita@ust.hk
+X-ECE-MailScanner-Watermark: 1533023280.96663@s1lYcXfDoZNc44KkIi98xA
+Reply-To: Rita WONG <eerita@ust.hk>
+X-Loop: ece-pg-list@lists.ust.hk
+X-Sequence: 1444
+Errors-to: ece-pg-list-owner@lists.ust.hk
+Precedence: bulk
+Sender: <ece-pg-list-request@lists.ust.hk>
+X-no-archive: yes
+List-Id: <ece-pg-list.lists.ust.hk>
+List-Help: <mailto:sympa@lists.ust.hk?subject=help>
+List-Owner: <mailto:ece-pg-list-request@lists.ust.hk>
+List-Post: <mailto:ece-pg-list@lists.ust.hk>
+List-Subscribe: <mailto:sympa@lists.ust.hk?subject=subscribe%20ece-pg-list>
+List-Unsubscribe: <mailto:sympa@lists.ust.hk?subject=unsubscribe%20ece-pg-list>
+Return-Path: ece-pg-list-owner@lists.ust.hk
+X-MS-Exchange-Organization-ExpirationStartTime: 24 Jul 2018 07:49:44.9835
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-MS-Exchange-Organization-Network-Message-Id: 8a3c0e91-ac4f-455c-b12f-08d5f13a05c2
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Matching-Connectors: 131768921849835823;(e96f7d06-d3c9-4f06-8531-08d4e618e065);()
+X-Forefront-Antispam-Report:
+ CIP:143.89.14.70;IPV:CAL;CTRY:HK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:SG2PR01MB0973;H:sympa.ust.hk;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;PU1APC01FT111;1:wffQif1NhDR2NtK4Hy3Yt+/AuE3Ntyeph0/Ox9CfyZ+coUGjVnzXfV/mItXOKRGoY0F33JkQcC5AKdPg/na5Zy/3O0U+3oWmHFOSpL0G719WjlCN468ytgWjfIS0ireO
+X-MS-Exchange-Organization-AuthSource:
+ PU1APC01FT111.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 8a3c0e91-ac4f-455c-b12f-08d5f13a05c2
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(7020095)(4652040)(5600073)(711020)(4605076)(1401180)(1404068)(71702078);SRVR:SG2PR01MB0973;
+X-Microsoft-Exchange-Diagnostics:
+ 1;SG2PR01MB0973;3:25aQO8dId4r8gIPdDZIE4rEYGj70S8qwFfbwOg1+zQAAt62B/Wj9rOqgqxM4wbRlVeQEfbj4dWviFbP72Fw3QwKzcUTexpCXEDJnl9v2Qc8dcnFBsj9hZqV/ySjCyk6TDsGyDumkhEMEmNdssd+1Mk9765DW6ZQcAsEX133d1d8kHw6TdxuCwRx8gc5xGjrSAb+aNknBUSBlZV9L0J35AghJ4XESUMW2ZZTW99ms/z1i71/4L8cR+wGV1zj2pHaQUsU/4WgYZryhD1wmHcxXGOB6jANsEcVMAn1CP6Q1VICQ2NgUAqYQrFWlHVTuqMIEurknQ6lzoNyfayUc0kpCuIak3xZWs8PAGxyoUhtS7vM=;25:QLbeVT2uzrndxNGaB0uL1G5SMZ6NsZ4keeEDm6ReefdZrWREqoL7RyI+4Fmj0GFimVzL4ZIUZOZuVVRXtv4BgT6UotCD8dZoWC8krud8QaBoh0Tom7Jr0VPSN7bE18oQ0APSNn+a+xUI4bEl9N4RNvSxm9QmcmQPJRPq+IUZ7YMzcR5mpuopB9lriHnY+VLlTxftyOOgs2kN523x4/RIWmK8EaLzW7Pvab3T+Mx1LlJK48bZxWFj5mZA5WUTxNIAHadWa4sxYWewPyCrNmZe0mu+UhUpK+AJPkmDs99ru8bNIUzOuZpPtyspXIFVTAWJtEpqwo1u8lYNKQImW9Mz3A==
+X-MS-TrafficTypeDiagnostic: SG2PR01MB0973:
+X-Microsoft-Exchange-Diagnostics:
+ 1;SG2PR01MB0973;31:04VHexv0d9GKh5gDjvthdk5+CWb7RZVhIyIjz1wnyFtC7qou/35WDo1DbgGjfgGTAey2+PUYmdf/F0Qy0nDPrc+opgc+QXQhRhrg0YqIMOfyNJ6BDEz6fNGlF2dWNgubp9LS7oe73rzrLMIwNeCLMvlEn1WSz0hj3/b+WS5Nc4s3pCGMlB7wVOLuvp4J3k/cdSlI6J7Vm+Hfie+uZJLtx56dHL9nthnhL5vA/xnFuyA=;20:ogPJNDo26RGuqMA2pbFEFxyb4TqoFVB4C0EYy69FdZunhxXnb6BXvEc7MmBmxvIHiMvq0MpcOTbyjFrlcKDUPxTuKCpKaUMGLVwBSllEyEvrPyMnIJQW1B0ForWMOpr/HA/u2G6/JwJAmhF+R6ElcAn1v13lR0iTvRCZO7Rpi4WABLjllzX6JDvgQWJq9ADapX1RGZWPLiu8hKe1TNBLM4h/bRXICd51JfTkeL5njx0AwpVmDioU+J0HAQc1GM+Bom3P2PXC25JB2QL6Zfoubt3WoNdlO2+SjE6DKZ2BvzROQ1OLvkgRRGZ26i6nzPuhgsCqFpsPjcVjjVAZ8ubupERNbK23VGvmnSa8KTYVpwZy6W3cDleUGWG3xjzqn3imyuzlOV5ST74nmzQfJcrQOIGqslbXGzlZFiC8uiIopXnPfiLrXTzvjSnVaIUGk7fRgXkpjPb+rUjF2mnkeNZpjDo/knCILOorH5df5WHTZR1tFYcmH5hf3oEQ6aVod3PivfkHEVlOJZR2+hT92NTf6u2e1kQ/7tExNZrSjM/cuJDiRsd0SmQyA+WaVEhuaa6lSBi/zUSi/85R4ApQ34+AB6fzE+QQtaXTxZ6DrWZzX2I=
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-BypassClutter: true
+X-Exchange-Antispam-Report-Test: UriScan:(278428928389397)(209352067349851);
+X-Exchange-Antispam-Report-CFA-Test:
+ BCL:0;PCL:0;RULEID:(2018062399030)(2018011200283)(2401047)(8121501046)(1430482)(1431068)(1432130)(1551054)(823300264)(823330083)(9101536074)(3002001)(3231311)(901025)(902075)(913088)(7045084)(944501410)(9300000166)(9301000141)(52103095)(52105095)(52106170)(52401285)(52601095)(52606095)(52505095)(52406095)(52305095)(52206095)(1102011)(93006095)(93001095)(10201501046)(1610001)(8301001075)(8301003183)(201708071742011)(7699016);SRVR:SG2PR01MB0973;BCL:0;PCL:0;RULEID:;SRVR:SG2PR01MB0973;
+X-Microsoft-Exchange-Diagnostics:
+ 1;SG2PR01MB0973;4:0H7Jx34IvtSilpOD3n2jmkh3KVs06opuMhwd8y/01rPu6y4fr6UqkWrOmg1dQ24pM7PHWGPDmF2d7TXE6MX9vgrfkPeHBt720zzPhZO3joMGEI0m+bMu4DnNnh13c6j0x2QvrMR0jNJhZ+H6jbiORshsDU4e9JZz1UZGwV6KIzUez5Orbx1sjl66SNQD2QvnZAvCdyHFOzR2m3Vx07mmE00RVxcMt8GIt4HChd7MiwdqkriQnNyN/9YtiViSJF4jp7cd4lWxARc/AfY6Cwbs2UsFukNOHPMhwBDxQP/76khnjRe1T4KTxl4LdS07gf/8nGeaaRB4blJZwHfhLoePZQUGXcFxpJvZxcbYC0CQnzY=;23:4UGWHtPBwekaHxMt/999QccCkBA9kZ2FyC3D6x2zRHty/v6pGGg6e7RybH8Zc8dY+CIRLdS+XaR8YZA/6D4+GvHVqc8qrm8UkKosmiTesl9q2aOKxia4oOTvrHdQCqbgPPlcd5NLk2GbitC+KD88CcWihX/Y3WGFIUaG4IxUZPJRUrxwHKpFQVVg0rkCHkqB
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?B5Y02NqX2LsXkmnLFPqH9bGa8TXhlns9TNM4zUmse+6TNQB/PaBkrv3it5kn?=
+ =?us-ascii?Q?Xlj8EQSkkj8+gqKgk2QqXJdJGseR0wD8MrrT1+d5H/d7xS2DCqzctGNGTfQY?=
+ =?us-ascii?Q?gzM3lBSP4a3SWLA9m+FKRWS4NU9xWTljPkzTY+l09NidCGX7B7BiYGrVM2/s?=
+ =?us-ascii?Q?W137aE0mVtiesdSyBaTbWkpL95M57WBvFAl0Whgi6Maz6EhN1NUh0kGkKB6b?=
+ =?us-ascii?Q?YIXJTG9enlMHzqcExjH+cCcneMNErGJPrQrqG/TxTqfXxzwhUN/BQEl2D1jP?=
+ =?us-ascii?Q?W30JIqJIKESqoB8PSzVpchH+O0uTaal6CaHhBGIvbvbchDHueczXtwAWQYuW?=
+ =?us-ascii?Q?88qg05DreAWY8PUdBIuOpaCrGJgLfmIpetEZ9HJwzf+6W0KKaGytxo2OqtRj?=
+ =?us-ascii?Q?peH758WA2riR3W3QJBqSYoNLd9aPqOiHxEmfaqtzJ7pvbCRpIUCBOSKCK1Hi?=
+ =?us-ascii?Q?2U/RnSI+AHNsJlie1uYT62XpKrlegxj4vU5F7PEELwT+545OKlKLCtwMVq0Y?=
+ =?us-ascii?Q?0tvVQbHkGdVewKAP9jo/AvMMuGU6vj+mdNv8o5j5h7a17GwXbnExXbxG9zs1?=
+ =?us-ascii?Q?cUegD2V4VThNRKEqofNxPmuplw09FSj3WiMRdPb7EIi9/WVkghKpGPeG+I+7?=
+ =?us-ascii?Q?BPRmf9mfVkOmuFAqQEv8nkgrooZEXJFHQNw9wHAdfJX89pmcRIgk7y8JxOLC?=
+ =?us-ascii?Q?YHDPgcywLZe+xgST8Bw9pPpTZ7OY/MWNOlF2RjcQnvxy/WXwLr+ATPLbH5cm?=
+ =?us-ascii?Q?UKlVrSMaBPjDxQhY67cnK/kNSNq/XvQO+SxauifTjnVH9bZ4Ypgkve9TsUdm?=
+ =?us-ascii?Q?1ba1T5Vytnfn6dnUu5trWef3T5ICNvjBLmvOM/Vxaf0FiMw/Qfh8DJx2RZ5M?=
+ =?us-ascii?Q?hpjiqzSGbSGVynRaMyzqdPcqjzLithqHKEuOuYkVwlc7j77xfb112f8rYzMf?=
+ =?us-ascii?Q?eL7vN/SNjPdL/YliOTY7lfc0+NuD3xLBPEAULxJZYqc=3D?=
+X-Microsoft-Exchange-Diagnostics:
+ 1;SG2PR01MB0973;6:Ok//VJBnfIeQIoqdyoTCPJHO+0N6l04VMg+UCd8QoyQJNmx6kHwKhjuGa0TadgOzRiqlAPt+nukpqywK+ZelAjAi4MfThrUKztUtVdzjhfSFdZc126xrui9hiumls3Jsq4KcxG4kb3e1snEvYB4TWYjlkylEpLFI4P/B7FOp7BivnqffPqlHr9QX+zhypoVMfnxm2IYwyGDBBP/OVBcBy83E99B2W+jeDdyg9Ez69tg6LHVSM4nIjkiS6gBSHp1jvt6RwMGYnufxtcrSR/vpGeZ1ta5gr3K1z01A7yayrbKbyG/rPDU7+TbYOqN2RVreGeOyhYL2Yj1S5ZKWXMlus6oswGDcn0p6THhi7p4WHaqEZII2Ss87vdbJERE4/0kWsyuTNnjenn/kq7NxVmdLbC9sfp4xh6WyikSZfZk3l8QKr5QDqrmizx6Q3R+h0YdUFPxXi06cOAQnbpCM88+2rA==;5:L0poDal6Hl7+DO/LnvW754zOvrRe4Y9wiqQAAk+z5gqTQF91ieGeD6nVr8Rx9KKOEEpjwVyZtmGjK76KwOj3TKVdNze/KcgTSOdr9FFacZ+VvDnjlcb2trVMCpEhzHx+UtgFE5XbmeXV8a3JAWNW4FBM9hddlCoHJxyQo/WOb8o=;7:4Hq5g6yTixo3OE9HnXBqQWQKYMcXZLTjP11E+P92eUUSRCz5vby8ILxvVWbllMG7lqZQpBVVYvXyyICVXfcxxiamwWyggqmFZjdoeXPn72NdXL3zqT5GRbLCZ3zNy/cvrOU+ZvbsJfXUr0Wl33Gqh/zHiiv4CpE0/qgiSBItBKm6t0Ofnc+4WOK9SSCOsepvfh2X2CM8Ie09CaDaZ749HJeNu1CxK3d9hvESKNH/CjxHDsOBCuqQge+5PJlx+uuc
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: ca2853ad801f4d6bb04606bbac945a33
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Jul 2018 07:49:36.3884
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8a3c0e91-ac4f-455c-b12f-08d5f13a05c2
+X-MS-Exchange-CrossTenant-Id: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SG2PR01MB0973
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:10.6242913
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0973.010
+X-Microsoft-Exchange-Diagnostics:
+	1;HK2PR01MB1012;27:oyEmagr0k/hFIQK9OpDU3RE/16WJpRhUkUQS4Ia22qPcfC/9QuwE+o2T9sEi4WRwOASgoWzNUQNIdhY58mE7OutXW218L00WntXN/CQ7cgAlLkQfGCN3MWpRoVT6nDm6iRJp+hn4xD9cSfHHdURYjde7DP3c+mlTdejJtL+p4MJxaKAyrmtG1Kjf8krL9xCKLRzEGq782NvAaYGJKsSZiGYy3c9olYo+jSfmO3FNsDSa8HkacBmgO8FIkP/+lMLDcWBdp4/vUZo16N5Q7zJlnFd2AStkpf1CLHeBOLHesc00VRW5m1AQHReNsE7rTtY5Apf+DPSbLJs+xpyN2QpYJ2Ca7RIUaulFrNLrD6dV1f9AcHwTCpJq/LmyryuGbq4F
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750119)(520011016)(944506220)(944626516);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?OWNZSTdIaXlzYmYrYjVKa0tYUzlzRCs3c203SFhKdFYzZFlOQTBRdzZjTzVr?=
+ =?utf-8?B?czZkU1dhdXAvVGF3WllEUlkzQVdJQ1AraDdvRVYzRUFMM3ZRaG14UHVSYnBn?=
+ =?utf-8?B?ejhJUkFqUVh1UkRPOCtPYzZKRU1HWmt3NERlL2VCUFFrNFhrODlLTDdNdnZD?=
+ =?utf-8?B?UmxlWXJYSE9aRlFNWXFlWEluNy9TTlJvaU94VWJpSGZNWmgzWkc1SVNOeUNp?=
+ =?utf-8?B?b3A5U2k5NElmdzJxMUJoU1p0b3Q0WkhkYjJub3NyanYyQktJczFEZDRTM21x?=
+ =?utf-8?B?YlVLeVdxTW4zTGxEdWhHLytHWGhaUmNRaTNlQ3FaU0tzbDU1dVRvc0sxZ0dR?=
+ =?utf-8?B?bmtRdkxjZ0xwZkkzYXQ5cmkvVmZFdXQ4N2RKWlNXNEI3VUZJdGFzN0NuV1kr?=
+ =?utf-8?B?WlZZSldVc0FWYjhiY3hPSjB4cW51aXZxNFpVRTVUWUwzcXN2eitoZXJlQ21G?=
+ =?utf-8?B?aWRiK2IyVy9mRXA2Mk85OGNuRVJiVU5SYWlmRXV1RUpVQnM2ZEh1YkozSGRK?=
+ =?utf-8?B?OGx5Z1puVExtZmNWYytreHd1Tk5rWmRIQy9FMVZuOGptWUY2cWI5cm1MUG1H?=
+ =?utf-8?B?UEVrMFhGMXpQZ05saDRjUER4ekY4YnIxdmZuSW1jNjdpZDVCS05zUDQ3MEE5?=
+ =?utf-8?B?dTRCbCtRZ3picVdvZ1NTUnp3ekVPVWNCTCt5MFlvaG50U2RWdTZ5Ym9ySlky?=
+ =?utf-8?B?YlRkZ2xORUU5cHI2b1EwT0NwcEFkODV1Qms4cU1CN2t6UEx5ZEw3OE8wU1p3?=
+ =?utf-8?B?Qk5aZkNEbGtYSXR2bmp1S0xnZDFlRU5NZVdzWmJtNERHTURXQVdMa0ttejNi?=
+ =?utf-8?B?YmpwVlV2MkVVRnZwckNUVjlmWWxvMXVtcnZ1MTJrZUlOR1lsRGpXQlBXK1dU?=
+ =?utf-8?B?YTRZTjRkNkU0UFVFOHQ5V2RNYS95Mk80anZEeXhqbmFHcGNzYlpNbUxBazJB?=
+ =?utf-8?B?WnNPVWowc0U2ai9Wb0lNbDhSZTFSVjFCSnlzNnhYNWJHNmc4Vm9MZGN3N21U?=
+ =?utf-8?B?UVVaSHJZMXFrbnhHZm1kckh3clg2MDIvcDRhYTFXRHljTTFvR1puWjVOeHcv?=
+ =?utf-8?B?Yml5MUd4Mmg2U3BzSjV2aGVMM1lSb21JckFMZE5uR04rUDhWTkFNQmJTVUh0?=
+ =?utf-8?B?QUkxNG5KMnJwN09lVE4yMVlQUEpSMFQzT0RKZmszdlhaWkJFZWp1NDEvS2pz?=
+ =?utf-8?B?RURCOGhuQVJBY21vQWk2QnlRakszSE9udWRWbmJpbVplMnFxaEVpQW94bnFl?=
+ =?utf-8?B?N1QvcldlSDlFUzZKSXZGL0o3a2I5NUhHNzVxR3cvOXJMNUJZWmdCVmFtazly?=
+ =?utf-8?B?Q0E3U0YxYzlZaG1PdlQyOUJ0SitaV0ZTU2doVnZlWUNKaUVjcTBSSElKazNj?=
+ =?utf-8?B?bHBlMFIybGZqUEFvU3FDdXhtenl6WTlsTXdoVERKV2pST0dFRG5sM1lnSGxj?=
+ =?utf-8?Q?esM/QfeR?=
+MIME-Version: 1.0
+
+--------------99C831CF898526897B120D80
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+On 04-06-18 5:06 PM, Rita Wong wrote:
+> HKUST - Department of Electronic & Computer Engineering
+> If you are having problems viewing this email, view it 
+> online HERE 
+> <http://www.ece.ust.hk/ece/../ece.php/event/detail/1773>.
+>
+> 	
+> 	
+> Seminar
+> Model Predictive Control (MPC) for Autonomous Vehicles: 
+> Theory and Applications
+>
+> by Prof. Yang Shi, Professor, University of Victoria, Canada
+>
+>
+> Date
+> 	 : 	25 Jul 2018 (Wed)
+> Time
+> 	 : 	10:00am - 11:00am
+> Venue 	 : 	Room 5508 (lift 25/26) Academic Complex, HKUST
+>
+>
+> *Abstract: *
+>
+> Research and development of autonomous vehicles have 
+> received great attention in the control and robotics 
+> communities due to their wide application areas. Model 
+> predictive control (MPC) is a promising paradigm for 
+> high-performance and cost-effective control of dynamic 
+> systems. This talk will firstly introduce an integrated 
+> path planning and tracking control for an autonomous 
+> underwater vehicle. Secondly, an event-based rendezvous 
+> control strategy for asynchronous multi-agent systems and 
+> experimental results will be presented. Finally, some 
+> future works will be discussed.
+>
+> *Biography: *
+>
+> Yang SHI received the Ph.D. degree in electrical and 
+> computer engineering from the University of Alberta, 
+> Edmonton, AB, Canada, in 2005. From 2005 to 2009, he was 
+> an Assistant Professor and Associate Professor in the 
+> Department of Mechanical Engineering, University of 
+> Saskatchewan, Saskatoon, Saskatchewan, Canada. In 2009, he 
+> joined the University of Victoria, and now he is a 
+> Professor in the Department of Mechanical Engineering, 
+> University of Victoria, Victoria, British Columbia, 
+> Canada. His current research interests include networked 
+> and distributed systems, model predictive control (MPC), 
+> cyber-physical systems (CPS), robotics and mechatronics, 
+> navigation and control of autonomous systems (AUV and 
+> UAV), and energy system applications.
+>
+> Dr. Shi received the University of Saskatchewan Student 
+> Union Teaching Excellence Award in 2007. At the University 
+> of Victoria, he received the Faculty of Engineering 
+> Teaching Excellence in 2012, and the Craigdarroch Silver 
+> Medal for Excellence in Research in 2015. He received the 
+> JSPS Invitation Fellowship (short-term), and was a 
+> Visiting Professor at the University of Tokyo during 
+> Nov-Dec 2013. His co-authored paper was awarded the 2017 
+> IEEE Transactions on Fuzzy Systems Outstanding Paper 
+> Award.  He is the founding Vice Chair of IEEE IES 
+> Technical Committee on Industrial Cyber-Physical Systems. 
+> Currently, he serves as Co-Editor-in-Chief of IEEE Trans. 
+> Industrial Electronics; he is Associate Editor for 
+> Automatica, IEEE Trans. Control Systems Technology, 
+> IEEE/ASME Trans. Mechatrnonic, IEEE Trans. Cybernetics. He 
+> is a Fellow of IEEE, ASME and CSME, and a registered 
+> Professional Engineer in British Columbia, Canada.
+>
+> 	
+>
+> Copyright 2018 Department of Electronic & Computer 
+> Engineering
+>
+
+-- 
+Rita Wong
+Dept of Electronic & Computer Engineering
+HK University of Science & Technology
+Clear Water Bay, Kowloon, Hong Kong
+
+Tel: (852)2358 8511, Fax: (852)2358 1485
+
+
+--------------99C831CF898526897B120D80
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <p><br>
+    </p>
+    <br>
+    <div class="moz-cite-prefix">On 04-06-18 5:06 PM, Rita Wong wrote:<br>
+    </div>
+    <blockquote type="cite" cite="mid:5b150111b9ce9@ust.hk">
+      
+      <title>HKUST - Department of Electronic &amp; Computer Engineering</title>
+      <style type="text/css">
+<!--
+a.link {
+	color: #FFFFFF;
+}
+.cntM {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #666666;
+}
+.cntMb {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntMSubtitle {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+}
+.cntL {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 16pt;
+	text-decoration: none;
+	color: #3399FF;
+}
+.cntL2 {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 12pt;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntS {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 7pt;
+	line-height: 125%;
+	text-decoration: none;
+	color: #999999;
+}
+.cdt {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 8pt;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.cntM a:hover, .cntM a:active {
+	color:#7D198D;
+	text-decoration:underline;
+}
+.cntM a:visited, .cntM a:link {
+	color:#8080FF;
+	text-decoration:none;
+}
+-->
+</style>
+      <table cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center" width="700" border="0">
+        <tbody>
+          <tr>
+            <td colspan="5">
+              <table class="cntM" cellspacing="0" cellpadding="10" width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td bgcolor="#847788">
+                      <div align="center"><font color="#FFFFFF">If you
+                          are having problems viewing this email, view
+                          it online <a href="http://www.ece.ust.hk/ece/../ece.php/event/detail/1773" moz-do-not-send="true"><font color="#FFFFFF">HERE</font></a>.</font></div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr color="#FFFFFF">
+            <td colspan="5" bgcolor="#FFFFFF"><img src="http://www.ece.ust.hk/ece/../public/img/e_news_hdr.jpg" moz-do-not-send="true" height="150" width="700"></td>
+          </tr>
+          <tr bgcolor="ffffff">
+            <td valign="top" bgcolor="#FFFFFF"><img src="http://www.ece.ust.hk/ece/../public/img/spacer.gif" moz-do-not-send="true" height="10" width="25"></td>
+            <td style="background:url(&quot;http://www.ece.ust.hk/ece/../public/img/e_news_gpx.jpg&quot;);
+              background-repeat:repeat-y; background-position:right" valign="top" bgcolor="#FFFFFF"><br>
+              <table class="cntM" cellspacing="0" cellpadding="0" width="100%" border="0">
+                <tbody>
+                  <tr valign="top">
+                    <td class="bg-c-empty">&nbsp;</td>
+                    <td class="content">
+                      <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tbody>
+                          <tr>
+                            <td class="cntM"><font color="#3399FF">Seminar</font></td>
+                          </tr>
+                          <tr>
+                            <td class="cntM"><span class="cntL2">Model
+                                Predictive Control (MPC) for Autonomous
+                                Vehicles: Theory and Applications</span>
+                              <p class="cntMSubtitle">by Prof. Yang Shi,
+                                Professor, University of Victoria,
+                                Canada</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <table class="cntM" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                          <tr valign="top">
+                            <td class="content">Date<br>
+                            </td>
+                            <td class="content">&nbsp;:&nbsp;</td>
+                            <td class="content">25 Jul 2018 (Wed)</td>
+                          </tr>
+                          <tr valign="top">
+                            <td class="content">Time<br>
+                            </td>
+                            <td class="content">&nbsp;:&nbsp;</td>
+                            <td class="content">10:00am - 11:00am</td>
+                          </tr>
+                          <tr valign="top">
+                            <td class="content">Venue</td>
+                            <td class="content">&nbsp;:&nbsp;</td>
+                            <td class="content">Room 5508 (lift 25/26)
+                              Academic Complex, HKUST</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <br>
+                      <table cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                          <tr>
+                            <td class="cntM">
+                              <div><strong>Abstract: </strong></div>
+                              <div style="text-align: justify;"><br>
+                                Research and development of autonomous
+                                vehicles have received great attention
+                                in the control and robotics communities
+                                due to their wide application areas.
+                                Model predictive control (MPC) is a
+                                promising paradigm for high-performance
+                                and cost-effective control of dynamic
+                                systems. This talk will firstly
+                                introduce an integrated path planning
+                                and tracking control for an autonomous
+                                underwater vehicle. Secondly, an
+                                event-based rendezvous control strategy
+                                for asynchronous multi-agent systems and
+                                experimental results will be presented.
+                                Finally, some future works will be
+                                discussed. <br>
+                                <br>
+                                <strong>Biography: </strong><br>
+                                <br>
+                                Yang SHI received the Ph.D. degree in
+                                electrical and computer engineering from
+                                the University of Alberta, Edmonton, AB,
+                                Canada, in 2005. From 2005 to 2009, he
+                                was an Assistant Professor and Associate
+                                Professor in the Department of
+                                Mechanical Engineering, University of
+                                Saskatchewan, Saskatoon, Saskatchewan,
+                                Canada. In 2009, he joined the
+                                University of Victoria, and now he is a
+                                Professor in the Department of
+                                Mechanical Engineering, University of
+                                Victoria, Victoria, British Columbia,
+                                Canada. His current research interests
+                                include networked and distributed
+                                systems, model predictive control (MPC),
+                                cyber-physical systems (CPS), robotics
+                                and mechatronics, navigation and control
+                                of autonomous systems (AUV and UAV), and
+                                energy system applications. <br>
+                                <br>
+                                Dr. Shi received the University of
+                                Saskatchewan Student Union Teaching
+                                Excellence Award in 2007. At the
+                                University of Victoria, he received the
+                                Faculty of Engineering Teaching
+                                Excellence in 2012, and the Craigdarroch
+                                Silver Medal for Excellence in Research
+                                in 2015. He received the JSPS Invitation
+                                Fellowship (short-term), and was a
+                                Visiting Professor at the University of
+                                Tokyo during Nov-Dec 2013. His
+                                co-authored paper was awarded the 2017
+                                IEEE Transactions on Fuzzy Systems
+                                Outstanding Paper Award.&nbsp; He is the
+                                founding Vice Chair of IEEE IES
+                                Technical Committee on Industrial
+                                Cyber-Physical Systems. Currently, he
+                                serves as Co-Editor-in-Chief of IEEE
+                                Trans. Industrial Electronics; he is
+                                Associate Editor for Automatica, IEEE
+                                Trans. Control Systems Technology,
+                                IEEE/ASME Trans. Mechatrnonic, IEEE
+                                Trans. Cybernetics. He is a Fellow of
+                                IEEE, ASME and CSME, and a registered
+                                Professional Engineer in British
+                                Columbia, Canada. <br>
+                                &nbsp;</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td class="bg-c-empty" width="25">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="5" bgcolor="#7C8CA9" align="center">
+              <table class="cdt" cellspacing="0" cellpadding="5" width="100%" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">Copyright 2018 Department of
+                      Electronic &amp; Computer Engineering</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </blockquote>
+    <br>
+    <pre class="moz-signature" cols="60">-- 
+Rita Wong
+Dept of Electronic &amp; Computer Engineering
+HK University of Science &amp; Technology
+Clear Water Bay, Kowloon, Hong Kong
+
+Tel: (852)2358 8511, Fax: (852)2358 1485
+</pre>
+  </body>
+</html>
+
+--------------99C831CF898526897B120D80--

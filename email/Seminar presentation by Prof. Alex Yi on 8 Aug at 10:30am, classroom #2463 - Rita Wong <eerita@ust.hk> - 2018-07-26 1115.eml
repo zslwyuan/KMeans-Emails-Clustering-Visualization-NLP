@@ -1,0 +1,569 @@
+Received: from HK0PR01MB2242.apcprd01.prod.exchangelabs.com
+ (2603:1096:201:21::30) by HK2PR01MB1012.apcprd01.prod.exchangelabs.com with
+ HTTPS via HK2PR02CA0194.APCPRD02.PROD.OUTLOOK.COM; Thu, 26 Jul 2018 03:17:27
+ +0000
+Received: from SG2PR01CA0132.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:40::36) by HK0PR01MB2242.apcprd01.prod.exchangelabs.com
+ (2603:1096:203:75::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.995.4; Thu, 26 Jul
+ 2018 03:17:25 +0000
+Received: from SG2APC01FT019.eop-APC01.prod.protection.outlook.com
+ (2a01:111:f400:7ebe::205) by SG2PR01CA0132.outlook.office365.com
+ (2603:1096:4:40::36) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.995.17 via Frontend
+ Transport; Thu, 26 Jul 2018 03:17:25 +0000
+Authentication-Results: spf=none (sender IP is 143.89.14.70)
+ smtp.mailfrom=lists.ust.hk; connect.ust.hk; dkim=none (message not signed)
+ header.d=none;connect.ust.hk; dmarc=none action=none header.from=ust.hk;
+Received-SPF: None (protection.outlook.com: lists.ust.hk does not designate
+ permitted sender hosts)
+Received: from sympa.ust.hk (143.89.14.70) by
+ SG2APC01FT019.mail.protection.outlook.com (10.152.250.121) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.20.952.17 via
+ Frontend Transport; Thu, 26 Jul 2018 03:17:24 +0000
+Received: from sympa.ust.hk (localhost [127.0.0.1])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w6Q3GcmW015635;
+	Thu, 26 Jul 2018 11:16:38 +0800
+Received: (from sympa@localhost)
+	by sympa.ust.hk (8.14.4/8.14.4/Submit) id w6Q3Gcua015633;
+	Thu, 26 Jul 2018 11:16:38 +0800
+X-Authentication-Warning: sympa.ust.hk: sympa set sender to ece-pg-list-owner@lists.ust.hk using -f
+Received: from mx1.ust.hk (mx1.ust.hk [143.89.12.151])
+	by sympa.ust.hk (8.14.4/8.14.4) with ESMTP id w6Q3GQNg015624
+	for <ece-pg-list@lists.ust.hk>; Thu, 26 Jul 2018 11:16:26 +0800
+Received: from mx1.ece.ust.hk (mx1.ee.ust.hk [143.89.45.248])
+	by mx1.ust.hk (8.14.4/8.14.4) with ESMTP id w6Q3GPjQ029220
+	for <ece-pg-list@ust.hk>; Thu, 26 Jul 2018 11:16:25 +0800
+Received: from ee.ece.ust.hk (ee.ece.ust.hk [143.89.44.247])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id 573F02B15B2
+	for <ece-pg-list@ust.hk>; Thu, 26 Jul 2018 11:16:17 +0800 (HKT)
+Received: by ee.ece.ust.hk (Postfix)
+	id 4C9181B95FE; Thu, 26 Jul 2018 11:16:17 +0800 (HKT)
+Delivered-To: pg@ece.ust.hk
+Received: from mx1.ece.ust.hk (mx1.ece.ust.hk [143.89.45.248])
+	by ee.ece.ust.hk (Postfix) with ESMTP id 40F6E1B95FC;
+	Thu, 26 Jul 2018 11:16:17 +0800 (HKT)
+Received: from mx3.ust.hk (mx3.ust.hk [143.89.12.153])
+	by mx1.ece.ust.hk (Postfix) with ESMTP id 8B2B42B108E;
+	Thu, 26 Jul 2018 11:16:06 +0800 (HKT)
+Received: from www.ece.ust.hk (www.ee.ust.hk [143.89.44.246])
+	by mx3.ust.hk (8.14.4/8.14.4) with ESMTP id w6Q3G6D4005053;
+	Thu, 26 Jul 2018 11:16:06 +0800
+User-Agent: CodeIgniter
+Date: Thu, 26 Jul 2018 11:15:43 +0800
+From: Rita Wong <eerita@ust.hk>
+To: <alleee@ece.ust.hk>, <pg@ece.ust.hk>, <ra@ece.ust.hk>
+Subject: =?UTF-8?Q?Seminar_presentation_by_Prof._Alex_Yi_on_8_Aug_at_10:30am,_cla?=
+ =?UTF-8?Q?ssroom_#2463?=
+Reply-To: "eerita@ust.hk" <eerita@ust.hk>
+X-Sender: eerita@ust.hk
+X-Mailer: CodeIgniter
+Message-ID: <5b593cdfd1ce0@ust.hk>
+Content-Type: multipart/alternative; boundary="B_ALT_5b593cdfd24c2"
+X-ECE-MailScanner: Found to be clean BY HKUSTECE, Found to be clean BY HKUSTECE
+X-ECE-Spam-Status: No, No
+X-ECE-MailScanner-Information: Please contact the ISP for more information
+X-ECE-MailScanner-ID: 573F02B15B2.A4B24
+X-ECE-MailScanner-From: eerita@ust.hk
+X-ECE-MailScanner-Watermark: 1533179777.4028@Q1k58qutGjjSDeXrG8Xuhg
+X-Loop: ece-pg-list@lists.ust.hk
+X-Sequence: 1450
+Errors-to: ece-pg-list-owner@lists.ust.hk
+Precedence: bulk
+Sender: <ece-pg-list-request@lists.ust.hk>
+X-no-archive: yes
+List-Id: <ece-pg-list.lists.ust.hk>
+List-Help: <mailto:sympa@lists.ust.hk?subject=help>
+List-Owner: <mailto:ece-pg-list-request@lists.ust.hk>
+List-Post: <mailto:ece-pg-list@lists.ust.hk>
+List-Subscribe: <mailto:sympa@lists.ust.hk?subject=subscribe%20ece-pg-list>
+List-Unsubscribe: <mailto:sympa@lists.ust.hk?subject=unsubscribe%20ece-pg-list>
+Return-Path: ece-pg-list-owner@lists.ust.hk
+X-MS-Exchange-Organization-ExpirationStartTime: 26 Jul 2018 03:17:25.5688
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-MS-Exchange-Organization-Network-Message-Id: 8cc11ef4-2f28-4b10-5e6c-08d5f2a64f89
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-Matching-Connectors: 131770486455845046;(e96f7d06-d3c9-4f06-8531-08d4e618e065);()
+X-Forefront-Antispam-Report:
+ CIP:143.89.14.70;IPV:CAL;CTRY:HK;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:HK0PR01MB2242;H:sympa.ust.hk;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;SG2APC01FT019;1:WohgqfdxCrtmr8NopG7v5ZfVsrBe/fmd0PhJ5NDl/maaIAy6z2o+Q/ubvXQDADg3XgEtuKmHUXR+zgXBpmR5UjPba7jaxfDUTCrdK+7dYDwmet9Ag1NkUXLst4dDHGQj
+X-MS-Exchange-Organization-AuthSource:
+ SG2APC01FT019.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 8cc11ef4-2f28-4b10-5e6c-08d5f2a64f89
+X-Microsoft-Antispam:
+ BCL:0;PCL:0;RULEID:(7020095)(4652040)(5600073)(711020)(4605076)(1401180)(1404068)(71702078);SRVR:HK0PR01MB2242;
+X-Microsoft-Exchange-Diagnostics:
+ 1;HK0PR01MB2242;3:8KJO4LBKF/ay5GETRVyGd2+ZCIjdWSqodk8HqrW7Ej/kG0OZURt+X1qJv/TkDrQqw4RUxtzN/Nhj6bS7cqYArYdl5f+pT93njE8Yod/+hJDpL/vEA4fuN3Fy98B8I31dGGaY/wuJgTWVG6LukGcbYfLKGzar3IEoq3PulSG/6qTyft3f89BSUE7W0pTai8VGQ+zP0lsvrgHJcT3kbChTIm1xXgcukBW4nPRibrbBmN2/zKlz3url36TcMOh+W/LarhFR/c0f9gAE33+PYPUdKBx+Zh9e1SZTkJoxvY0tGUkWc51gttu4/LR0Go3ThcpMQXBVCxZ5XNOv6joSaJQ7oJapQ+rh1mAzksp1Ly+pTm0=;25:eKKRcrESH6F3cYrMpL6GR11YEsaAP53tOxygmiRvKXYOpBm94/0WgqjLDnvdVvBRjSDFoSA7pQyr0o4bjsVYbrHgLZs9Hhp8kObG1p2dPV1E6CqnjaUWMkDboiNWGBS3d20o2m8wxgpLGc+yPD58jk29u1L+eywY+SNH1U/A0I/QA5eHXEolpYJ2Am9LknkTgeRfUmMCBR0OMC6DBb9muidnglnur4dejUitfTZivMjW7qy6D6CYAKted6GZzc/UMTd3e42LdrinALwUd7MfqgLXsOw4Exhvqwf91SoaAJYw7/naDM31aj7EFsBbBGJyWAa+crfdg6hQnGPl7o5YtA==
+X-MS-TrafficTypeDiagnostic: HK0PR01MB2242:
+X-Microsoft-Exchange-Diagnostics:
+ 1;HK0PR01MB2242;31:fDUgABILQpUvb2a2cVhhoJSrfM1+bznxPyf/4oHD8nRsd0B8pPrkP+Pokv/DtN7FmP5ZEyS+hSgsfDFbn2uRW/8+EMRl2nbFIqouFGAbM98xwYo7IpI3lIdFoKtRKDRbCfFhfkmQEnhdBLV0Qzhf4krL+xCdyxxxN9W+l8H9X2kXCt1SsDqvcIwKVIk857+0AE+RflGrYVhpX02yXDTxewJXzzQazGt5r56qfMGXxYc=;20:t+yIF33pSNp7updkUduk84lfxGngy+LjTwD8czk0ftRqriUisoNj381y8AqNNNkkiC5mafgkEG5Krp4DlVpQYB2RFfKIMK5C+ZyZFXV1Xzdj/wf1INiDaDQU/UvGjOfwDkfkiLrcSvvbR3xG1diqzLIDwehhzr0kzF4Z0SUUrPYH9nojv+JMXlAIeI6opPJ1HQVRYIbcCKdHhV7pYdLb/GSGhq3U6S4NA26xCZTZbv/ZQporpbm0/0N8KoyKARM3KF8DqswHT/Rrxw1mH3p2hJgyLG1fQpc0EP8V4jFpn7x507ai+LmAdCgL7lFCnc4mkGTBmjpiKc2pJ6GK+oK+qs9bkDD0B+s7On0u5YaVUBfevfB85ODSvzDBZZZ1NuG6b4+8lVYKblZNTq65Jjr4GZGiDT9fsWezY/XxBzCHXGJojtAd4kHnzRCL7k79HveNTe46TDwiR0zUjmBDUtgHCht+5YJCu265USAzCcEfK8FR75LDMdzsV6Ef4US8JpAEJWEsq7R22qPJPZKT+4zaK4f1Omorzg0BXg9U4z5FaGgsCMNNoGynWaQIbIp5BNqduy82BiT/9uwOlDA1elBFpFMew5Ln+ZdMxh1FR32hL1E=
+X-MS-Exchange-Organization-SCL: -1
+X-MS-Exchange-Organization-BypassClutter: true
+X-Exchange-Antispam-Report-Test:
+ UriScan:(20558992708506)(278428928389397)(209352067349851)(131327999870524)(5213294742642);
+X-Exchange-Antispam-Report-CFA-Test:
+ BCL:0;PCL:0;RULEID:(2018062399030)(2018011200283)(2401047)(8121501046)(1430482)(1431068)(1432130)(1551054)(823300264)(823330083)(9101536074)(10201501046)(3231311)(901025)(902075)(913088)(7045084)(944501410)(9300000166)(9301000104)(52103095)(73117211)(52105095)(52106170)(52401285)(52601095)(52606095)(52505095)(52502095)(52406095)(52405095)(52305095)(52206095)(1102011)(93006095)(93001095)(3002001)(1610001)(8301001075)(8301003183)(201708071742011)(7699016);SRVR:HK0PR01MB2242;BCL:0;PCL:0;RULEID:;SRVR:HK0PR01MB2242;
+X-Microsoft-Exchange-Diagnostics:
+ 1;HK0PR01MB2242;4:h0xdT2c1k6wY1sEeRWfJPpr6eOi71LQ8t0d1qQhny55pnm8gVTJeEbMSy/99bcwkilU7NfGGqmEIEXis8rELpImf8vX1zZ8Wl2qjJY46FUKHHYIyD6vnksLPwPHZhEVGvhBtz65Y3gdayj7tsxJaTNYq1dEHukwg1iyIr4nYxoWzRePF6cfSXyWodOJcyq8bymyYfnAsZ3mUVzl/EawMzYQEirw+3ULsYjo6Y09KZnRCmxTKwsgIm06adAijqFy3Pw6ksibsSrp/Z+L5eDE1ftXPslf6omlXvBbQ+1YAyPn/IDZSUdbxBwAr1BdySmScEKSj+5fPbR3bNR/QFpAxAfX3vURjLgVzibm/M9V0c8vZrG+WvNI2M4K9bYDE+Y8SF2wLX7gLmjhxDNDVs4nxqIfgyL/EXRzdFWQ88GfvPe8rqMf9iYBp9G6b9RvE69krfZz4QpttPRZZE8K1c/G28w==;23:uza+JwtbIHP7rj9FkeMQn0HgXSPsh9Lbww6ijMCrKnUwd6IGBH8pWDNtNKSjrpkLrq0BbQ47/a1AiocjIP8VuzjAy1tkpjt3htQSyCiHHWEAMT8e0xdmpqxMgoV0zn10vbps1YvvNUKkZ9dTiyGT/U/qmtlHRbj2cToh4DQilDA6tVM5IESq3I7LIQElCiJH
+X-Microsoft-Antispam-Message-Info:
+ =?us-ascii?Q?ABqp5SF+OCZDf6ULw6ZlkyepsaHcmFdlCUjybLiYT09cStXmsEN2ovmVwcdJ?=
+ =?us-ascii?Q?zhzTwTvPplgpoNENxk7BYhhagjUFjh5t2eY7JZ2n4QdnZXC9aDrQuKzXLKTu?=
+ =?us-ascii?Q?BXoFS+rnpPilOToICME7gh6i6qjLAR2WoZ1uRYqO0jJnTJ3YvBdfcSOKGXB3?=
+ =?us-ascii?Q?MRMGokLVY2Y4u8CeAbSmfVrqj6zDkrea6dP3xB1jqZMvOAP65Rg7GPlf+qLu?=
+ =?us-ascii?Q?3Ku9GLvpze5q8rqmREwodMdckahGmhi8pbM2oC1dhx7kTfLauETMBZCpaGsx?=
+ =?us-ascii?Q?PWuZ4HuIDUBQ5314azO2leG9gyVi6Y4nTyoIm8OK2xMQPwojwfXdvRj4AUXz?=
+ =?us-ascii?Q?LEWI3MCuoXwdoBo8Caj0JpM3fJWCbgkci7tkPPQyHt0HoaskBg16la+xgv6C?=
+ =?us-ascii?Q?5XJC2sTjUCOtQTndC/i3Mg18spuJYL3D3XxKX+epemsCYdqDGOMIMIjAMp3N?=
+ =?us-ascii?Q?xN0uA17fOpR+XWSB2kpWnlx2GeQyKUuzJYjU+FACrDAsqDN0mbRQ+rf0NiK+?=
+ =?us-ascii?Q?ygtWZkfu3RyYRWqHv6FruwhotmJlH57sCPLVr3Ur/Oypp8edvaqEsCXZInB3?=
+ =?us-ascii?Q?xDQnrGIfrrIEtrVhShi1BdXG0gW6mzp6wTygwJ39EygmtOOGIN0eYCaAqf8t?=
+ =?us-ascii?Q?W+AR/mgoGTHIweWHuAEQo+pk1Pm2wKFCMTCqM/9hJcaVuPG/bGiVt5GP9Ruj?=
+ =?us-ascii?Q?3i3ZkoN1p31lBAMNgNASiii8K/+lfYpjkvXs5FWOb/rTuHOOE6qIHSk641sX?=
+ =?us-ascii?Q?R+Krsi1yrJ7NXwr0BycZal50hPgJgEWRTLxE5gE/T2nGEO0AHs/pXB3F7gBf?=
+ =?us-ascii?Q?b+WtovqzUAusyrBBlJZWOYvvPtfbbo5gfnBNgxRq9qm1YRiNLHqkGfSezJIx?=
+ =?us-ascii?Q?82Rj2z0EymTRv+h1sAhnMfAuzGvgP89vPEiX7lGD0J6WFHqyb4CVvWiaYr5+?=
+ =?us-ascii?Q?h3dlwHRH3LLArYFdLIl/FhTkNNINICNhOJIssgDaeJDiEicx2pSnGkEtKIq2?=
+ =?us-ascii?Q?i6YW++7zUwAn52t8p7ktCdgCGhxdHt3vsz5YeFsFi2DaFUvjysCSHHIpbdOD?=
+ =?us-ascii?Q?IdbeQ0b1?=
+X-Microsoft-Exchange-Diagnostics:
+ 1;HK0PR01MB2242;6:p8iwnSe5iOaCK3pV4O/r0V1ObH4Fg1VIBM12rB0El4Hurlg5c5KWyscLJY7bkE2/rqD0ZNLt5T72PEDnzJa7dMxBOUagoPKY8W2y1DMjRKZHIQb6pE1YxI4uuudPHL+Qo/70ar8QMeDDhnPbV7tsi39gzq1D/IaxWsA/zspB3e8FMTkWUbAK4Mh3ToOZPo1cT2xvGfWYHqOIRzjClTz+KcIwG6+AAuHe+gHObqx7WU2SdBmjed6ePvdJ0U/IJPFaRPQ/HkqgxK0WVbm594ujU/gmQ/zleF3P9pvaqiEnK1AMQVLsiEeQujYaStuqAB5R6RyRsx49WTfnoJ0KLYwIncqr7iJmVF+SgxAPF01F4ry7DgjTVki88q1Ms6bQw3kv4Hpv0V/BHQi8gYbxC/L/zqF1Rplseeo8JHrvMvsdXe/YvUt5ZBXhhVuSERlwweGGu/4OCUOx7s5Fs/r9GqfHJA==;5:RBjc6as+5S63UzwN4IBT31VBBZO6M+xPswg9L3k8v3eZ0nYlYq+v7XCOqv3CUYnDsw/gUK0qELIeWwRwVQ0HSFAmUV1duTfLWbvWqzhoWNDST5z+3dB69bEMqwW2+JvNixqYETbnbQ3l3TSe4440U9d26vkzL4SlQPAfcy591U8=;7:FFQRAPzgzKXjoetKehpoJZjxMi8bItZv0BcOTAnBnbBWBhLUXQykghj/hJcbvPOmi25xl7dYxpikq9WO16SXQ/o2n/bX4wMP557VUH4VNz7Fds2LBdV5LrVYHn5ViuayPkPwd9+dCniq2JsCTHGbI2PS34pnbWxg8yKY3gyLpJV8sFANZECkUQ4nIzkdC9UjklPUJmXnmMSdbuieEMeLZRrqxFzJFRqJMz8JcsdSHeOe0qhvFb76vHcCZwXB1NQN
+SpamDiagnosticOutput: 1:2
+SpamDiagnosticMetadata: ca2853ad801f4d6bb04606bbac945a33
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 26 Jul 2018 03:17:24.1469
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8cc11ef4-2f28-4b10-5e6c-08d5f2a64f89
+X-MS-Exchange-CrossTenant-Id: 6c1d4152-39d0-44ca-88d9-b8d6ddca0708
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HK0PR01MB2242
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.3662520
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0995.000
+X-Microsoft-Exchange-Diagnostics:
+	1;HK2PR01MB1012;27:5a9loawQFiT90lk9zlOgWWQvw7472wnx41++HmbWxEuFrb+0GWEJsRoVVulp7eSrPGADZZL4I2kmDXdDGEvHKPFdBTiCs4vM0ihTd2YgHii7z27At/Ft41slahRm7BFO/6z4sa4tgx3oL1/O1kjDgPRgjDQ1wQjHWHga7Rhy1MUnL6sGfAoOt/enw+lP0CEXTlgdO55A+idTkDG0d2Eldfy7HTGotDmrgBnS8Ll0mCB70zRuVxNLwmG8wmOYa9Rf7gmkbUNPLBvKo8vJpkkFHdWHXMAbQm6sY8/iXvcaA1z4kZ1xnRhqYSry+pNcTrs2HbtNTJH2+Y5rmw4Lrj/hA+3gYZlethzzDvWvJ/OAfvfamZmIv6eG+PvhbvOZIAiY
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:0;dest:I;ENG:(750119)(520011016)(944506220)(944626516);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?L3dXTnowd0RMcGdPQ3EraklJNElGN005Q0d5UnFOZEVMWWRsRGczZlBIWGF4?=
+ =?utf-8?B?UHRGUWVjOHMyLzhxZ0JIOGNFa0x2K016d2VOMzAyb2pySkM3NWNsNjlHSUwv?=
+ =?utf-8?B?c0ZwRU5Ubm1uU0FjVWlnQ003Y084UW5wM1Y1bS84OEwvU0IzTnpETWhkdk81?=
+ =?utf-8?B?cU1XMUJ6S3lyenJ4WUgwaUtraFpYMmVJMzFyQlJ2R0NvaTBBVm5uNlpueFpT?=
+ =?utf-8?B?U25SWndhVmVtTUxjM09Vc0ZQb3RXdE5tK1BxWWFJRDQ5STRqQm4rbHQvSnl1?=
+ =?utf-8?B?L3hMM1Y3Wlhla3R1YXYzTmxqdUlITU1RM1FENDlZMktmRHBKOW5ENS9qODFl?=
+ =?utf-8?B?Z3M0elEreGJHaDFPT3UzQUw4SEZvaVVHU01sMytOT216NmxWczk2TXdNaXEv?=
+ =?utf-8?B?ZjM2di9PNmt1WHNoVGQ5emxxc1c2bVlmS3RIOU1oUjRua3ZJSzZhblFtS25q?=
+ =?utf-8?B?dFlYNldGMUtGWjBHazFGK2FhamNNaXMyRFpvc2F5dDI1WFRvN2xIUXQrZHJh?=
+ =?utf-8?B?eDkzeDgzVGo4bG8rRHBOMzZHbUpkRWxMTlhZZ1l5TnZMZktadnFheEFyWVh3?=
+ =?utf-8?B?blJkYm9XS2xQb3lIcE9kbzM4emdpUXVlMEtpK1BFS1Y1N3FCckZhc25nZDNn?=
+ =?utf-8?B?dDlWaUh5Zkw4T3VDdDNsbVJzc3JqbmxmcVU3UUZGbzM1UVdXbUFXRlo0Nks2?=
+ =?utf-8?B?SElaRzBlazFPdnI4cjg3dVlTMUlXdTFQMXU3Z3RpdWlDQ2txZDZFTU1qT01P?=
+ =?utf-8?B?aTQ2SEgvamxCYWloZG9VSUEzVktQMDlONmFDZFdvclNCUU1PMkJaajRxV2ZH?=
+ =?utf-8?B?RlBzRUI4THN3QThZZk1QcURrZ1FSMkRJenRWYW9laTVXaFA1czdrRVNtaFRk?=
+ =?utf-8?B?MVdJakVFNnp0cUpwVU9DR1dKa0NwRk91Qmh3UmlCUEV0c21FV0x1V3BaM1ZI?=
+ =?utf-8?B?ekhnNFRqWDdLQ3lqSFZkcTlBKzlFZUxkMFdPcWVVaHdXTUVWVzFPZ2M3cW1C?=
+ =?utf-8?B?cTU5aDk1Y0IwYlB3S2xhNzZQYVo1S1lrZE92NXhKejl0SnFlMVgrZEVLVEVK?=
+ =?utf-8?B?d0M3MlRqbmQ3ZzhIcSthaDZ3bEVhM0ZLTGdCdXptbisvaC9GWnpHNmYyVmt1?=
+ =?utf-8?B?VlhNMDIvbWROeTN5MTJFUHBsY3BvVU1NMXc3ZGtZVUpvTFRiVjBMWGY5SHRm?=
+ =?utf-8?B?RTVTelZhYjdGN1Ewb08vZkFvWXlOSnVobTBFMjZTVmVETis1TmtxKzVQcEE5?=
+ =?utf-8?B?eVo5MTJmeG1EV2lIbmQzUVZjR0xkNFVGTlk1OTl0Z2VQenQrVHpvVW1NekNh?=
+ =?utf-8?B?bG1MT0xabGQrcWQwQ05LVVFHemFELy9KQkwwOU9JWUxDVlYyV2pVdCtSZTdL?=
+ =?utf-8?B?OFA5VUpxUENsckNseThVb0pNWVhvK2k3dXYwbzNwUzZQdWZvR3A2MDlhU1Vj?=
+ =?utf-8?B?MmdHT2V0QWNxYjJiWnVWMm5ubEdDYWEyelpCeVNCOWhuV1h4eDVnUS9kWXVE?=
+ =?utf-8?B?R0hES1JpYzMreE9PcGRtWEN6cjluNEtuTjRuNXlJbzB5MEhsVmU5TEZWaGl5?=
+ =?utf-8?B?WGRjdz09?=
+MIME-Version: 1.0
+
+--B_ALT_5b593cdfd24c2
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+If you are having problems viewing this email, view
+ it online HERE.
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ &nbsp;
+ 
+ 
+ Seminar
+
+ 
+ 
+ Integrated subwavelength all –dielectric gratings/metasurfaces
+ 
+ Prof. Alex (Yasha) Yi, Department of Electrical and Computer Engineering,
+Dearborn and Energy Institute, Ann Arbor
+ 
+ 
+ 
+ 
+ 
+ 
+ Date
+ &nbsp;:&nbsp;
+ 08 Aug 2018 (Wed)
+ 
+ 
+ Time
+ &nbsp;:&nbsp;
+ 10:30am - 11:30am
+ 
+ 
+ Venue
+ &nbsp;:&nbsp;
+ Room 2463 (lift 25/26), Academic Complex, HKUST
+ 
+ 
+ 
+ 
+ 
+ Abstract:
+
+Subwavelength gratings/metasurface has become one of the emerging topics in
+the field of integrated photonics. One of the most striking advantages of a
+subwavelength gratings/metasurface is its full control of wave front with
+superior compact dimensions and has potential to be integrated with other
+on-chip devices. Traditional macroscopic optical elements mainly depend on
+refraction to control light propagation. Refraction relies heavily upon the
+exact curvature of the surface and the spatial extent of the element in
+order to achieve gradual phase accumulation. This imposes a fundamental
+limitation on the miniaturization of photonic devices. Subwavelength
+gratings/metasurfaces, a two-dimensional periodic/non-periodic arrays of
+subwavelength structure, presents a novel technique of miniaturizing
+photonic elements. Rather than relying on gradual phase accumulation through
+light propagation, each subwavelength structure imposes a discrete, abrupt
+change in the phase of incoming light. Previous works have only focused on
+the two dimensional configurations, the third dimension has been ignored so
+far, our recent works have revealed the importance of third dimension
+engineering (such as the individual phase shifter thickness and tapered
+sidewall profile, etc) to fully take advantage of the full wave front
+control of metasurfaces; furthermore, how to realize the all-dielectric
+metasurfaces are also another challenging topics in the visible and near
+infrared wavelength range. In this talk, I will discuss our recent advances
+on the subwavelength reflectors and metalens: (1) Design, fabrication,
+characterization, and optimization of all dielectric subwavelength
+reflectors and meta lens. The results of this research will be the
+foundation of (a) The development of continuous broadband achromatic
+metalens/reflectors, and (b) The research of metalens fabricated based on a
+group of low refractive index materials, even soft materials (e.g. polymers)
+(2) Understanding of the significant impacts with the third dimension
+engineering, for example, the transmission enhancement effect of tapered
+nano structure and evaluation of its effectiveness and practicability on
+conventional high index based metalens. Our study will provide an important
+avenue for a series of integrated flat photonic devices for potential
+applications such as imaging, spectroscopy, lithography, laser fabrication,
+and future integrated wearable devices.
+
+Biography:
+
+Alex (Yasha) Yi, Ph.D, is currently Professor and PhD program chair with
+University of Michigan, Department of Electrical and Computer Engineering,
+Dearborn campus and Energy Institute, Ann Arbor campus. He received the
+Ph.D. degree from the Massachusetts Institute of Technology (MIT),
+Cambridge, MA, USA, and was a Post-Doctoral Associate with the Electronic
+Materials Processing Center, Massachusetts Institute of Technology,
+Cambridge, MA, USA, where he was involved in research on integrated nano
+optoelectronic materials and devices. He had extensive research experiences
+with the Los Alamos National Laboratory, and the 3M Corporate Research
+Laboratory. He is also a Professor Affiliate with the Microsystems
+Technology/Microphotonics Center at MIT. He has authored more than 90
+journal papers, has edited one book and written 3 book chapters, and holds
+13 U.S. patents and 1 international patent. He has led several
+government/industry-funded projects, has been at review panel for NSF, DOE
+and DOD, and has been a reviewer for leading journals. His research
+interests are solid-state electronics and photonics, semiconducting devices,
+photovoltaics and energy-related optoelectronic devices, solid-state
+lighting (LEDs), bioinspired nanooptoelectronic structures,
+nanoelectronics/MEMS, and intelligent vehicle and transportation system. He
+is currently serving as Editorial Board Member for Scientific Reports (a
+Nature Research journal), Editorial Board Member for Journal of Materials
+Science: Materials in Electronics (a Springer Research journal) and the Vice
+Chair of the IEEE Southeast Michigan Section.
+
+ 
+
+ &nbsp;
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &nbsp;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Copyright 2018 Department of Electronic &amp; Computer Engineering
+
+
+--B_ALT_5b593cdfd24c2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<title>HKUST - Department of Electronic &amp; Computer Engineering</title>
+<style type=3D"text/css">
+<!--
+a.link {
+	color: #FFFFFF;
+}
+.cntM {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #666666;
+}
+.cntMb {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntMSubtitle {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 9pt;
+	line-height: 150%;
+	text-decoration: none;
+	color: #7D198D;
+}
+.cntL {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 16pt;
+	text-decoration: none;
+	color: #3399FF;
+}
+.cntL2 {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 12pt;
+	text-decoration: none;
+	color: #7D198D;
+	font-weight: bold;
+}
+.cntS {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 7pt;
+	line-height: 125%;
+	text-decoration: none;
+	color: #999999;
+}
+.cdt {
+	font-family: "Tahoma", "Arial", "Helvetica", "sans-serif";
+	font-size: 8pt;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.cntM a:hover, .cntM a:active {
+	color:#7D198D;
+	text-decoration:underline;
+}
+.cntM a:visited, .cntM a:link {
+	color:#8080FF;
+	text-decoration:none;
+}
+-->
+</style>
+</head>
+<body leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" marginheight=3D"0"=
+ bgcolor=3D"#847788">
+<table width=3D"700" border=3D"0" align=3D"center" cellpadding=3D"0" cellsp=
+acing=3D"0" bgcolor=3D"#FFFFFF">
+ <tr>
+ <td colspan=3D"5"><table width=3D"100%" border=3D"0" cellpadding=3D"10" ce=
+llspacing=3D"0" class=3D"cntM">
+ <tr>
+
+ <td bgcolor=3D"#847788"><div align=3D"center"><font color=3D"#FFFFFF">If y=
+ou are having problems viewing this email, view
+ it online <a href=3D"http://www.ece.ust.hk/ece/../ece.php/event/detail/182=
+3"><font color=3D"#FFFFFF">HERE</font></a>.</font></div></td>
+ </tr>
+ </table> </td>
+ </tr>
+ <tr color=3D"#FFFFFF">
+ <td colspan=3D"5" bgcolor=3D"#FFFFFF"><img src=3D"http://www.ece.ust.hk/ec=
+e/../public/img/e_news_hdr.jpg" width=3D"700" height=3D"150"></td>
+ </tr>
+
+ <tr bgcolor=3D"ffffff">
+ <td valign=3D"top" bgcolor=3D"#FFFFFF"><img src=3D"http://www.ece.ust.hk/e=
+ce/../public/img/spacer.gif" width=3D"25" height=3D"10"></td>
+ <td valign=3D"top" bgcolor=3D"#FFFFFF" style=3D"background:url(&quot;http:=
+//www.ece.ust.hk/ece/../public/img/e_news_gpx.jpg&quot;);
+ background-repeat:repeat-y; background-position:right"><br>
+ <table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"cntM">
+ <tr valign=3D"top">
+ <td class=3D"bg-c-empty">&nbsp;</td>
+ <td class=3D"content"><table width=3D"100%" border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0">
+ <tr>
+ <td class=3D"cntM"><font color=3D"#3399FF">Seminar</font></td>
+
+ </tr>
+ <tr>
+ <td class=3D"cntM"><span class=3D"cntL2">Integrated subwavelength all =E2=
+=80=93dielectric gratings/metasurfaces</span>
+=20
+ <p class=3D"cntMSubtitle">Prof. Alex (Yasha) Yi, Department of Electrical =
+and Computer Engineering, Dearborn and Energy Institute, Ann Arbor</p>=09
+=20
+ </tr>
+ </table>
+ <br>
+ <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" class=3D"cntM">
+ <tr valign=3D"top">
+ <td class=3D"content">Date<br></td>
+ <td class=3D"content">&nbsp;:&nbsp;</td>
+ <td class=3D"content">08 Aug 2018 (Wed)</td>
+ </tr>
+ <tr valign=3D"top">
+ <td class=3D"content">Time<br></td>
+ <td class=3D"content">&nbsp;:&nbsp;</td>
+ <td class=3D"content">10:30am - 11:30am</td>
+ </tr>
+ <tr valign=3D"top">
+ <td class=3D"content">Venue</td>
+ <td class=3D"content">&nbsp;:&nbsp;</td>
+ <td class=3D"content">Room 2463 (lift 25/26), Academic Complex, HKUST</td>
+ </tr>
+					 </table>
+ <br>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+ <tr>
+ <td class=3D"cntM"><div style=3D"text-align: justify;"><strong>Abstract:<b=
+r>
+<br>
+</strong>Subwavelength gratings/metasurface has become one of the emerging =
+topics in the field of integrated photonics. One of the most striking advan=
+tages of a subwavelength gratings/metasurface is its full control of wave f=
+ront with superior compact dimensions and has potential to be integrated wi=
+th other on-chip devices. Traditional macroscopic optical elements mainly d=
+epend on refraction to control light propagation. Refraction relies heavily=
+ upon the exact curvature of the surface and the spatial extent of the elem=
+ent in order to achieve gradual phase accumulation. This imposes a fundamen=
+tal limitation on the miniaturization of photonic devices. Subwavelength gr=
+atings/metasurfaces, a two-dimensional periodic/non-periodic arrays of subw=
+avelength structure, presents a novel technique of miniaturizing photonic e=
+lements. Rather than relying on gradual phase accumulation through light pr=
+opagation, each subwavelength structure imposes a discrete, abrupt change i=
+n the phase of incoming light. Previous works have only focused on the two =
+dimensional configurations, the third dimension has been ignored so far, ou=
+r recent works have revealed the importance of third dimension engineering =
+(such as the individual phase shifter thickness and tapered sidewall profil=
+e, etc) to fully take advantage of the full wave front control of metasurfa=
+ces; furthermore, how to realize the all-dielectric metasurfaces are also a=
+nother challenging topics in the visible and near infrared wavelength range=
+. In this talk, I will discuss our recent advances on the subwavelength ref=
+lectors and metalens: (1) Design, fabrication, characterization, and optimi=
+zation of all dielectric subwavelength reflectors and meta lens. The result=
+s of this research will be the foundation of (a) The development of continu=
+ous broadband achromatic metalens/reflectors, and (b) The research of metal=
+ens fabricated based on a group of low refractive index materials, even sof=
+t materials (e.g. polymers) (2) Understanding of the significant impacts wi=
+th the third dimension engineering, for example, the transmission enhanceme=
+nt effect of tapered nano structure and evaluation of its effectiveness and=
+ practicability on conventional high index based metalens. Our study will p=
+rovide an important avenue for a series of integrated flat photonic devices=
+ for potential applications such as imaging, spectroscopy, lithography, las=
+er fabrication, and future integrated wearable devices.<strong><br>
+<br>
+Biography:<br>
+<br>
+</strong>Alex (Yasha) Yi, Ph.D, is currently Professor and PhD program chai=
+r with University of Michigan, Department of Electrical and Computer Engine=
+ering, Dearborn campus and Energy Institute, Ann Arbor campus. He received =
+the Ph.D. degree from the Massachusetts Institute of Technology (MIT), Camb=
+ridge, MA, USA, and was a Post-Doctoral Associate with the Electronic Mater=
+ials Processing Center, Massachusetts Institute of Technology, Cambridge, M=
+A, USA, where he was involved in research on integrated nano optoelectronic=
+ materials and devices. He had extensive research experiences with the Los =
+Alamos National Laboratory, and the 3M Corporate Research Laboratory. He is=
+ also a Professor Affiliate with the Microsystems Technology/Microphotonics=
+ Center at MIT. He has authored more than 90 journal papers, has edited one=
+ book and written 3 book chapters, and holds 13 U.S. patents and 1 internat=
+ional patent. He has led several government/industry-funded projects, has b=
+een at review panel for NSF, DOE and DOD, and has been a reviewer for leadi=
+ng journals. His research interests are solid-state electronics and photoni=
+cs, semiconducting devices, photovoltaics and energy-related optoelectronic=
+ devices, solid-state lighting (LEDs), bioinspired nanooptoelectronic struc=
+tures, nanoelectronics/MEMS, and intelligent vehicle and transportation sys=
+tem. He is currently serving as Editorial Board Member for Scientific Repor=
+ts (a Nature Research journal), Editorial Board Member for Journal of Mater=
+ials Science: Materials in Electronics (a Springer Research journal) and th=
+e Vice Chair of the IEEE Southeast Michigan Section.<strong><br>
+</strong></div></td>
+ </tr>
+					<tr>
+					 <td>&nbsp;</td>
+					</tr>
+ </table>
+
+ </td>
+ <td valign=3D"top" bgcolor=3D"#FFFFFF"><img src=3D"http://www.ece.ust.hk/e=
+ce/../public/img/spacer.gif" alt=3D"" width=3D"25" height=3D"10"></td>
+ <td valign=3D"top" bgcolor=3D"#FFFFFF" width=3D"25"><img src=3D"http://www=
+.ece.ust.hk/ece/../public/img/e_news_div.jpg" width=3D"25" height=3D"300" v=
+space=3D"25">
+ <td width=3D"200" align=3D"right"><table width=3D"200" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+ <tr>
+ <td>
+ <img src=3D"http://www.ece.ust.hk/ece/../ece.php/event/getImage/upload_118=
+23.png" width=3D"200">
+ </td>
+ </tr>
+ <tr>
+ <td>&nbsp;</td>
+ </tr>
+ </table></td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td colspan=3D"5" align=3D"center" bgcolor=3D"#7C8CA9"><table width=3D"100=
+%" border=3D"0" cellpadding=3D"5" cellspacing=3D"0" class=3D"cdt">
+ <tr>
+ <td align=3D"center">Copyright 2018 Department of Electronic &amp; Compute=
+r Engineering</td>
+ </tr>
+
+ </table> </td>
+ </tr>
+</table>
+</body>
+</html>
+
+--B_ALT_5b593cdfd24c2--

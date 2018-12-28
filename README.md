@@ -8,7 +8,7 @@ Details can be found in the source code. This work can be further applied to ema
 
 Including the following contents, some of which refers to the *[Document Clustering with Python](http://brandonrose.org/clustering)* 
 
-    extra contents from email
+    extract contents from email
     tokenizing and stemming each synopsis
     transforming the corpus into vector space using tf-idf
     calculating cosine distance between each document as a measure of similarity
